@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# City Pulse
 
-## Getting Started
+A civic intelligence dashboard that visualizes neighborhood survey data for Delhi. Built with Next.js, deployed on Vercel.
 
-First, run the development server:
+## Features
+
+- Executive overview with KPI scores
+- City overview and neighborhood explorer with interactive map
+- Infrastructure, safety, and civic issues insights
+- Community voice (keyword sentiment, word cloud, quotes)
+- Comparative analysis vs city averages
+- Read-only public site — data updated via admin import pipeline
+
+## Stack
+
+- Next.js 16 (App Router)
+- TypeScript, Tailwind CSS, shadcn/ui
+- Recharts, MapLibre GL, Framer Motion
+- Zod for dataset validation
+
+## Getting started
 
 ```bash
+npm install
+npm run generate:data   # create public/data/delhi.json (mock data)
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) → redirects to `/delhi` **Map Dashboard** (single-screen overview with map, parameters, and analytics).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Data pipeline
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Export CSV from Google Forms ("Rate Your Neighbourhood!")
+2. Place file in `data/raw/` (gitignored)
+3. Run import:
 
-## Learn More
+```bash
+npm run import:survey -- "data/raw/your-export.csv"
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Commit `public/data/delhi.json` and deploy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**No public file upload** — visitors cannot modify survey data.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deploy to Vercel
 
-## Deploy on Vercel
+1. Push repo to GitHub
+2. Import project in [Vercel](https://vercel.com)
+3. Deploy — app available at `your-project.vercel.app`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Ensure `public/data/delhi.json` is committed before deploy.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Development server |
+| `npm run build` | Production build |
+| `npm run generate:data` | Generate mock Delhi dataset |
+| `npm run import:survey` | Import real CSV export |
+
+## License
+
+Private — civic survey project.

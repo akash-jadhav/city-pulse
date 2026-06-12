@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "delhi",
+    "importedAt": "2026-06-12T14:39:24.152Z",
+    "source": "csv",
+    "totalResponses": 2,
+    "checksum": "850179af3fd1191c"
+  },
+  "responses": [
+    {
+      "id": "resp-0-1781275164151",
+      "submittedAt": "2026-06-12T07:47:46.000Z",
+      "geo": {
+        "cityId": "delhi",
+        "coordinates": {
+          "lat": 28.5373287,
+          "lng": 77.2142358
+        },
+        "coordinatesValid": true
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Female"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "electricityComment": "Voltage Fluctuations is a problem",
+      "roadRating": "bad",
+      "roadComment": "Terrible, not maintained, constant construction, bad width & congestion",
+      "civicHazards": [
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "petty_crime_unsafe"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "Need more visible patrolling at night",
+      "businessChallenges": [
+        "parking_congestion",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "domestic_worker"
+      ],
+      "loveText": "Amenities are located within walking distance, very accesible.",
+      "commentsText": "Hate the aesthetic choices made in this neighborhood, who decided to put up ugly \"I heart Malviya Nagar\" signs in the park? Needs more community driven development in the area."
+    },
+    {
+      "id": "resp-1-1781275164152",
+      "submittedAt": "2026-06-12T12:57:38.000Z",
+      "geo": {
+        "cityId": "delhi",
+        "coordinates": {
+          "lat": 28.609005,
+          "lng": 77.294047
+        },
+        "coordinatesValid": true
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "average",
+      "electricityComment": "average electricity",
+      "roadRating": "bad",
+      "roadComment": "small roads",
+      "civicHazards": [
+        "water_logging",
+        "stray_animals"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "security test",
+      "businessChallenges": [
+        "parking_congestion",
+        "harassment_by_administration"
+      ],
+      "businessComment": "change area test",
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "neighbourhood test",
+      "commentsText": "anything else test"
+    }
+  ]
+}
