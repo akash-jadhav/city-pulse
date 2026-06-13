@@ -15,7 +15,7 @@ A civic intelligence dashboard that visualizes neighborhood survey data for Delh
 
 - Next.js 16 (App Router)
 - TypeScript, Tailwind CSS, shadcn/ui
-- Recharts, MapLibre GL, Framer Motion
+- Recharts, Google Maps, Framer Motion
 - Zod for dataset validation
 
 ## Getting started
@@ -49,6 +49,27 @@ npm run import:survey -- "data/raw/your-export.csv"
 3. Deploy — app available at `your-project.vercel.app`
 
 Ensure `public/data/delhi.json` is committed before deploy.
+
+## Google Maps API key
+
+Maps use the **Maps JavaScript API**. The key is loaded from an environment variable (never commit the real key).
+
+1. Copy `.env.example` to `.env.local` and set your key:
+
+```bash
+NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=your_key_here
+```
+
+2. In [Google Cloud Console](https://console.cloud.google.com/apis/credentials), restrict the key:
+   - **Application restrictions:** HTTP referrers
+     - `http://localhost:3000/*`
+     - `https://*.vercel.app/*`
+     - `https://your-custom-domain.com/*` (if applicable)
+   - **API restrictions:** Maps JavaScript API only
+
+3. On Vercel: Project → Settings → Environment Variables → add `NEXT_PUBLIC_GOOGLE_MAPS_API_KEY` for Production, Preview, and Development.
+
+The key is visible in the browser (required for Maps JS). Referrer restrictions prevent use on other sites.
 
 ## Scripts
 

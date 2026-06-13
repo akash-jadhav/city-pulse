@@ -2,7 +2,7 @@ import { writeFile, mkdir, readFile } from "fs/promises";
 import path from "path";
 import { createHash } from "crypto";
 import type { SurveyDataset, SurveyResponse } from "@/types/survey";
-import { mapRowToResponse, parseCsv } from "@/lib/import/csv-parser";
+import { isValidDataRow, mapRowToResponse, parseCsv } from "@/lib/import/csv-parser";
 import { isWithinBounds } from "@/lib/import/parse-coordinates";
 import { delhiConfig } from "@/config/cities/delhi";
 
@@ -206,7 +206,9 @@ async function main() {
 async function importCsv(csvPath: string) {
   const content = await readFile(csvPath, "utf-8");
   const rows = parseCsv(content);
-  const responses = rows.map((row, i) => mapRowToResponse(row, i));
+  const skipped = rows.length - rows.filter(isValidDataRow).length;
+  const validRows = rows.filter(isValidDataRow);
+  const responses = validRows.map((row, i) => mapRowToResponse(row, i));
   const dataset: SurveyDataset = {
     meta: {
       version: "1.0.0",
@@ -223,7 +225,13 @@ async function importCsv(csvPath: string) {
     path.join(outDir, "delhi.json"),
     JSON.stringify(dataset, null, 2)
   );
-  console.log(`Imported ${responses.length} responses from CSV`);
+  if (skipped > 0) {
+    console.log(
+      `Skipped ${skipped} rows (Valid Data = No). Imported ${responses.length} responses from CSV`
+    );
+  } else {
+    console.log(`Imported ${responses.length} responses from CSV`);
+  }
 }
 
 const arg = process.argv[2];

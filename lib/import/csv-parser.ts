@@ -22,6 +22,11 @@ function findColumn(row: Record<string, string>, ...needles: string[]): string {
   return "";
 }
 
+export function isValidDataRow(row: Record<string, string>): boolean {
+  const value = findColumn(row, "valid data").trim().toLowerCase();
+  return value !== "no";
+}
+
 export function mapRowToResponse(
   row: Record<string, string>,
   index: number,

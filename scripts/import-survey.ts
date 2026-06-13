@@ -1,6 +1,6 @@
 import { readFile, writeFile, mkdir } from "fs/promises";
 import path from "path";
-import { mapRowToResponse, parseCsv } from "@/lib/import/csv-parser";
+import { isValidDataRow, mapRowToResponse, parseCsv } from "@/lib/import/csv-parser";
 import type { SurveyDataset } from "@/types/survey";
 import { createHash } from "crypto";
 
@@ -14,7 +14,9 @@ async function main() {
 
   const content = await readFile(csvPath, "utf-8");
   const rows = parseCsv(content);
-  const responses = rows.map((row, i) => mapRowToResponse(row, i));
+  const skipped = rows.length - rows.filter(isValidDataRow).length;
+  const validRows = rows.filter(isValidDataRow);
+  const responses = validRows.map((row, i) => mapRowToResponse(row, i));
 
   const payload = JSON.stringify({ responses });
   const checksum = createHash("sha256").update(payload).digest("hex").slice(0, 16);
@@ -35,7 +37,13 @@ async function main() {
   await mkdir(outDir, { recursive: true });
   const outPath = path.join(outDir, "delhi.json");
   await writeFile(outPath, JSON.stringify(dataset, null, 2));
-  console.log(`Imported ${responses.length} responses → ${outPath}`);
+  if (skipped > 0) {
+    console.log(
+      `Skipped ${skipped} rows (Valid Data = No). Imported ${responses.length} responses → ${outPath}`
+    );
+  } else {
+    console.log(`Imported ${responses.length} responses → ${outPath}`);
+  }
 }
 
 main().catch((err) => {
