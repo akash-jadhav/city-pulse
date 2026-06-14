@@ -30,15 +30,37 @@ Open [http://localhost:3000](http://localhost:3000) → redirects to `/delhi` **
 
 ## Data pipeline
 
-1. Export CSV from Google Forms ("Rate Your Neighbourhood!")
-2. Place file in `data/raw/` (gitignored)
-3. Run import:
+Survey responses live in a **Google Sheet** linked to your Google Form. The import script fetches the sheet as CSV — no manual download needed.
+
+### One-time setup
+
+1. Google Form → **Responses** → **Link to Sheets**
+2. Open the Responses tab in the sheet → **Share** → **Anyone with the link** = **Viewer**
+3. Copy the URL from your browser's address bar (the normal `/edit#gid=...` link is fine)
+4. Add to `.env.local`:
 
 ```bash
-npm run import:survey -- "data/raw/your-export.csv"
+GOOGLE_FORM_SHEET_URL=https://docs.google.com/spreadsheets/d/YOUR_SHEET_ID/edit#gid=0
+GOOGLE_MAPS_API_KEY=your_key_here
 ```
 
-4. Commit `public/data/*.json` and `public/data/cities.json`, then deploy
+(`GOOGLE_FORM_SHEET_CSV_URL` also works — same value. The import script converts any sheet link to a CSV export automatically.)
+
+Alternatively, use `GOOGLE_SHEET_ID` + `GOOGLE_SHEET_GID` (defaults to `0`) instead of the full URL.
+
+### Import
+
+```bash
+npm run import:survey
+```
+
+Commit `public/data/*.json` and `public/data/cities.json`, then deploy.
+
+**Local file fallback** (optional backup CSV):
+
+```bash
+npm run import:survey -- "path/to/backup.csv"
+```
 
 **No public file upload** — visitors cannot modify survey data.
 
@@ -83,7 +105,7 @@ The key is visible in the browser (required for Maps JS). Referrer restrictions 
 | `npm run dev` | Development server |
 | `npm run build` | Production build |
 | `npm run generate:data` | Generate mock datasets + cities manifest |
-| `npm run import:survey` | Import CSV with geocoding → per-city JSON + cities manifest |
+| `npm run import:survey` | Fetch Google Sheet CSV, geocode, write per-city JSON + cities manifest |
 
 ## License
 

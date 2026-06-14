@@ -1,21 +1,16 @@
-import { readFile } from "fs/promises";
-import path from "path";
 import { isValidDataRow, mapRowToResponse, parseCsv } from "@/lib/import/csv-parser";
 import {
   buildCityDatasets,
   formatCitySummary,
 } from "@/lib/import/build-city-datasets";
 import { enrichResponsesWithCityNames } from "@/lib/import/geocode";
+import { loadSurveyCsvContent } from "@/lib/import/fetch-sheet-csv";
 
 async function main() {
-  const csvPath =
-    process.argv[2] ??
-    path.join(
-      process.cwd(),
-      "data/raw/Rate Your Neighbourhood! (Responses) - Form Responses 1.csv"
-    );
+  const sourcePath = process.argv[2];
+  const { content, source } = await loadSurveyCsvContent(sourcePath);
+  console.log(`Loading survey data from ${source}`);
 
-  const content = await readFile(csvPath, "utf-8");
   const rows = parseCsv(content);
   const skipped = rows.length - rows.filter(isValidDataRow).length;
   const validRows = rows.filter(isValidDataRow);
