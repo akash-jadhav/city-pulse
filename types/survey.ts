@@ -56,6 +56,7 @@ export interface Coordinates {
 
 export interface GeoRef {
   cityId: string;
+  cityName?: string;
   coordinates?: Coordinates;
   coordinatesValid?: boolean;
   zoneId?: string;

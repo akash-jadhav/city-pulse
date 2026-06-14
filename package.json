@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "generate:data": "tsx scripts/generate-mock-data.ts",
-    "import:survey": "tsx scripts/import-survey.ts"
+    "import:survey": "node --env-file=.env.local --import tsx scripts/import-survey.ts",
+    "generate:data": "tsx scripts/generate-mock-data.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.5.0",

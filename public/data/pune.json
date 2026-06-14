@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "pune",
+    "importedAt": "2026-06-14T11:59:33.561Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "04d8f2523c092c02"
+  },
+  "responses": [
+    {
+      "id": "resp-1-1781438369694",
+      "submittedAt": "2026-06-12T16:10:12.000Z",
+      "geo": {
+        "cityId": "pune",
+        "coordinates": {
+          "lat": 18.5349514,
+          "lng": 73.9164428
+        },
+        "coordinatesValid": true,
+        "cityName": "Pune"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "roadRating": "bad",
+      "roadComment": "The road is being widened for the last 2 years. There is no foot path to walk on. Walking on or trying to cross the road is like an adventure sport.",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "safetyComment": "It’s ok. Some stray dogs are there, but not everyone is comfortable",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "It’s near the metro station (10Mins by rickshaw)"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "unknown",
+    "importedAt": "2026-06-14T11:59:33.565Z",
+    "source": "csv",
+    "totalResponses": 2,
+    "checksum": "bfc0507cc27f3a95"
+  },
+  "responses": [
+    {
+      "id": "resp-4-1781438369695",
+      "submittedAt": "2026-06-13T04:14:00.000Z",
+      "geo": {
+        "cityId": "unknown",
+        "coordinates": {
+          "lat": 19.1595,
+          "lng": 72.9361
+        },
+        "coordinatesValid": true,
+        "cityName": "मुंबई"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "Too high electricity prices, the smart meter is horrible for excessive fees",
+      "roadRating": "bad",
+      "roadComment": "They roads were recently relaid with cement and the tow lanes are  not aligned one is up by a couple of millimeters , so that the rain can destroy them, plus the metro work all over the city !",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "The people",
+      "commentsText": "Thanks for doing this, adding my own answer as the first survey I conduct for this exercise soo let's do this !"
+    },
+    {
+      "id": "resp-12-1781438369695",
+      "submittedAt": "2026-06-13T12:55:57.000Z",
+      "geo": {
+        "cityId": "unknown",
+        "coordinates": {
+          "lat": 19.1594,
+          "lng": 72.9362
+        },
+        "coordinatesValid": true,
+        "cityName": "मुंबई"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "Supply is good, bills are too high",
+      "roadRating": "bad",
+      "roadComment": "Construction never stops",
+      "civicHazards": [
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "More and brighter street lights, rickshaw's not plying",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Cooperative, cordial and helpful people",
+      "commentsText": "Even though it was known as a chor gully earlier, in the 1980 and before, today it's pretty safe !"
+    }
+  ]
+}

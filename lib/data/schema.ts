@@ -8,6 +8,7 @@ const coordinatesSchema = z.object({
 
 const geoRefSchema = z.object({
   cityId: z.string(),
+  cityName: z.string().optional(),
   coordinates: coordinatesSchema.optional(),
   coordinatesValid: z.boolean().optional(),
   zoneId: z.string().optional(),

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "rajakhedi",
+    "importedAt": "2026-06-14T11:59:33.563Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "c30cab3ad39993a2"
+  },
+  "responses": [
+    {
+      "id": "resp-2-1781438369695",
+      "submittedAt": "2026-06-12T16:59:08.000Z",
+      "geo": {
+        "cityId": "rajakhedi",
+        "coordinates": {
+          "lat": 23.8631851,
+          "lng": 78.8116378
+        },
+        "coordinatesValid": true,
+        "cityName": "Rajakhedi"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "electricityComment": "Small 10 to 15 min cuts",
+      "roadRating": "average",
+      "civicHazards": [
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "lack_of_parks",
+        "petty_crime_unsafe",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "businessChallenges": [
+        "other"
+      ],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ]
+    }
+  ]
+}

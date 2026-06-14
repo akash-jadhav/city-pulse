@@ -33,7 +33,7 @@ export function ExplorePage() {
           action={
             invalidCount > 0 ? (
               <Badge variant="outline">
-                {invalidCount} responses without valid Delhi location
+                {invalidCount} responses without valid coordinates
               </Badge>
             ) : undefined
           }

@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "bengaluru",
+    "importedAt": "2026-06-14T11:58:03.156Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "4e529e96fc84a1f7"
+  },
+  "responses": [
+    {
+      "submittedAt": "2026-06-12T12:57:38.000Z",
+      "geo": {
+        "cityId": "bengaluru",
+        "cityName": "Bengaluru",
+        "coordinates": {
+          "lat": 12.8863,
+          "lng": 77.586091
+        },
+        "coordinatesValid": true,
+        "localityName": "Out of bounds sample"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "average",
+      "electricityComment": "average electricity",
+      "roadRating": "bad",
+      "roadComment": "small roads",
+      "civicHazards": [
+        "water_logging",
+        "stray_animals"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "security concerns in some lanes",
+      "businessChallenges": [
+        "parking_congestion",
+        "harassment_by_administration"
+      ],
+      "businessComment": "Need better vendor policies",
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "Friendly neighbours and local markets",
+      "commentsText": "Would like better street lighting",
+      "id": "seed-1"
+    }
+  ]
+}

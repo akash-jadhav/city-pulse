@@ -1,0 +1,370 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "new-delhi",
+    "importedAt": "2026-06-14T11:59:33.558Z",
+    "source": "csv",
+    "totalResponses": 10,
+    "checksum": "ecf92689191193de"
+  },
+  "responses": [
+    {
+      "id": "resp-0-1781438369693",
+      "submittedAt": "2026-06-12T14:35:39.000Z",
+      "geo": {
+        "cityId": "new-delhi",
+        "coordinates": {
+          "lat": 28.5400764,
+          "lng": 77.2481839
+        },
+        "coordinatesValid": true,
+        "cityName": "New Delhi"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "roadRating": "average",
+      "roadComment": "road design is poor and unscientific.",
+      "civicHazards": [
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "it's greener than many other areas; decent shops"
+    },
+    {
+      "id": "resp-5-1781438369695",
+      "submittedAt": "2026-06-13T04:41:12.000Z",
+      "geo": {
+        "cityId": "new-delhi",
+        "coordinates": {
+          "lat": 28.5541,
+          "lng": 77.248
+        },
+        "coordinatesValid": true,
+        "cityName": "New Delhi"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Female"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "average",
+      "electricityComment": "There are electricity cuts at times.",
+      "roadRating": "good",
+      "roadComment": "During monsoon, the rain water gets collected on the road and pavement as there is no proper drainage system.",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "lack_of_parks",
+        "petty_crime_unsafe",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "I experienced phone snatching incident while coming from metro station towards my house in the evening. In addition to this a friend of mine living the same area got beaten up for the same reason i.e., phone snatching.",
+      "businessChallenges": [
+        "parking_congestion",
+        "lack_public_toilets"
+      ],
+      "businessComment": "Have proper drainages system, better waster managements and parking spots",
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "It’s proximity to my office and other areas I visit often."
+    },
+    {
+      "id": "resp-8-1781438369695",
+      "submittedAt": "2026-06-13T12:29:06.000Z",
+      "geo": {
+        "cityId": "new-delhi",
+        "coordinates": {
+          "lat": 28.529514,
+          "lng": 77.210083
+        },
+        "coordinatesValid": true,
+        "cityName": "New Delhi"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Female"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "roadRating": "bad",
+      "civicHazards": [
+        "water_logging",
+        "poor_garbage_collection",
+        "potholes_broken_roads"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ]
+    },
+    {
+      "id": "resp-9-1781438369695",
+      "submittedAt": "2026-06-13T12:32:44.000Z",
+      "geo": {
+        "cityId": "new-delhi",
+        "coordinates": {
+          "lat": 28.529514,
+          "lng": 77.210083
+        },
+        "coordinatesValid": true,
+        "cityName": "New Delhi"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "other",
+      "electricityRating": "good",
+      "roadRating": "bad",
+      "civicHazards": [
+        "water_logging",
+        "poor_garbage_collection",
+        "potholes_broken_roads"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [
+        "parking_congestion",
+        "garbage"
+      ],
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "social_media"
+      ]
+    },
+    {
+      "id": "resp-10-1781438369695",
+      "submittedAt": "2026-06-13T12:32:46.000Z",
+      "geo": {
+        "cityId": "new-delhi",
+        "coordinates": {
+          "lat": 28.5292285,
+          "lng": 77.2095195
+        },
+        "coordinatesValid": true,
+        "cityName": "New Delhi"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Female"
+      },
+      "housingStatus": "other",
+      "electricityRating": "good",
+      "roadRating": "average",
+      "civicHazards": [
+        "petty_crime_unsafe"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "Parking mafia bothers them from time to time",
+      "businessChallenges": [
+        "harassment_by_administration",
+        "other",
+        "sealing_threats",
+        "lack_public_toilets"
+      ],
+      "businessComment": "Stop harassing them, help them make a permanent shop, provide toilets",
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "people are nice"
+    },
+    {
+      "id": "resp-11-1781438369695",
+      "submittedAt": "2026-06-13T12:36:15.000Z",
+      "geo": {
+        "cityId": "new-delhi",
+        "coordinates": {
+          "lat": 28.529626,
+          "lng": 77.210567
+        },
+        "coordinatesValid": true,
+        "cityName": "New Delhi"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Female"
+      },
+      "housingStatus": "other",
+      "electricityRating": "good",
+      "roadRating": "bad",
+      "civicHazards": [
+        "water_logging",
+        "poor_garbage_collection",
+        "potholes_broken_roads"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "garbage"
+      ],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ]
+    },
+    {
+      "id": "resp-13-1781438369695",
+      "submittedAt": "2026-06-13T12:59:59.000Z",
+      "geo": {
+        "cityId": "new-delhi",
+        "coordinates": {
+          "lat": 28.5307952,
+          "lng": 77.2107483
+        },
+        "coordinatesValid": true,
+        "cityName": "New Delhi"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "roadRating": "average",
+      "roadComment": "Traffic congestion, parking issues",
+      "civicHazards": [
+        "water_logging",
+        "stray_animals",
+        "petty_crime_unsafe"
+      ],
+      "safetyRating": "sometimes_safe",
+      "safetyComment": "Lots of drug abuse happening in the area, people EAT cigarettes",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Neighbors are very nice, good feeling of community",
+      "commentsText": "Parks have been taken over by people who consume drugs & are unemployed"
+    },
+    {
+      "id": "resp-14-1781438369695",
+      "submittedAt": "2026-06-13T13:15:13.000Z",
+      "geo": {
+        "cityId": "new-delhi",
+        "coordinates": {
+          "lat": 28.530703,
+          "lng": 77.2100231
+        },
+        "coordinatesValid": true,
+        "cityName": "New Delhi"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "roadRating": "bad",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [
+        "parking_congestion",
+        "garbage",
+        "other",
+        "sealing_threats"
+      ],
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "neighbours"
+      ]
+    },
+    {
+      "id": "resp-15-1781438369695",
+      "submittedAt": "2026-06-13T13:16:16.000Z",
+      "geo": {
+        "cityId": "new-delhi",
+        "coordinates": {
+          "lat": 28.5308388,
+          "lng": 77.2101203
+        },
+        "coordinatesValid": true,
+        "cityName": "New Delhi"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "electricityComment": "No other issue",
+      "roadRating": "bad",
+      "roadComment": "Flooding",
+      "civicHazards": [
+        "water_logging",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [
+        "garbage"
+      ],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "Safe environment, access to parks, greenery.",
+      "commentsText": "Bhagat Singh park got closed/shut abruptly. We used to frequent there only"
+    },
+    {
+      "id": "resp-16-1781438369695",
+      "submittedAt": "2026-06-13T13:20:35.000Z",
+      "geo": {
+        "cityId": "new-delhi",
+        "coordinates": {
+          "lat": 28.5308388,
+          "lng": 77.2101203
+        },
+        "coordinatesValid": true,
+        "cityName": "New Delhi"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "roadRating": "bad",
+      "civicHazards": [
+        "water_logging",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "lack_of_parks"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "garbage"
+      ],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "Unity and respect. People are cooperative"
+    }
+  ]
+}

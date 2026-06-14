@@ -22,7 +22,7 @@ A civic intelligence dashboard that visualizes neighborhood survey data for Delh
 
 ```bash
 npm install
-npm run generate:data   # create public/data/delhi.json (mock data)
+npm run generate:data   # create public/data/*.json + cities.json (mock data)
 npm run dev
 ```
 
@@ -38,7 +38,7 @@ Open [http://localhost:3000](http://localhost:3000) → redirects to `/delhi` **
 npm run import:survey -- "data/raw/your-export.csv"
 ```
 
-4. Commit `public/data/delhi.json` and deploy
+4. Commit `public/data/*.json` and `public/data/cities.json`, then deploy
 
 **No public file upload** — visitors cannot modify survey data.
 
@@ -48,26 +48,31 @@ npm run import:survey -- "data/raw/your-export.csv"
 2. Import project in [Vercel](https://vercel.com)
 3. Deploy — app available at `your-project.vercel.app`
 
-Ensure `public/data/delhi.json` is committed before deploy.
+Ensure `public/data/cities.json` and per-city JSON files are committed before deploy.
 
 ## Google Maps API key
 
-Maps use the **Maps JavaScript API**. The key is loaded from an environment variable (never commit the real key).
+Maps use the **Maps JavaScript API**. CSV import uses the **Geocoding API** to resolve city names from lat/long. Use the same GCP key for both (enable both APIs on the project).
 
-1. Copy `.env.example` to `.env.local` and set your key:
+1. Copy `.env.example` to `.env.local` and set your keys:
 
 ```bash
 NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=your_key_here
+GOOGLE_MAPS_API_KEY=your_key_here
 ```
 
-2. In [Google Cloud Console](https://console.cloud.google.com/apis/credentials), restrict the key:
+(`GOOGLE_MAPS_API_KEY` is used by the import script only; it can be the same value as the public key.)
+
+2. In [Google Cloud Console](https://console.cloud.google.com/apis/credentials), restrict the browser key:
    - **Application restrictions:** HTTP referrers
      - `http://localhost:3000/*`
      - `https://*.vercel.app/*`
      - `https://your-custom-domain.com/*` (if applicable)
-   - **API restrictions:** Maps JavaScript API only
+   - **API restrictions:** Maps JavaScript API
 
-3. On Vercel: Project → Settings → Environment Variables → add `NEXT_PUBLIC_GOOGLE_MAPS_API_KEY` for Production, Preview, and Development.
+   For import, use the same key with **Geocoding API** enabled (IP restriction optional for local scripts).
+
+3. On Vercel: add `NEXT_PUBLIC_GOOGLE_MAPS_API_KEY` for the web app. Geocoding runs at import time locally, not on Vercel deploy.
 
 The key is visible in the browser (required for Maps JS). Referrer restrictions prevent use on other sites.
 
@@ -77,8 +82,8 @@ The key is visible in the browser (required for Maps JS). Referrer restrictions 
 |---------|-------------|
 | `npm run dev` | Development server |
 | `npm run build` | Production build |
-| `npm run generate:data` | Generate mock Delhi dataset |
-| `npm run import:survey` | Import real CSV export |
+| `npm run generate:data` | Generate mock datasets + cities manifest |
+| `npm run import:survey` | Import CSV with geocoding → per-city JSON + cities manifest |
 
 ## License
 

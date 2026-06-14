@@ -1,10 +1,13 @@
-import { writeFile, mkdir, readFile } from "fs/promises";
+import { mkdir, readFile } from "fs/promises";
 import path from "path";
 import { createHash } from "crypto";
 import type { SurveyDataset, SurveyResponse } from "@/types/survey";
 import { isValidDataRow, mapRowToResponse, parseCsv } from "@/lib/import/csv-parser";
-import { isWithinBounds } from "@/lib/import/parse-coordinates";
-import { delhiConfig } from "@/config/cities/delhi";
+import {
+  buildCityDatasets,
+  formatCitySummary,
+} from "@/lib/import/build-city-datasets";
+import { enrichResponsesWithCityNames } from "@/lib/import/geocode";
 
 const AREAS: { name: string; lat: number; lng: number }[] = [
   { name: "Malviya Nagar", lat: 28.5373, lng: 77.2142 },
@@ -73,6 +76,7 @@ const SEED_RESPONSES: Omit<SurveyResponse, "id">[] = [
     submittedAt: "2026-06-12T07:47:46.000Z",
     geo: {
       cityId: "delhi",
+      cityName: "Delhi",
       coordinates: { lat: 28.5373287, lng: 77.2142358 },
       coordinatesValid: true,
       localityName: "Malviya Nagar",
@@ -102,9 +106,10 @@ const SEED_RESPONSES: Omit<SurveyResponse, "id">[] = [
   {
     submittedAt: "2026-06-12T12:57:38.000Z",
     geo: {
-      cityId: "delhi",
+      cityId: "bengaluru",
+      cityName: "Bengaluru",
       coordinates: { lat: 12.8863, lng: 77.586091 },
-      coordinatesValid: false,
+      coordinatesValid: true,
       localityName: "Out of bounds sample",
     },
     demographics: { age: "30 - 50", gender: "Male" },
@@ -141,8 +146,9 @@ function generateSynthetic(index: number): SurveyResponse {
     ).toISOString(),
     geo: {
       cityId: "delhi",
+      cityName: "Delhi",
       coordinates: coords,
-      coordinatesValid: isWithinBounds(coords, delhiConfig.bounds),
+      coordinatesValid: true,
       localityName: area.name,
     },
     demographics: { age: pick(AGES), gender: pick(GENDERS) },
@@ -198,9 +204,14 @@ async function main() {
   const outDir = path.join(process.cwd(), "public", "data");
   await mkdir(outDir, { recursive: true });
   const dataset = buildMockDataset(120);
-  const outPath = path.join(outDir, "delhi.json");
-  await writeFile(outPath, JSON.stringify(dataset, null, 2));
-  console.log(`Generated ${dataset.meta.totalResponses} responses → ${outPath}`);
+  const { manifest, writtenFiles } = await buildCityDatasets(
+    dataset.responses,
+    outDir
+  );
+  console.log(
+    `Generated ${dataset.meta.totalResponses} responses → ${manifest.cities.length} cities: ${formatCitySummary(manifest)}`
+  );
+  console.log(`Wrote ${writtenFiles.join(", ")}`);
 }
 
 async function importCsv(csvPath: string) {
@@ -208,29 +219,17 @@ async function importCsv(csvPath: string) {
   const rows = parseCsv(content);
   const skipped = rows.length - rows.filter(isValidDataRow).length;
   const validRows = rows.filter(isValidDataRow);
-  const responses = validRows.map((row, i) => mapRowToResponse(row, i));
-  const dataset: SurveyDataset = {
-    meta: {
-      version: "1.0.0",
-      cityId: "delhi",
-      importedAt: new Date().toISOString(),
-      source: "csv",
-      totalResponses: responses.length,
-    },
-    responses,
-  };
-  const outDir = path.join(process.cwd(), "public", "data");
-  await mkdir(outDir, { recursive: true });
-  await writeFile(
-    path.join(outDir, "delhi.json"),
-    JSON.stringify(dataset, null, 2)
+  const mapped = validRows.map((row, i) => mapRowToResponse(row, i));
+  const responses = await enrichResponsesWithCityNames(mapped);
+  const { manifest, writtenFiles } = await buildCityDatasets(responses);
+
+  console.log(
+    `Geocoded ${responses.length} responses → ${manifest.cities.length} cities: ${formatCitySummary(manifest)}`
   );
+  console.log(`Wrote ${writtenFiles.join(", ")}`);
+
   if (skipped > 0) {
-    console.log(
-      `Skipped ${skipped} rows (Valid Data = No). Imported ${responses.length} responses from CSV`
-    );
-  } else {
-    console.log(`Imported ${responses.length} responses from CSV`);
+    console.log(`Skipped ${skipped} rows (Valid Data = No).`);
   }
 }
 

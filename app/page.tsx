@@ -1,5 +1,7 @@
 import { redirect } from "next/navigation";
+import { getDefaultCitySlug } from "@/config/cities/index";
 
-export default function Home() {
-  redirect("/delhi");
+export default async function Home() {
+  const slug = await getDefaultCitySlug();
+  redirect(`/${slug}`);
 }

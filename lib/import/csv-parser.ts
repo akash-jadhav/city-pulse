@@ -1,5 +1,5 @@
 import type { SurveyResponse } from "@/types/survey";
-import { isWithinBounds, parseCoordinates } from "@/lib/import/parse-coordinates";
+import { parseCoordinates } from "@/lib/import/parse-coordinates";
 import {
   normalizeBusinessChallenges,
   normalizeCivicHazards,
@@ -9,7 +9,6 @@ import {
   normalizeQualityRating,
   normalizeSafetyRating,
 } from "@/lib/import/normalize";
-import { delhiConfig } from "@/config/cities/delhi";
 
 function findColumn(row: Record<string, string>, ...needles: string[]): string {
   const keys = Object.keys(row);
@@ -38,9 +37,7 @@ export function mapRowToResponse(
     "location of where this survey"
   );
   const coords = parseCoordinates(coordsRaw);
-  const coordinatesValid = coords
-    ? isWithinBounds(coords, delhiConfig.bounds)
-    : false;
+  const coordinatesValid = Boolean(coords);
 
   const timestamp = findColumn(row, "timestamp") || new Date().toISOString();
 

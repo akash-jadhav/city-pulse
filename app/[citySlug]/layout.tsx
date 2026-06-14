@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { getCityConfig } from "@/config/cities/delhi";
+import { getAllCityConfigs, getCityConfig } from "@/config/cities/index";
 import { loadCityDataset } from "@/lib/data/load";
 import { CityProvider } from "@/providers/CityProvider";
 import { GoogleMapsProvider } from "@/providers/GoogleMapsProvider";
@@ -14,14 +14,17 @@ export default async function CityLayout({
   params: Promise<{ citySlug: string }>;
 }) {
   const { citySlug } = await params;
-  const city = getCityConfig(citySlug);
+  const city = await getCityConfig(citySlug);
   if (!city) notFound();
 
-  const dataset = await loadCityDataset(citySlug);
+  const [dataset, availableCities] = await Promise.all([
+    loadCityDataset(citySlug),
+    getAllCityConfigs(),
+  ]);
 
   return (
     <GoogleMapsProvider>
-      <CityProvider city={city} dataset={dataset}>
+      <CityProvider city={city} dataset={dataset} availableCities={availableCities}>
         <AppHeader />
         <main className="flex-1 pb-16 md:pb-0">{children}</main>
         <MobileNav />

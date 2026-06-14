@@ -17,13 +17,3 @@ export const delhiConfig: CityConfig = {
   },
   dataFile: "/data/delhi.json",
 };
-
-export const cities = {
-  delhi: delhiConfig,
-} as const;
-
-export type CitySlug = keyof typeof cities;
-
-export function getCityConfig(slug: string): CityConfig | undefined {
-  return cities[slug as CitySlug];
-}

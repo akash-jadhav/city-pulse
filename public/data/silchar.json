@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "silchar",
+    "importedAt": "2026-06-14T11:59:33.566Z",
+    "source": "csv",
+    "totalResponses": 2,
+    "checksum": "d8f4d6d3ab13073b"
+  },
+  "responses": [
+    {
+      "id": "resp-6-1781438369695",
+      "submittedAt": "2026-06-13T08:05:52.000Z",
+      "geo": {
+        "cityId": "silchar",
+        "coordinates": {
+          "lat": 24.8234098,
+          "lng": 92.8007181
+        },
+        "coordinatesValid": true,
+        "cityName": "Silchar"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "average",
+      "electricityComment": "no",
+      "roadRating": "bad",
+      "civicHazards": [
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "electricity_tariffs"
+      ],
+      "businessComment": "traffic management",
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "lots of people"
+    },
+    {
+      "id": "resp-7-1781438369695",
+      "submittedAt": "2026-06-13T08:12:25.000Z",
+      "geo": {
+        "cityId": "silchar",
+        "coordinates": {
+          "lat": 24.8234098,
+          "lng": 92.8007181
+        },
+        "coordinatesValid": true,
+        "cityName": "Silchar"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "bad",
+      "roadRating": "average",
+      "civicHazards": [
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "safetyComment": "no",
+      "businessChallenges": [
+        "parking_congestion",
+        "garbage",
+        "electricity_tariffs"
+      ],
+      "businessComment": "traffic",
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "nothing"
+    }
+  ]
+}

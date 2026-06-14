@@ -1,0 +1,140 @@
+{
+  "generatedAt": "2026-06-14T11:59:33.570Z",
+  "cities": [
+    {
+      "slug": "new-delhi",
+      "name": "New Delhi",
+      "defaultCenter": [
+        28.541664249999997,
+        77.2288517
+      ],
+      "bounds": {
+        "north": 28.574099999999998,
+        "south": 28.5092285,
+        "east": 77.2681839,
+        "west": 77.1895195
+      },
+      "responseCount": 10
+    },
+    {
+      "slug": "unknown",
+      "name": "मुंबई",
+      "defaultCenter": [
+        19.15945,
+        72.93615
+      ],
+      "bounds": {
+        "north": 19.1795,
+        "south": 19.139400000000002,
+        "east": 72.9562,
+        "west": 72.9161
+      },
+      "responseCount": 2
+    },
+    {
+      "slug": "silchar",
+      "name": "Silchar",
+      "defaultCenter": [
+        24.8234098,
+        92.8007181
+      ],
+      "bounds": {
+        "north": 24.8434098,
+        "south": 24.8034098,
+        "east": 92.8207181,
+        "west": 92.7807181
+      },
+      "responseCount": 2
+    },
+    {
+      "slug": "pune",
+      "name": "Pune",
+      "defaultCenter": [
+        18.5349514,
+        73.9164428
+      ],
+      "bounds": {
+        "north": 18.5549514,
+        "south": 18.5149514,
+        "east": 73.9364428,
+        "west": 73.8964428
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "rajakhedi",
+      "name": "Rajakhedi",
+      "defaultCenter": [
+        23.8631851,
+        78.8116378
+      ],
+      "bounds": {
+        "north": 23.8831851,
+        "south": 23.8431851,
+        "east": 78.8316378,
+        "west": 78.7916378
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "faridabad",
+      "name": "Faridabad",
+      "defaultCenter": [
+        28.393232,
+        77.345216
+      ],
+      "bounds": {
+        "north": 28.413232,
+        "south": 28.373232,
+        "east": 77.36521599999999,
+        "west": 77.325216
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "siolim",
+      "name": "Siolim",
+      "defaultCenter": [
+        15.620248,
+        73.7606983
+      ],
+      "bounds": {
+        "north": 15.640248,
+        "south": 15.600248,
+        "east": 73.7806983,
+        "west": 73.7406983
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "delhi",
+      "name": "Delhi",
+      "defaultCenter": [
+        28.602695,
+        77.105622
+      ],
+      "bounds": {
+        "north": 28.622695,
+        "south": 28.582695,
+        "east": 77.12562199999999,
+        "west": 77.085622
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "agra",
+      "name": "Agra",
+      "defaultCenter": [
+        27.210313,
+        77.940313
+      ],
+      "bounds": {
+        "north": 27.230313,
+        "south": 27.190313,
+        "east": 77.960313,
+        "west": 77.92031300000001
+      },
+      "responseCount": 1
+    }
+  ]
+}

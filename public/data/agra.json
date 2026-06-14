@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "agra",
+    "importedAt": "2026-06-14T11:59:33.570Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "40be5da9703315d1"
+  },
+  "responses": [
+    {
+      "id": "resp-19-1781438369695",
+      "submittedAt": "2026-06-14T06:25:48.000Z",
+      "geo": {
+        "cityId": "agra",
+        "coordinates": {
+          "lat": 27.210313,
+          "lng": 77.940313
+        },
+        "coordinatesValid": true,
+        "cityName": "Agra"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "We have a prepaid electricity supply. For quite a good period we are demanding a metered connection",
+      "roadRating": "good",
+      "roadComment": "Poor maintainance, there is no way if you want to register any complaint",
+      "civicHazards": [
+        "broken_streetlights",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "Police chowki is nearby and they keep on patrolling the area.",
+      "businessChallenges": [],
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "newspapers"
+      ],
+      "loveText": "Vegetation",
+      "commentsText": "No comments"
+    }
+  ]
+}

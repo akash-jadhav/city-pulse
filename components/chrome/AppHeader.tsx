@@ -1,10 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { Activity, ChevronDown, Filter } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { useCity } from "@/providers/CityProvider";
+import { useAvailableCities, useCity } from "@/providers/CityProvider";
 import {
   Select,
   SelectContent,
@@ -30,8 +30,17 @@ const REPORT_LINKS = [
 
 export function AppHeader() {
   const pathname = usePathname();
+  const router = useRouter();
   const city = useCity();
+  const availableCities = useAvailableCities();
   const base = `/${city.slug}`;
+
+  const subRoute = pathname.replace(/^\/[^/]+/, "") || "";
+
+  const handleCityChange = (slug: string | null) => {
+    if (!slug || slug === city.slug) return;
+    router.push(`/${slug}${subRoute}`);
+  };
 
   const navLink = (href: string, label: string, exact = false) => {
     const full = `${base}${href}`;
@@ -97,15 +106,16 @@ export function AppHeader() {
         </nav>
 
         <div className="flex items-center gap-2">
-          <Select defaultValue={city.slug}>
-            <SelectTrigger className="hidden h-8 w-[100px] border-0 bg-muted/50 sm:flex">
+          <Select value={city.slug} onValueChange={handleCityChange}>
+            <SelectTrigger className="hidden h-8 min-w-[100px] border-0 bg-muted/50 sm:flex">
               <SelectValue>{city.name}</SelectValue>
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value={city.slug}>{city.name}</SelectItem>
-              <SelectItem value="more" disabled>
-                More soon
-              </SelectItem>
+              {availableCities.map((c) => (
+                <SelectItem key={c.slug} value={c.slug}>
+                  {c.name}
+                </SelectItem>
+              ))}
             </SelectContent>
           </Select>
           <Button

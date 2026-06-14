@@ -1,8 +1,11 @@
-import { readFile, writeFile, mkdir } from "fs/promises";
+import { readFile } from "fs/promises";
 import path from "path";
 import { isValidDataRow, mapRowToResponse, parseCsv } from "@/lib/import/csv-parser";
-import type { SurveyDataset } from "@/types/survey";
-import { createHash } from "crypto";
+import {
+  buildCityDatasets,
+  formatCitySummary,
+} from "@/lib/import/build-city-datasets";
+import { enrichResponsesWithCityNames } from "@/lib/import/geocode";
 
 async function main() {
   const csvPath =
@@ -16,33 +19,18 @@ async function main() {
   const rows = parseCsv(content);
   const skipped = rows.length - rows.filter(isValidDataRow).length;
   const validRows = rows.filter(isValidDataRow);
-  const responses = validRows.map((row, i) => mapRowToResponse(row, i));
+  const mapped = validRows.map((row, i) => mapRowToResponse(row, i));
+  const responses = await enrichResponsesWithCityNames(mapped);
+  const { manifest, writtenFiles } = await buildCityDatasets(responses);
 
-  const payload = JSON.stringify({ responses });
-  const checksum = createHash("sha256").update(payload).digest("hex").slice(0, 16);
+  const summary = formatCitySummary(manifest);
+  console.log(
+    `Geocoded ${responses.length} responses → ${manifest.cities.length} cities: ${summary}`
+  );
+  console.log(`Wrote ${writtenFiles.join(", ")}`);
 
-  const dataset: SurveyDataset = {
-    meta: {
-      version: "1.0.0",
-      cityId: "delhi",
-      importedAt: new Date().toISOString(),
-      source: "csv",
-      totalResponses: responses.length,
-      checksum,
-    },
-    responses,
-  };
-
-  const outDir = path.join(process.cwd(), "public/data");
-  await mkdir(outDir, { recursive: true });
-  const outPath = path.join(outDir, "delhi.json");
-  await writeFile(outPath, JSON.stringify(dataset, null, 2));
   if (skipped > 0) {
-    console.log(
-      `Skipped ${skipped} rows (Valid Data = No). Imported ${responses.length} responses → ${outPath}`
-    );
-  } else {
-    console.log(`Imported ${responses.length} responses → ${outPath}`);
+    console.log(`Skipped ${skipped} rows (Valid Data = No).`);
   }
 }
 

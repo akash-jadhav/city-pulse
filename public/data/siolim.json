@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "siolim",
+    "importedAt": "2026-06-14T11:59:33.567Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "78e9a7948225958d"
+  },
+  "responses": [
+    {
+      "id": "resp-17-1781438369695",
+      "submittedAt": "2026-06-14T04:09:44.000Z",
+      "geo": {
+        "cityId": "siolim",
+        "coordinates": {
+          "lat": 15.620248,
+          "lng": 73.7606983
+        },
+        "coordinatesValid": true,
+        "cityName": "Siolim"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "great",
+      "roadRating": "horrible",
+      "roadComment": "Full of potholes",
+      "civicHazards": [
+        "water_logging",
+        "potholes_broken_roads"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "Environment, weather, people - everything",
+      "commentsText": "Money transfer issues - can’t send money to his hometown in Nepal as he doesn’t have Aadhaar card. He can only do a bank to bank transfer, and for that he has to go to a far away bank branch in mapusa."
+    }
+  ]
+}

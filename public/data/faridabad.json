@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "faridabad",
+    "importedAt": "2026-06-14T11:59:33.564Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "7fd3841a7026185c"
+  },
+  "responses": [
+    {
+      "id": "resp-3-1781438369695",
+      "submittedAt": "2026-06-12T18:10:00.000Z",
+      "geo": {
+        "cityId": "faridabad",
+        "coordinates": {
+          "lat": 28.393232,
+          "lng": 77.345216
+        },
+        "coordinatesValid": true,
+        "cityName": "Faridabad"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "roadRating": "bad",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "lack_of_parks",
+        "petty_crime_unsafe"
+      ],
+      "safetyRating": "not_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Greenery"
+    }
+  ]
+}
