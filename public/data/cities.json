@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T02:29:55.452Z",
+  "generatedAt": "2026-06-15T16:31:40.609Z",
   "cities": [
     {
       "slug": "india",
@@ -14,22 +14,22 @@
         "east": 97.4,
         "west": 68.1
       },
-      "responseCount": 35
+      "responseCount": 40
     },
     {
       "slug": "new-delhi",
       "name": "New Delhi",
       "defaultCenter": [
-        28.58621275,
-        77.21700444999999
+        28.58903025,
+        77.18812145
       ],
       "bounds": {
-        "north": 28.663197,
+        "north": 28.668832,
         "south": 28.5092285,
         "east": 77.2681839,
-        "west": 77.165825
+        "west": 77.108059
       },
-      "responseCount": 18
+      "responseCount": 19
     },
     {
       "slug": "delhi",
@@ -73,6 +73,21 @@
         "south": 24.8034098,
         "east": 92.8207181,
         "west": 92.7807181
+      },
+      "responseCount": 2
+    },
+    {
+      "slug": "agra",
+      "name": "Agra",
+      "defaultCenter": [
+        27.2108125,
+        77.970688
+      ],
+      "bounds": {
+        "north": 27.231312,
+        "south": 27.190313,
+        "east": 78.021063,
+        "west": 77.92031300000001
       },
       "responseCount": 2
     },
@@ -137,17 +152,47 @@
       "responseCount": 1
     },
     {
-      "slug": "agra",
-      "name": "Agra",
+      "slug": "pernem",
+      "name": "Pernem",
       "defaultCenter": [
-        27.210313,
-        77.940313
+        15.7175669,
+        73.799714
       ],
       "bounds": {
-        "north": 27.230313,
-        "south": 27.190313,
-        "east": 77.960313,
-        "west": 77.92031300000001
+        "north": 15.7375669,
+        "south": 15.6975669,
+        "east": 73.81971399999999,
+        "west": 73.779714
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "belagavi",
+      "name": "Belagavi",
+      "defaultCenter": [
+        15.8274011,
+        74.4835281
+      ],
+      "bounds": {
+        "north": 15.847401099999999,
+        "south": 15.8074011,
+        "east": 74.5035281,
+        "west": 74.4635281
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "chapora",
+      "name": "Chapora",
+      "defaultCenter": [
+        15.5991814,
+        73.7423252
+      ],
+      "bounds": {
+        "north": 15.6191814,
+        "south": 15.579181400000001,
+        "east": 73.76232519999999,
+        "west": 73.7223252
       },
       "responseCount": 1
     }

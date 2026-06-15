@@ -2,14 +2,14 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "agra",
-    "importedAt": "2026-06-15T02:29:55.451Z",
+    "importedAt": "2026-06-15T16:31:40.605Z",
     "source": "csv",
-    "totalResponses": 1,
-    "checksum": "e742fe8fb4ebba69"
+    "totalResponses": 2,
+    "checksum": "b6d9084ad49f073d"
   },
   "responses": [
     {
-      "id": "resp-19-1781490589377",
+      "id": "resp-19-1781541092219",
       "submittedAt": "2026-06-14T06:25:48.000Z",
       "geo": {
         "cityId": "agra",
@@ -45,6 +45,37 @@
       ],
       "loveText": "Vegetation",
       "commentsText": "No comments"
+    },
+    {
+      "id": "resp-38-1781541092219",
+      "submittedAt": "2026-06-15T09:48:52.000Z",
+      "geo": {
+        "cityId": "agra",
+        "coordinates": {
+          "lat": 27.211312,
+          "lng": 78.001063
+        },
+        "coordinatesValid": true,
+        "cityName": "Agra"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Female"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "great",
+      "roadRating": "horrible",
+      "roadComment": "Even the most prominent road, like MG Road is full of bumps and pots.",
+      "civicHazards": [
+        "stray_animals",
+        "lack_of_parks"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ]
     }
   ]
 }

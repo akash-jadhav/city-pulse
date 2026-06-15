@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "chapora",
+    "importedAt": "2026-06-15T16:31:40.607Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "7736591c412a4fd6"
+  },
+  "responses": [
+    {
+      "id": "resp-39-1781541092219",
+      "submittedAt": "2026-06-15T10:41:01.000Z",
+      "geo": {
+        "cityId": "chapora",
+        "coordinates": {
+          "lat": 15.5991814,
+          "lng": 73.7423252
+        },
+        "coordinatesValid": true,
+        "cityName": "Chapora"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "roadRating": "average",
+      "civicHazards": [
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "It’s close to the beach, great location.",
+      "commentsText": "Get rid of panchayats as they lack any accountability"
+    }
+  ]
+}

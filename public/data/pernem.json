@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "pernem",
+    "importedAt": "2026-06-15T16:31:40.606Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "cdd15a0ab3837574"
+  },
+  "responses": [
+    {
+      "id": "resp-36-1781541092219",
+      "submittedAt": "2026-06-15T04:52:31.000Z",
+      "geo": {
+        "cityId": "pernem",
+        "coordinates": {
+          "lat": 15.7175669,
+          "lng": 73.799714
+        },
+        "coordinatesValid": true,
+        "cityName": "Pernem"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "roadRating": "great",
+      "civicHazards": [
+        "broken_streetlights"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "Goan people in my neighborhood are good, but non goans in my neighborhood are jealous and annoying (karnataka people). But we love the locals. Fight with us because when it rains some water falls on their house etc small bullshit.",
+      "commentsText": "One neighbour is very arrogant thinks they own the city, panchayat helps with that issue if it comes up."
+    }
+  ]
+}
