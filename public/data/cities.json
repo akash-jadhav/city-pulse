@@ -1,20 +1,35 @@
 {
-  "generatedAt": "2026-06-14T12:12:27.829Z",
+  "generatedAt": "2026-06-15T02:12:44.053Z",
   "cities": [
     {
       "slug": "new-delhi",
       "name": "New Delhi",
       "defaultCenter": [
-        28.541664249999997,
-        77.2288517
+        28.58621275,
+        77.21700444999999
       ],
       "bounds": {
-        "north": 28.574099999999998,
+        "north": 28.663197,
         "south": 28.5092285,
         "east": 77.2681839,
-        "west": 77.1895195
+        "west": 77.165825
       },
-      "responseCount": 10
+      "responseCount": 18
+    },
+    {
+      "slug": "delhi",
+      "name": "Delhi",
+      "defaultCenter": [
+        28.6224675,
+        77.1458085
+      ],
+      "bounds": {
+        "north": 28.66224,
+        "south": 28.582695,
+        "east": 77.205995,
+        "west": 77.085622
+      },
+      "responseCount": 8
     },
     {
       "slug": "unknown",
@@ -103,21 +118,6 @@
         "south": 15.600248,
         "east": 73.7806983,
         "west": 73.7406983
-      },
-      "responseCount": 1
-    },
-    {
-      "slug": "delhi",
-      "name": "Delhi",
-      "defaultCenter": [
-        28.602695,
-        77.105622
-      ],
-      "bounds": {
-        "north": 28.622695,
-        "south": 28.582695,
-        "east": 77.12562199999999,
-        "west": 77.085622
       },
       "responseCount": 1
     },

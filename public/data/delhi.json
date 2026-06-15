@@ -2,14 +2,14 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "delhi",
-    "importedAt": "2026-06-14T12:12:27.828Z",
+    "importedAt": "2026-06-15T02:12:44.050Z",
     "source": "csv",
-    "totalResponses": 1,
-    "checksum": "ae88f1c6f2aeea13"
+    "totalResponses": 8,
+    "checksum": "6ad7ca25ba39538f"
   },
   "responses": [
     {
-      "id": "resp-18-1781439144459",
+      "id": "resp-18-1781489557446",
       "submittedAt": "2026-06-14T05:23:34.000Z",
       "geo": {
         "cityId": "delhi",
@@ -41,6 +41,253 @@
       ],
       "loveText": "All necessary facilities and services are easily accessible on foot.",
       "commentsText": "Neglected public spaces, such as parks and vacant government-owned plots, are often frequented by individuals involved in substance abuse."
+    },
+    {
+      "id": "resp-24-1781489557447",
+      "submittedAt": "2026-06-14T13:06:59.000Z",
+      "geo": {
+        "cityId": "delhi",
+        "coordinates": {
+          "lat": 28.64224,
+          "lng": 77.185995
+        },
+        "coordinatesValid": true,
+        "cityName": "Delhi"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "great",
+      "roadRating": "great",
+      "civicHazards": [],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [
+        "parking_congestion",
+        "harassment_by_administration",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Customer"
+    },
+    {
+      "id": "resp-27-1781489557447",
+      "submittedAt": "2026-06-14T13:20:40.000Z",
+      "geo": {
+        "cityId": "delhi",
+        "coordinates": {
+          "lat": 28.64224,
+          "lng": 77.185995
+        },
+        "coordinatesValid": true,
+        "cityName": "Delhi"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "electricityComment": "Short circuit issue, high bilji bill",
+      "roadRating": "horrible",
+      "roadComment": "Lack of hygiene, not walkable,",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "Broken dustbins, violent stray dogs",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "Chehal pehal rehti hai, good food"
+    },
+    {
+      "id": "resp-28-1781489557447",
+      "submittedAt": "2026-06-14T13:28:34.000Z",
+      "geo": {
+        "cityId": "delhi",
+        "coordinates": {
+          "lat": 28.641928,
+          "lng": 77.185742
+        },
+        "coordinatesValid": true,
+        "cityName": "Delhi"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "roadRating": "average",
+      "civicHazards": [
+        "water_logging"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "newspapers"
+      ],
+      "commentsText": "Har do din ke baad paani kam ho jaata hai, poor paani ki quality, hard water"
+    },
+    {
+      "id": "resp-29-1781489557447",
+      "submittedAt": "2026-06-14T13:35:34.000Z",
+      "geo": {
+        "cityId": "delhi",
+        "coordinates": {
+          "lat": 28.641952,
+          "lng": 77.185694
+        },
+        "coordinatesValid": true,
+        "cityName": "Delhi"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Female"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "average",
+      "roadRating": "average",
+      "roadComment": "inner roads could be better",
+      "civicHazards": [
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "safetyComment": "Castism in police response",
+      "businessChallenges": [
+        "parking_congestion",
+        "harassment_by_administration",
+        "sealing_threats"
+      ],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Study Peer group is good",
+      "commentsText": "More public Library are needed"
+    },
+    {
+      "id": "resp-30-1781489557447",
+      "submittedAt": "2026-06-14T13:36:26.000Z",
+      "geo": {
+        "cityId": "delhi",
+        "coordinates": {
+          "lat": 28.641928,
+          "lng": 77.185742
+        },
+        "coordinatesValid": true,
+        "cityName": "Delhi"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Female"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "roadRating": "good",
+      "civicHazards": [
+        "poor_garbage_collection",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "Helpful people"
+    },
+    {
+      "id": "resp-31-1781489557447",
+      "submittedAt": "2026-06-14T13:41:24.000Z",
+      "geo": {
+        "cityId": "delhi",
+        "coordinates": {
+          "lat": 28.641946,
+          "lng": 77.185733
+        },
+        "coordinatesValid": true,
+        "cityName": "Delhi"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "great",
+      "roadRating": "average",
+      "civicHazards": [
+        "water_logging"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "UPSC ka mahol acha hai, log ache hai, easily available hai sab kuch"
+    },
+    {
+      "id": "resp-32-1781489557447",
+      "submittedAt": "2026-06-14T13:52:55.000Z",
+      "geo": {
+        "cityId": "delhi",
+        "coordinates": {
+          "lat": 28.641952,
+          "lng": 77.185694
+        },
+        "coordinatesValid": true,
+        "cityName": "Delhi"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Female"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "electricityComment": "Power cuts at night",
+      "roadRating": "horrible",
+      "roadComment": "illegal encroachment",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "petty_crime_unsafe",
+        "other"
+      ],
+      "safetyRating": "terrified",
+      "businessChallenges": [
+        "parking_congestion",
+        "garbage",
+        "harassment_by_administration",
+        "other",
+        "sealing_threats",
+        "lack_public_toilets"
+      ],
+      "businessComment": "better footpaths and higiene",
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Multicultural",
+      "commentsText": "rash driving , law and order issue"
     }
   ]
 }

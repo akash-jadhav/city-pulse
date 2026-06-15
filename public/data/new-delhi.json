@@ -2,14 +2,14 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "new-delhi",
-    "importedAt": "2026-06-14T12:12:27.824Z",
+    "importedAt": "2026-06-15T02:12:44.036Z",
     "source": "csv",
-    "totalResponses": 10,
-    "checksum": "f642e60fe6b04dfb"
+    "totalResponses": 18,
+    "checksum": "3095e974e6fb5726"
   },
   "responses": [
     {
-      "id": "resp-0-1781439144457",
+      "id": "resp-0-1781489557442",
       "submittedAt": "2026-06-12T14:35:39.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -40,7 +40,7 @@
       "loveText": "it's greener than many other areas; decent shops"
     },
     {
-      "id": "resp-5-1781439144459",
+      "id": "resp-5-1781489557445",
       "submittedAt": "2026-06-13T04:41:12.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -83,7 +83,7 @@
       "loveText": "It’s proximity to my office and other areas I visit often."
     },
     {
-      "id": "resp-8-1781439144459",
+      "id": "resp-8-1781489557446",
       "submittedAt": "2026-06-13T12:29:06.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -114,7 +114,7 @@
       ]
     },
     {
-      "id": "resp-9-1781439144459",
+      "id": "resp-9-1781489557446",
       "submittedAt": "2026-06-13T12:32:44.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -148,7 +148,7 @@
       ]
     },
     {
-      "id": "resp-10-1781439144459",
+      "id": "resp-10-1781489557446",
       "submittedAt": "2026-06-13T12:32:46.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -185,7 +185,7 @@
       "loveText": "people are nice"
     },
     {
-      "id": "resp-11-1781439144459",
+      "id": "resp-11-1781489557446",
       "submittedAt": "2026-06-13T12:36:15.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "id": "resp-13-1781439144459",
+      "id": "resp-13-1781489557446",
       "submittedAt": "2026-06-13T12:59:59.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -255,7 +255,7 @@
       "commentsText": "Parks have been taken over by people who consume drugs & are unemployed"
     },
     {
-      "id": "resp-14-1781439144459",
+      "id": "resp-14-1781489557446",
       "submittedAt": "2026-06-13T13:15:13.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -292,7 +292,7 @@
       ]
     },
     {
-      "id": "resp-15-1781439144459",
+      "id": "resp-15-1781489557446",
       "submittedAt": "2026-06-13T13:16:16.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -330,7 +330,7 @@
       "commentsText": "Bhagat Singh park got closed/shut abruptly. We used to frequent there only"
     },
     {
-      "id": "resp-16-1781439144459",
+      "id": "resp-16-1781489557446",
       "submittedAt": "2026-06-13T13:20:35.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -365,6 +365,293 @@
         "social_media"
       ],
       "loveText": "Unity and respect. People are cooperative"
+    },
+    {
+      "id": "resp-20-1781489557447",
+      "submittedAt": "2026-06-14T12:38:54.000Z",
+      "geo": {
+        "cityId": "new-delhi",
+        "coordinates": {
+          "lat": 28.5610496,
+          "lng": 77.1953122
+        },
+        "coordinatesValid": true,
+        "cityName": "New Delhi"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "roadRating": "great",
+      "civicHazards": [
+        "poor_garbage_collection"
+      ],
+      "safetyRating": "unknown",
+      "businessChallenges": [],
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "great community"
+    },
+    {
+      "id": "resp-21-1781489557447",
+      "submittedAt": "2026-06-14T12:50:40.000Z",
+      "geo": {
+        "cityId": "new-delhi",
+        "coordinates": {
+          "lat": 28.5618526,
+          "lng": 77.1953511
+        },
+        "coordinatesValid": true,
+        "cityName": "New Delhi"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "electricityComment": "transformer overheating problem during summer",
+      "roadRating": "average",
+      "roadComment": "congestion and potholes",
+      "civicHazards": [
+        "potholes_broken_roads",
+        "petty_crime_unsafe"
+      ],
+      "safetyRating": "sometimes_safe",
+      "safetyComment": "Women can't walk in the park because it gets dark & people consume substances at night",
+      "businessChallenges": [
+        "harassment_by_administration",
+        "sealing_threats"
+      ],
+      "businessComment": "Cafes closed because of sealing",
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "community is nice, everyone helps each other out"
+    },
+    {
+      "id": "resp-22-1781489557447",
+      "submittedAt": "2026-06-14T12:50:41.000Z",
+      "geo": {
+        "cityId": "new-delhi",
+        "coordinates": {
+          "lat": 28.643197,
+          "lng": 77.186608
+        },
+        "coordinatesValid": true,
+        "cityName": "New Delhi"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "electricityComment": "Safety nahi hai kyoki wire khuli rehti hai, infrastructure problem.",
+      "roadRating": "bad",
+      "roadComment": "Water logging issue, overall bekaar hee hai",
+      "civicHazards": [
+        "water_logging",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "safetyComment": "Problem for girls, many drunk people at night",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Unity in diversity"
+    },
+    {
+      "id": "resp-23-1781489557447",
+      "submittedAt": "2026-06-14T12:54:06.000Z",
+      "geo": {
+        "cityId": "new-delhi",
+        "coordinates": {
+          "lat": 28.643127,
+          "lng": 77.186592
+        },
+        "coordinatesValid": true,
+        "cityName": "New Delhi"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "electricityComment": "na",
+      "roadRating": "average",
+      "roadComment": "repair work could be better, a bit late",
+      "civicHazards": [],
+      "safetyRating": "quite_safe",
+      "safetyComment": "timely action by police",
+      "businessChallenges": [],
+      "businessComment": "crowd and traffic management could be better",
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "Very safe"
+    },
+    {
+      "id": "resp-25-1781489557447",
+      "submittedAt": "2026-06-14T13:11:15.000Z",
+      "geo": {
+        "cityId": "new-delhi",
+        "coordinates": {
+          "lat": 28.642146,
+          "lng": 77.185882
+        },
+        "coordinatesValid": true,
+        "cityName": "New Delhi"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "electricityComment": "Wiring is an issue, threat to students",
+      "roadRating": "bad",
+      "roadComment": "Encroachment issue,  Delays in repair",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "stray_animals",
+        "petty_crime_unsafe",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "rash driving",
+      "businessChallenges": [
+        "harassment_by_administration",
+        "other",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "social_media",
+        "other"
+      ],
+      "loveText": "Are is very happening",
+      "commentsText": "police work with influencial and powerful, also castism and regionalism in police approach"
+    },
+    {
+      "id": "resp-26-1781489557447",
+      "submittedAt": "2026-06-14T13:19:19.000Z",
+      "geo": {
+        "cityId": "new-delhi",
+        "coordinates": {
+          "lat": 28.642101,
+          "lng": 77.185825
+        },
+        "coordinatesValid": true,
+        "cityName": "New Delhi"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "roadRating": "average",
+      "roadComment": "Interior roads could be better",
+      "civicHazards": [
+        "stray_animals",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "safetyComment": "water cuts",
+      "businessChallenges": [],
+      "businessComment": "alloted space for vendors",
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Happening",
+      "commentsText": "public library could be more spacious"
+    },
+    {
+      "id": "resp-33-1781489557448",
+      "submittedAt": "2026-06-14T14:29:29.000Z",
+      "geo": {
+        "cityId": "new-delhi",
+        "coordinates": {
+          "lat": 28.562181,
+          "lng": 77.1926756
+        },
+        "coordinatesValid": true,
+        "cityName": "New Delhi"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "roadRating": "average",
+      "civicHazards": [
+        "poor_garbage_collection"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "great community"
+    },
+    {
+      "id": "resp-34-1781489557448",
+      "submittedAt": "2026-06-14T14:36:49.000Z",
+      "geo": {
+        "cityId": "new-delhi",
+        "coordinates": {
+          "lat": 28.562181,
+          "lng": 77.1926756
+        },
+        "coordinatesValid": true,
+        "cityName": "New Delhi"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Female"
+      },
+      "housingStatus": "other",
+      "electricityRating": "great",
+      "roadRating": "good",
+      "roadComment": "Pot holes water logging",
+      "civicHazards": [
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "safetyComment": "No",
+      "businessChallenges": [
+        "parking_congestion",
+        "garbage",
+        "harassment_by_administration",
+        "sealing_threats"
+      ],
+      "businessComment": "-",
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "commentsText": "Person looked heaitant to answer “humare mohalle ka naam kyu kharab kre kuch bolke”"
     }
   ]
 }
