@@ -13,6 +13,10 @@ import { ScoreLegend } from "@/components/dashboard/ScoreLegend";
 import { BottomAnalyticsRow } from "@/components/dashboard/BottomAnalyticsRow";
 import { DashboardFooter } from "@/components/dashboard/DashboardFooter";
 import { PulseMap } from "@/components/geo/PulseMap";
+import {
+  getLocalityCountForScores,
+  getStatCardScopeLabel,
+} from "@/config/cities/labels";
 
 export function MapDashboardPage() {
   const dataset = useDataset();
@@ -28,8 +32,12 @@ export function MapDashboardPage() {
     [dataset.responses]
   );
   const scores = useMemo(
-    () => computeScores(dataset.responses, city.localityCount),
-    [dataset.responses, city.localityCount]
+    () =>
+      computeScores(
+        dataset.responses,
+        getLocalityCountForScores(city, dataset.responses.length)
+      ),
+    [dataset.responses, city]
   );
 
   const overallParam = parameters.find((p) => p.id === "overall");
@@ -61,7 +69,7 @@ export function MapDashboardPage() {
 
       <BottomAnalyticsRow
         total={scores.responseCount}
-        cityName={city.name}
+        cityName={getStatCardScopeLabel(city)}
         overallFive={overallParam?.scoreFive ?? 0}
         overall100={scores.overall}
         parameters={parameters}

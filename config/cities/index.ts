@@ -3,6 +3,7 @@ import path from "path";
 import type { CityConfig } from "@/types/survey";
 import type { CitiesManifest, CitiesManifestEntry } from "@/types/cities-manifest";
 import { delhiConfig } from "@/config/cities/delhi";
+import { indiaConfig } from "@/config/cities/india";
 
 const STATIC_DEFAULTS = {
   country: "India",
@@ -46,8 +47,12 @@ export function manifestEntryToCityConfig(
 export async function getCityConfig(
   slug: string
 ): Promise<CityConfig | undefined> {
+  if (slug === "india") return indiaConfig;
+
   const manifest = await loadCitiesManifest();
-  const entry = manifest?.cities.find((c) => c.slug === slug);
+  const entry = manifest?.cities.find(
+    (c) => c.slug === slug && c.slug !== "india"
+  );
   if (entry) return manifestEntryToCityConfig(entry);
   if (slug === "delhi") return delhiConfig;
   return undefined;
@@ -55,11 +60,16 @@ export async function getCityConfig(
 
 export async function getAllCityConfigs(): Promise<CityConfig[]> {
   const manifest = await loadCitiesManifest();
-  if (!manifest?.cities.length) return [delhiConfig];
-  return manifest.cities.map(manifestEntryToCityConfig);
+  const cityEntries =
+    manifest?.cities.filter((c) => c.slug !== "india") ?? [];
+
+  if (cityEntries.length === 0) {
+    return [indiaConfig, delhiConfig];
+  }
+
+  return [indiaConfig, ...cityEntries.map(manifestEntryToCityConfig)];
 }
 
 export async function getDefaultCitySlug(): Promise<string> {
-  const manifest = await loadCitiesManifest();
-  return manifest?.cities[0]?.slug ?? "delhi";
+  return "india";
 }

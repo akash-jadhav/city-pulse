@@ -17,13 +17,18 @@ import { StrengthsConcernsPanel } from "@/components/insights/Insights";
 import { ResponseMap } from "@/components/geo/ResponseMap";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { getLocalityCountForScores } from "@/config/cities/labels";
 
 export function CityOverviewPage() {
   const dataset = useDataset();
   const city = useCity();
   const scores = useMemo(
-    () => computeScores(dataset.responses, city.localityCount),
-    [dataset.responses, city.localityCount]
+    () =>
+      computeScores(
+        dataset.responses,
+        getLocalityCountForScores(city, dataset.responses.length)
+      ),
+    [dataset.responses, city]
   );
   const { strengths, concerns } = useMemo(
     () => getStrengthsAndConcerns(dataset.responses),

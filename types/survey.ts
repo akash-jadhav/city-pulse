@@ -122,4 +122,6 @@ export interface CityConfig {
   defaultCenter: [number, number];
   bounds: CityBounds;
   dataFile: string;
+  defaultZoom?: number;
+  isAggregate?: boolean;
 }

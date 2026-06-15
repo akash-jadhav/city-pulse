@@ -1,6 +1,21 @@
 {
-  "generatedAt": "2026-06-15T02:12:44.053Z",
+  "generatedAt": "2026-06-15T02:29:55.452Z",
   "cities": [
+    {
+      "slug": "india",
+      "name": "India",
+      "defaultCenter": [
+        22.9734,
+        78.6569
+      ],
+      "bounds": {
+        "north": 37.6,
+        "south": 6.4,
+        "east": 97.4,
+        "west": 68.1
+      },
+      "responseCount": 35
+    },
     {
       "slug": "new-delhi",
       "name": "New Delhi",

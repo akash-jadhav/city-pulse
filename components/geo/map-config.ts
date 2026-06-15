@@ -1,4 +1,5 @@
 export const DEFAULT_ZOOM = 10.5;
+export const DEFAULT_INDIA_ZOOM = 4.5;
 
 /** Target on-screen dot size in pixels (matches old MapLibre circle-radius: 7). */
 export const DOT_PIXEL_RADIUS = 7;

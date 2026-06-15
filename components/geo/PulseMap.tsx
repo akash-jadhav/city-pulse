@@ -21,7 +21,8 @@ import {
 } from "@/lib/analytics/parameters";
 import { filterValidMapResponses } from "@/lib/analytics";
 import { useCity } from "@/providers/CityProvider";
-import { DEFAULT_MAP_OPTIONS, DEFAULT_ZOOM, DOT_PIXEL_RADIUS } from "@/components/geo/map-config";
+import { getMapViewport } from "@/lib/geo/map-viewport";
+import { DEFAULT_MAP_OPTIONS, DOT_PIXEL_RADIUS } from "@/components/geo/map-config";
 import {
   GoogleMapMissingKey,
   MapInfoWindow,
@@ -50,6 +51,10 @@ export function PulseMap({
   const [popup, setPopup] = useState<MapPopupState | null>(null);
   const parameters = useMemo(() => getParameterAverages(responses), [responses]);
   const valid = useMemo(() => filterValidMapResponses(responses), [responses]);
+  const mapViewport = useMemo(
+    () => getMapViewport(city, responses),
+    [city, responses]
+  );
 
   const points = useMemo((): MapPoint[] => {
     return valid.map((r) => {
@@ -118,11 +123,8 @@ export function PulseMap({
       </div>
 
       <Map
-        defaultCenter={{
-          lat: city.defaultCenter[0],
-          lng: city.defaultCenter[1],
-        }}
-        defaultZoom={DEFAULT_ZOOM}
+        defaultCenter={mapViewport.center}
+        defaultZoom={mapViewport.zoom}
         {...DEFAULT_MAP_OPTIONS}
         style={{ width: "100%", height: "100%" }}
       >

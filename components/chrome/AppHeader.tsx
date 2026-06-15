@@ -5,6 +5,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { Activity, ChevronDown, Filter } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useAvailableCities, useCity } from "@/providers/CityProvider";
+import { getCityDropdownLabel } from "@/config/cities/labels";
 import {
   Select,
   SelectContent,
@@ -108,12 +109,12 @@ export function AppHeader() {
         <div className="flex items-center gap-2">
           <Select value={city.slug} onValueChange={handleCityChange}>
             <SelectTrigger className="hidden h-8 min-w-[100px] border-0 bg-muted/50 sm:flex">
-              <SelectValue>{city.name}</SelectValue>
+              <SelectValue>{getCityDropdownLabel(city)}</SelectValue>
             </SelectTrigger>
             <SelectContent>
               {availableCities.map((c) => (
                 <SelectItem key={c.slug} value={c.slug}>
-                  {c.name}
+                  {getCityDropdownLabel(c)}
                 </SelectItem>
               ))}
             </SelectContent>

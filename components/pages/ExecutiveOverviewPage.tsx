@@ -17,13 +17,18 @@ import {
 import { KpiCard, KpiGrid } from "@/components/kpi/KpiCard";
 import { CityHealthGauge } from "@/components/charts/Charts";
 import { StrengthsConcernsPanel } from "@/components/insights/Insights";
+import { getLocalityCountForScores } from "@/config/cities/labels";
 
 export function ExecutiveOverviewPage() {
   const dataset = useDataset();
   const city = useCity();
   const scores = useMemo(
-    () => computeScores(dataset.responses, city.localityCount),
-    [dataset.responses, city.localityCount]
+    () =>
+      computeScores(
+        dataset.responses,
+        getLocalityCountForScores(city, dataset.responses.length)
+      ),
+    [dataset.responses, city]
   );
   const { strengths, concerns } = useMemo(
     () => getStrengthsAndConcerns(dataset.responses),

@@ -4,6 +4,7 @@ import { createHash } from "crypto";
 import type { CityBounds, SurveyDataset, SurveyResponse } from "@/types/survey";
 import type { CitiesManifest } from "@/types/cities-manifest";
 import { slugifyCity } from "@/lib/import/slugify-city";
+import { INDIA_MANIFEST_ENTRY } from "@/config/cities/india";
 
 const BOUNDS_PADDING = 0.02;
 
@@ -114,9 +115,45 @@ export async function buildCityDatasets(
 
   manifestEntries.sort((a, b) => b.responseCount - a.responseCount);
 
+  const indiaResponses = responses.map((response) => ({
+    ...response,
+    geo: {
+      ...response.geo,
+      cityId: "india",
+    },
+  }));
+
+  const indiaPayload = JSON.stringify({ responses: indiaResponses });
+  const indiaChecksum = createHash("sha256")
+    .update(indiaPayload)
+    .digest("hex")
+    .slice(0, 16);
+
+  const indiaDataset: SurveyDataset = {
+    meta: {
+      version: "1.0.0",
+      cityId: "india",
+      importedAt: new Date().toISOString(),
+      source: "csv",
+      totalResponses: indiaResponses.length,
+      checksum: indiaChecksum,
+    },
+    responses: indiaResponses,
+  };
+
+  const indiaPath = path.join(outDir, "india.json");
+  await writeFile(indiaPath, JSON.stringify(indiaDataset, null, 2));
+  writtenFiles.push(indiaPath);
+
   const manifest: CitiesManifest = {
     generatedAt: new Date().toISOString(),
-    cities: manifestEntries,
+    cities: [
+      {
+        ...INDIA_MANIFEST_ENTRY,
+        responseCount: indiaResponses.length,
+      },
+      ...manifestEntries,
+    ],
   };
 
   const manifestPath = path.join(outDir, "cities.json");

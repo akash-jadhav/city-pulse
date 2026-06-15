@@ -15,8 +15,14 @@ import {
   YAxis,
 } from "recharts";
 import type { ParameterAverage, DistributionSegment } from "@/lib/analytics/parameters";
-import { scoreToTier, BADGE_LABELS } from "@/lib/analytics/parameters";
+import { scoreToTier, BADGE_LABELS, LEGEND_TIERS } from "@/lib/analytics/parameters";
 import { DashboardCard } from "@/components/dashboard/DashboardCard";
+import {
+  Tooltip as UiTooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 const SHORT_NAMES: Record<string, string> = {
   safety: "Safety",
@@ -140,6 +146,39 @@ export function ParameterBarChart({ parameters }: { parameters: ParameterAverage
   );
 }
 
+function distributionRange(tier: DistributionSegment["tier"]): string | undefined {
+  return LEGEND_TIERS.find((t) => t.tier === tier)?.range;
+}
+
+function DistributionTooltipContent({ segment }: { segment: DistributionSegment }) {
+  const range = distributionRange(segment.tier);
+  return (
+    <div className="space-y-0.5">
+      <p className="font-semibold">{segment.label}</p>
+      {range && <p className="opacity-80">{range} / 5</p>}
+      <p>
+        {segment.count} response{segment.count !== 1 ? "s" : ""} · {segment.percent}%
+      </p>
+    </div>
+  );
+}
+
+function DistributionTooltip({
+  active,
+  payload,
+}: {
+  active?: boolean;
+  payload?: { payload: DistributionSegment }[];
+}) {
+  if (!active || !payload?.[0]) return null;
+  const segment = payload[0].payload;
+  return (
+    <div className="rounded-md border border-border/60 bg-white px-3 py-2 text-xs shadow-md">
+      <DistributionTooltipContent segment={segment} />
+    </div>
+  );
+}
+
 export function ScoreDistributionDonut({
   segments,
   total,
@@ -152,50 +191,64 @@ export function ScoreDistributionDonut({
   return (
     <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }}>
       <DashboardCard title="Score Distribution (Overall)" bodyClassName="px-3 pb-3 pt-1">
-        <div className="flex items-center gap-2">
-          <div className="relative h-[160px] w-[160px] shrink-0">
-            <ResponsiveContainer width="100%" height="100%">
-              <PieChart>
-                <Pie
-                  data={nonZero}
-                  dataKey="count"
-                  nameKey="label"
-                  cx="50%"
-                  cy="50%"
-                  innerRadius={42}
-                  outerRadius={68}
-                  paddingAngle={2}
-                  animationDuration={800}
-                >
-                  {nonZero.map((s) => (
-                    <Cell key={s.tier} fill={s.color} />
-                  ))}
-                </Pie>
-              </PieChart>
-            </ResponsiveContainer>
-            <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center">
-              <span className="text-sm font-semibold tabular-nums">{total}</span>
-              <span className="text-[9px] font-medium text-muted-foreground">Responses</span>
+        <TooltipProvider delay={200}>
+          <div className="flex items-center gap-2">
+            <div className="relative h-[160px] w-[160px] shrink-0">
+              <div className="pointer-events-none absolute inset-0 z-0 flex flex-col items-center justify-center">
+                <span className="text-sm font-semibold tabular-nums">{total}</span>
+                <span className="text-[9px] font-medium text-muted-foreground">Responses</span>
+              </div>
+              <div className="relative z-10 h-full w-full">
+                <ResponsiveContainer width="100%" height="100%">
+                  <PieChart>
+                    <Tooltip
+                      content={<DistributionTooltip />}
+                      wrapperStyle={{ zIndex: 50 }}
+                    />
+                    <Pie
+                      data={nonZero}
+                      dataKey="count"
+                      nameKey="label"
+                      cx="50%"
+                      cy="50%"
+                      innerRadius={42}
+                      outerRadius={68}
+                      paddingAngle={2}
+                      animationDuration={800}
+                      activeShape={false}
+                      style={{ cursor: "default" }}
+                    >
+                      {nonZero.map((s) => (
+                        <Cell key={s.tier} fill={s.color} style={{ cursor: "default" }} />
+                      ))}
+                    </Pie>
+                  </PieChart>
+                </ResponsiveContainer>
+              </div>
             </div>
+            <ul className="min-w-0 flex-1 space-y-1">
+              {segments.map((s) => (
+                <li key={s.tier}>
+                  <UiTooltip>
+                    <TooltipTrigger className="flex w-full cursor-default items-center justify-between gap-1 rounded-sm text-[11px] font-medium outline-none">
+                      <span className="flex min-w-0 items-center gap-1 truncate">
+                        <span
+                          className="h-2 w-2 shrink-0 rounded-full"
+                          style={{ backgroundColor: s.color }}
+                        />
+                        <span className="truncate text-muted-foreground">{s.label}</span>
+                      </span>
+                      <span className="shrink-0 tabular-nums text-foreground">{s.percent}%</span>
+                    </TooltipTrigger>
+                    <TooltipContent side="left">
+                      <DistributionTooltipContent segment={s} />
+                    </TooltipContent>
+                  </UiTooltip>
+                </li>
+              ))}
+            </ul>
           </div>
-          <ul className="min-w-0 flex-1 space-y-1">
-            {segments.map((s) => (
-              <li
-                key={s.tier}
-                className="flex items-center justify-between gap-1 text-[11px] font-medium"
-              >
-                <span className="flex min-w-0 items-center gap-1 truncate">
-                  <span
-                    className="h-2 w-2 shrink-0 rounded-full"
-                    style={{ backgroundColor: s.color }}
-                  />
-                  <span className="truncate text-muted-foreground">{s.label}</span>
-                </span>
-                <span className="shrink-0 tabular-nums text-foreground">{s.percent}%</span>
-              </li>
-            ))}
-          </ul>
-        </div>
+        </TooltipProvider>
       </DashboardCard>
     </motion.div>
   );
