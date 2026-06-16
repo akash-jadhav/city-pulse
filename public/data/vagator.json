@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "vagator",
+    "importedAt": "2026-06-16T12:35:12.965Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "54c4bf53a3afb1bf"
+  },
+  "responses": [
+    {
+      "id": "resp-39-1781613307289",
+      "submittedAt": "2026-06-15T10:41:01.000Z",
+      "geo": {
+        "cityId": "vagator",
+        "coordinates": {
+          "lat": 15.5991814,
+          "lng": 73.7423252
+        },
+        "coordinatesValid": true,
+        "cityName": "Vagator"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "roadRating": "average",
+      "civicHazards": [
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "It’s close to the beach, great location.",
+      "commentsText": "Get rid of panchayats as they lack any accountability"
+    }
+  ]
+}

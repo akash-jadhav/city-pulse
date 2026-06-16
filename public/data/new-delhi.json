@@ -2,14 +2,14 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "new-delhi",
-    "importedAt": "2026-06-15T16:31:40.592Z",
+    "importedAt": "2026-06-16T12:35:12.954Z",
     "source": "csv",
-    "totalResponses": 19,
-    "checksum": "efb28d15da5738bd"
+    "totalResponses": 23,
+    "checksum": "74ffee8ba2fe91e8"
   },
   "responses": [
     {
-      "id": "resp-0-1781541092217",
+      "id": "resp-0-1781613307280",
       "submittedAt": "2026-06-12T14:35:39.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -40,7 +40,7 @@
       "loveText": "it's greener than many other areas; decent shops"
     },
     {
-      "id": "resp-5-1781541092218",
+      "id": "resp-5-1781613307286",
       "submittedAt": "2026-06-13T04:41:12.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -83,7 +83,7 @@
       "loveText": "It’s proximity to my office and other areas I visit often."
     },
     {
-      "id": "resp-8-1781541092219",
+      "id": "resp-8-1781613307287",
       "submittedAt": "2026-06-13T12:29:06.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -114,7 +114,7 @@
       ]
     },
     {
-      "id": "resp-9-1781541092219",
+      "id": "resp-9-1781613307287",
       "submittedAt": "2026-06-13T12:32:44.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -148,7 +148,7 @@
       ]
     },
     {
-      "id": "resp-10-1781541092219",
+      "id": "resp-10-1781613307287",
       "submittedAt": "2026-06-13T12:32:46.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -185,7 +185,7 @@
       "loveText": "people are nice"
     },
     {
-      "id": "resp-11-1781541092219",
+      "id": "resp-11-1781613307287",
       "submittedAt": "2026-06-13T12:36:15.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "id": "resp-13-1781541092219",
+      "id": "resp-13-1781613307287",
       "submittedAt": "2026-06-13T12:59:59.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -255,7 +255,7 @@
       "commentsText": "Parks have been taken over by people who consume drugs & are unemployed"
     },
     {
-      "id": "resp-14-1781541092219",
+      "id": "resp-14-1781613307287",
       "submittedAt": "2026-06-13T13:15:13.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -292,7 +292,7 @@
       ]
     },
     {
-      "id": "resp-15-1781541092219",
+      "id": "resp-15-1781613307287",
       "submittedAt": "2026-06-13T13:16:16.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -330,7 +330,7 @@
       "commentsText": "Bhagat Singh park got closed/shut abruptly. We used to frequent there only"
     },
     {
-      "id": "resp-16-1781541092219",
+      "id": "resp-16-1781613307287",
       "submittedAt": "2026-06-13T13:20:35.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -367,7 +367,7 @@
       "loveText": "Unity and respect. People are cooperative"
     },
     {
-      "id": "resp-20-1781541092219",
+      "id": "resp-20-1781613307287",
       "submittedAt": "2026-06-14T12:38:54.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -397,7 +397,7 @@
       "loveText": "great community"
     },
     {
-      "id": "resp-21-1781541092219",
+      "id": "resp-21-1781613307287",
       "submittedAt": "2026-06-14T12:50:40.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -435,7 +435,7 @@
       "loveText": "community is nice, everyone helps each other out"
     },
     {
-      "id": "resp-22-1781541092219",
+      "id": "resp-22-1781613307288",
       "submittedAt": "2026-06-14T12:50:41.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -473,7 +473,7 @@
       "loveText": "Unity in diversity"
     },
     {
-      "id": "resp-23-1781541092219",
+      "id": "resp-23-1781613307288",
       "submittedAt": "2026-06-14T12:54:06.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -505,7 +505,7 @@
       "loveText": "Very safe"
     },
     {
-      "id": "resp-25-1781541092219",
+      "id": "resp-25-1781613307288",
       "submittedAt": "2026-06-14T13:11:15.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -548,7 +548,7 @@
       "commentsText": "police work with influencial and powerful, also castism and regionalism in police approach"
     },
     {
-      "id": "resp-26-1781541092219",
+      "id": "resp-26-1781613307288",
       "submittedAt": "2026-06-14T13:19:19.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -583,7 +583,98 @@
       "commentsText": "public library could be more spacious"
     },
     {
-      "id": "resp-33-1781541092219",
+      "id": "resp-28-1781613307288",
+      "submittedAt": "2026-06-14T13:28:34.000Z",
+      "geo": {
+        "cityId": "new-delhi",
+        "coordinates": {
+          "lat": 28.641928,
+          "lng": 77.185742
+        },
+        "coordinatesValid": true,
+        "cityName": "New Delhi"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "roadRating": "average",
+      "civicHazards": [
+        "water_logging"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "newspapers"
+      ],
+      "commentsText": "Har do din ke baad paani kam ho jaata hai, poor paani ki quality, hard water"
+    },
+    {
+      "id": "resp-30-1781613307288",
+      "submittedAt": "2026-06-14T13:36:26.000Z",
+      "geo": {
+        "cityId": "new-delhi",
+        "coordinates": {
+          "lat": 28.641928,
+          "lng": 77.185742
+        },
+        "coordinatesValid": true,
+        "cityName": "New Delhi"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Female"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "roadRating": "good",
+      "civicHazards": [
+        "poor_garbage_collection",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "Helpful people"
+    },
+    {
+      "id": "resp-31-1781613307289",
+      "submittedAt": "2026-06-14T13:41:24.000Z",
+      "geo": {
+        "cityId": "new-delhi",
+        "coordinates": {
+          "lat": 28.641946,
+          "lng": 77.185733
+        },
+        "coordinatesValid": true,
+        "cityName": "New Delhi"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "great",
+      "roadRating": "average",
+      "civicHazards": [
+        "water_logging"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "UPSC ka mahol acha hai, log ache hai, easily available hai sab kuch"
+    },
+    {
+      "id": "resp-33-1781613307289",
       "submittedAt": "2026-06-14T14:29:29.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -613,7 +704,7 @@
       "loveText": "great community"
     },
     {
-      "id": "resp-34-1781541092219",
+      "id": "resp-34-1781613307289",
       "submittedAt": "2026-06-14T14:36:49.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -654,7 +745,7 @@
       "commentsText": "Person looked heaitant to answer “humare mohalle ka naam kyu kharab kre kuch bolke”"
     },
     {
-      "id": "resp-35-1781541092219",
+      "id": "resp-35-1781613307289",
       "submittedAt": "2026-06-15T03:48:57.000Z",
       "geo": {
         "cityId": "new-delhi",
@@ -686,6 +777,48 @@
         "neighbours"
       ],
       "loveText": "Honestly its peaceful , its never loud"
+    },
+    {
+      "id": "resp-40-1781613307289",
+      "submittedAt": "2026-06-16T07:49:17.000Z",
+      "geo": {
+        "cityId": "new-delhi",
+        "coordinates": {
+          "lat": 28.492905,
+          "lng": 77.1619583
+        },
+        "coordinatesValid": true,
+        "cityName": "New Delhi"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "roadRating": "horrible",
+      "roadComment": "Patchwork and repair is done that lasts from monsoon to monsoon. Once a year sewage pipes are clean and garbage piled on the edge, never again to be removed. Monsoon washes it back into the drains - corruption issue.",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "garbage"
+      ],
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "No sound pollution, less air pollution due to greenery, large open space for me to have a kitchen garden, family and support system in the area, only 1 entry gate so safe for kids to play.",
+      "commentsText": "If only we as human beings and citizens could change and stop failing each other. The government cannot do everything for us. We are the most unhygienic people and we make our areas like open bathroom spitoons. Traffic jams also due to green and a lack of pride in their jobs."
     }
   ]
 }

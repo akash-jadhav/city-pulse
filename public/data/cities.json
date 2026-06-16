@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T16:31:40.609Z",
+  "generatedAt": "2026-06-16T12:35:12.968Z",
   "cities": [
     {
       "slug": "india",
@@ -14,22 +14,22 @@
         "east": 97.4,
         "west": 68.1
       },
-      "responseCount": 40
+      "responseCount": 41
     },
     {
       "slug": "new-delhi",
       "name": "New Delhi",
       "defaultCenter": [
-        28.58903025,
+        28.5708685,
         77.18812145
       ],
       "bounds": {
         "north": 28.668832,
-        "south": 28.5092285,
+        "south": 28.472905,
         "east": 77.2681839,
         "west": 77.108059
       },
-      "responseCount": 19
+      "responseCount": 23
     },
     {
       "slug": "delhi",
@@ -44,7 +44,7 @@
         "east": 77.205995,
         "west": 77.085622
       },
-      "responseCount": 8
+      "responseCount": 5
     },
     {
       "slug": "unknown",
@@ -182,8 +182,8 @@
       "responseCount": 1
     },
     {
-      "slug": "chapora",
-      "name": "Chapora",
+      "slug": "vagator",
+      "name": "Vagator",
       "defaultCenter": [
         15.5991814,
         73.7423252
