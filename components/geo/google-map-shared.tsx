@@ -51,6 +51,28 @@ const TOOLTIP_GAP_PX = 12;
 const MARKER_OFFSET_PX = 14;
 const TOOLTIP_EDGE_MARGIN_PX = 8;
 const TOOLTIP_HEIGHT_ESTIMATE_PX = 200;
+const TOOLTIP_PORTAL_Z_INDEX = 9999;
+
+interface TooltipPosition {
+  x: number;
+  y: number;
+  openBelow: boolean;
+  visible: boolean;
+}
+
+function computeTooltipOpenBelow(
+  spaceAbove: number,
+  spaceBelow: number,
+  needHeight: number
+): boolean {
+  const fitsAbove = spaceAbove >= needHeight;
+  const fitsBelow = spaceBelow >= needHeight;
+
+  if (fitsBelow && !fitsAbove) return true;
+  if (fitsAbove && !fitsBelow) return false;
+  if (fitsAbove && fitsBelow) return false;
+  return spaceBelow > spaceAbove;
+}
 
 interface MapHoverDismissContextValue {
   scheduleDismiss: () => void;
@@ -163,7 +185,7 @@ export function MapShell({
   return (
     <div
       className={cn(
-        "relative overflow-hidden rounded-2xl border border-border/50 shadow-sm",
+        "relative overflow-visible rounded-2xl border border-border/50 shadow-sm",
         className
       )}
       style={style}
@@ -218,35 +240,35 @@ export function TierCircles({
 function MapHoverOverlay({ popup }: { popup: MapPopupState }) {
   const map = useMap();
   const { scheduleDismiss, cancelDismiss } = useMapHoverDismiss();
-  const [container, setContainer] = useState<HTMLDivElement | null>(null);
+  const [position, setPosition] = useState<TooltipPosition | null>(null);
   const overlayRef = useRef<google.maps.OverlayView | null>(null);
+  const tooltipRef = useRef<HTMLDivElement>(null);
   const popupRef = useRef(popup);
   popupRef.current = popup;
 
-  const redrawOverlay = useCallback(() => {
+  const updatePosition = useCallback(() => {
     overlayRef.current?.draw();
   }, []);
 
   useEffect(() => {
     if (!map) return;
 
-    const mapInstance = map;
-    const containerEl = document.createElement("div");
-    containerEl.style.position = "absolute";
-    containerEl.style.zIndex = "1000";
-    containerEl.style.pointerEvents = "none";
-    setContainer(containerEl);
+    const anchorEl = document.createElement("div");
+    anchorEl.style.position = "absolute";
+    anchorEl.style.width = "1px";
+    anchorEl.style.height = "1px";
+    anchorEl.style.pointerEvents = "none";
 
     class TooltipOverlay extends google.maps.OverlayView {
       onAdd() {
-        this.getPanes()?.floatPane.appendChild(containerEl);
+        this.getPanes()?.floatPane.appendChild(anchorEl);
       }
 
       draw() {
         const projection = this.getProjection();
         const current = popupRef.current;
         if (!projection || !current) {
-          containerEl.style.visibility = "hidden";
+          setPosition(null);
           return;
         }
 
@@ -255,29 +277,58 @@ function MapHoverOverlay({ popup }: { popup: MapPopupState }) {
         );
         if (!point) return;
 
+        anchorEl.style.left = `${point.x}px`;
+        anchorEl.style.top = `${point.y}px`;
+
+        const { left, top, width, height } = anchorEl.getBoundingClientRect();
+        let anchorX = left + width / 2;
+        const anchorY = top + height / 2;
+
         const tooltipHeight =
-          containerEl.offsetHeight || TOOLTIP_HEIGHT_ESTIMATE_PX;
-        const mapHeight = mapInstance.getDiv().offsetHeight;
-        const spaceAbove = point.y;
-        const spaceBelow = mapHeight - point.y;
+          tooltipRef.current?.offsetHeight || TOOLTIP_HEIGHT_ESTIMATE_PX;
         const needHeight =
           tooltipHeight +
           TOOLTIP_GAP_PX +
           MARKER_OFFSET_PX +
           TOOLTIP_EDGE_MARGIN_PX;
-        const openBelow =
-          spaceAbove < needHeight && spaceBelow >= spaceAbove;
 
-        containerEl.style.visibility = "visible";
-        containerEl.style.left = `${point.x}px`;
-        containerEl.style.top = `${point.y}px`;
-        containerEl.style.transform = openBelow
-          ? `translate(-50%, ${MARKER_OFFSET_PX + TOOLTIP_GAP_PX}px)`
-          : `translate(-50%, calc(-100% - ${MARKER_OFFSET_PX + TOOLTIP_GAP_PX}px))`;
+        const spaceAbove = anchorY;
+        const spaceBelow = window.innerHeight - anchorY;
+        const openBelow = computeTooltipOpenBelow(
+          spaceAbove,
+          spaceBelow,
+          needHeight
+        );
+
+        const halfWidth = (tooltipRef.current?.offsetWidth ?? 320) / 2;
+        const margin = 8;
+        anchorX = Math.min(
+          Math.max(anchorX, halfWidth + margin),
+          window.innerWidth - halfWidth - margin
+        );
+
+        setPosition((prev) => {
+          const next: TooltipPosition = {
+            x: anchorX,
+            y: anchorY,
+            openBelow,
+            visible: true,
+          };
+          if (
+            prev &&
+            prev.visible === next.visible &&
+            prev.x === next.x &&
+            prev.y === next.y &&
+            prev.openBelow === next.openBelow
+          ) {
+            return prev;
+          }
+          return next;
+        });
       }
 
       onRemove() {
-        containerEl.remove();
+        anchorEl.remove();
       }
     }
 
@@ -286,29 +337,52 @@ function MapHoverOverlay({ popup }: { popup: MapPopupState }) {
     overlay.setMap(map);
 
     const listeners = [
-      map.addListener("bounds_changed", redrawOverlay),
-      map.addListener("zoom_changed", redrawOverlay),
+      map.addListener("bounds_changed", updatePosition),
+      map.addListener("zoom_changed", updatePosition),
+      map.addListener("idle", updatePosition),
     ];
-    window.addEventListener("resize", redrawOverlay);
+    const handleViewportChange = () => updatePosition();
+    window.addEventListener("resize", handleViewportChange);
+    window.addEventListener("scroll", handleViewportChange, true);
 
     return () => {
       listeners.forEach((listener) => listener.remove());
-      window.removeEventListener("resize", redrawOverlay);
+      window.removeEventListener("resize", handleViewportChange);
+      window.removeEventListener("scroll", handleViewportChange, true);
       overlay.setMap(null);
       overlayRef.current = null;
-      setContainer(null);
+      setPosition(null);
     };
-  }, [map, redrawOverlay]);
+  }, [map, updatePosition]);
 
   useLayoutEffect(() => {
-    redrawOverlay();
-  }, [popup, redrawOverlay]);
+    updatePosition();
+  }, [popup, updatePosition]);
 
-  if (!container) return null;
+  const offset = MARKER_OFFSET_PX + TOOLTIP_GAP_PX;
+  const positionedStyle: React.CSSProperties = position?.visible
+    ? {
+        position: "fixed",
+        left: position.x,
+        top: position.y,
+        zIndex: TOOLTIP_PORTAL_Z_INDEX,
+        transform: position.openBelow
+          ? `translate(-50%, ${offset}px)`
+          : `translate(-50%, calc(-100% - ${offset}px))`,
+      }
+    : {
+        position: "fixed",
+        left: 0,
+        top: 0,
+        visibility: "hidden",
+        pointerEvents: "none",
+      };
 
   return createPortal(
     <div
+      ref={tooltipRef}
       className="pointer-events-auto py-2"
+      style={positionedStyle}
       onMouseEnter={cancelDismiss}
       onMouseLeave={scheduleDismiss}
       onWheel={(e) => e.stopPropagation()}
@@ -322,7 +396,7 @@ function MapHoverOverlay({ popup }: { popup: MapPopupState }) {
         sections={popup.sections}
       />
     </div>,
-    container
+    document.body
   );
 }
 

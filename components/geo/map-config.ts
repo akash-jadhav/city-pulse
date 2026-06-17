@@ -70,12 +70,25 @@ export const POSITRON_MAP_STYLES: google.maps.MapTypeStyle[] = [
 
 export const DEFAULT_MAP_OPTIONS: Pick<
   google.maps.MapOptions,
-  "gestureHandling" | "disableDefaultUI" | "mapTypeControl" | "fullscreenControl" | "styles" | "clickableIcons"
+  | "gestureHandling"
+  | "disableDefaultUI"
+  | "mapTypeControl"
+  | "fullscreenControl"
+  | "streetViewControl"
+  | "cameraControl"
+  | "zoomControl"
+  | "keyboardShortcuts"
+  | "styles"
+  | "clickableIcons"
 > = {
   gestureHandling: "greedy",
   disableDefaultUI: false,
   mapTypeControl: false,
   fullscreenControl: false,
+  streetViewControl: false,
+  cameraControl: false,
+  zoomControl: false,
+  keyboardShortcuts: false,
   clickableIcons: false,
   styles: POSITRON_MAP_STYLES,
 };
