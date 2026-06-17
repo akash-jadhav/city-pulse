@@ -7,6 +7,7 @@ import {
   SectionHeader,
 } from "@/components/layouts/DashboardLayout";
 import { Card, CardContent } from "@/components/ui/card";
+import { BRAND } from "@/config/brand";
 
 export function MethodologyPage() {
   const dataset = useDataset();
@@ -17,7 +18,7 @@ export function MethodologyPage() {
         <SectionHeader
           eyebrow="Methodology"
           title="Data & scoring"
-          description="How City Pulse processes survey data and computes scores"
+          description={`How ${BRAND.name} processes survey data and computes scores`}
         />
 
         <div className="space-y-6">

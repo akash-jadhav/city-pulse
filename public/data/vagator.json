@@ -2,14 +2,14 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "vagator",
-    "importedAt": "2026-06-16T12:35:12.965Z",
+    "importedAt": "2026-06-17T13:27:26.808Z",
     "source": "csv",
     "totalResponses": 1,
-    "checksum": "54c4bf53a3afb1bf"
+    "checksum": "260c85b230727f88"
   },
   "responses": [
     {
-      "id": "resp-39-1781613307289",
+      "id": "resp-39-1781702841219",
       "submittedAt": "2026-06-15T10:41:01.000Z",
       "geo": {
         "cityId": "vagator",

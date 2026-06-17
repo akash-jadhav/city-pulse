@@ -1,13 +1,25 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { Circle, InfoWindow, useMap } from "@vis.gl/react-google-maps";
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useLayoutEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
+import { createPortal } from "react-dom";
+import { Circle, useMap } from "@vis.gl/react-google-maps";
 import { cn } from "@/lib/utils";
 import { hasGoogleMapsApiKey } from "@/providers/GoogleMapsProvider";
 import {
   DEFAULT_ZOOM,
   metersForPixelRadius,
 } from "@/components/geo/map-config";
+import { ResponseDetailTooltip } from "@/components/geo/ResponseDetailTooltip";
+import type { ResponseDetailSection } from "@/lib/analytics/response-detail";
 
 export interface MapPoint {
   id: string;
@@ -20,13 +32,82 @@ export interface MapPoint {
   scoreFive: number;
   tier: string;
   responseCount: number;
+  responseId?: string;
 }
 
 export interface MapPopupState {
   lat: number;
   lng: number;
   label: string;
-  lines: string[];
+  subtitle?: string;
+  averageScoreFive?: number;
+  averageTier?: string;
+  sections?: ResponseDetailSection[];
+  overallStars?: string;
+}
+
+const HOVER_LEAVE_DELAY_MS = 200;
+const TOOLTIP_GAP_PX = 12;
+const MARKER_OFFSET_PX = 14;
+const TOOLTIP_EDGE_MARGIN_PX = 8;
+const TOOLTIP_HEIGHT_ESTIMATE_PX = 200;
+
+interface MapHoverDismissContextValue {
+  scheduleDismiss: () => void;
+  cancelDismiss: () => void;
+}
+
+const MapHoverDismissContext =
+  createContext<MapHoverDismissContextValue | null>(null);
+
+function useMapHoverDismiss(): MapHoverDismissContextValue {
+  const context = useContext(MapHoverDismissContext);
+  if (!context) {
+    throw new Error(
+      "useMapHoverDismiss must be used within MapHoverDismissProvider"
+    );
+  }
+  return context;
+}
+
+export function MapHoverDismissProvider({
+  onDismiss,
+  children,
+}: {
+  onDismiss: () => void;
+  children: React.ReactNode;
+}) {
+  const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const onDismissRef = useRef(onDismiss);
+  onDismissRef.current = onDismiss;
+
+  const cancelDismiss = useCallback(() => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+      timeoutRef.current = null;
+    }
+  }, []);
+
+  const scheduleDismiss = useCallback(() => {
+    cancelDismiss();
+    timeoutRef.current = setTimeout(() => {
+      timeoutRef.current = null;
+      onDismissRef.current();
+    }, HOVER_LEAVE_DELAY_MS);
+  }, [cancelDismiss]);
+
+  useEffect(() => cancelDismiss, [cancelDismiss]);
+
+  const value = useMemo(
+    () => ({ scheduleDismiss, cancelDismiss }),
+    [scheduleDismiss, cancelDismiss]
+  );
+
+  return (
+    <MapHoverDismissContext.Provider value={value}>
+      {children}
+    </MapHoverDismissContext.Provider>
+  );
 }
 
 function useMapZoom(): number {
@@ -94,12 +175,24 @@ export function MapShell({
 
 export function TierCircles({
   points,
+  onPointHover,
   onPointClick,
 }: {
   points: MapPoint[];
-  onPointClick: (point: MapPoint) => void;
+  onPointHover: (point: MapPoint | null) => void;
+  onPointClick?: (point: MapPoint) => void;
 }) {
   const zoom = useMapZoom();
+  const { scheduleDismiss, cancelDismiss } = useMapHoverDismiss();
+
+  const handleMouseOver = (point: MapPoint) => {
+    cancelDismiss();
+    onPointHover(point);
+  };
+
+  const handleMouseOut = () => {
+    scheduleDismiss();
+  };
 
   return (
     <>
@@ -113,37 +206,166 @@ export function TierCircles({
           strokeColor="#ffffff"
           strokeWeight={point.strokeWeight}
           clickable
-          onClick={() => onPointClick(point)}
+          onMouseOver={() => handleMouseOver(point)}
+          onMouseOut={handleMouseOut}
+          onClick={() => onPointClick?.(point)}
         />
       ))}
     </>
   );
 }
 
-export function MapInfoWindow({
-  popup,
-  onClose,
-}: {
-  popup: MapPopupState | null;
-  onClose: () => void;
-}) {
-  if (!popup) return null;
+function MapHoverOverlay({ popup }: { popup: MapPopupState }) {
+  const map = useMap();
+  const { scheduleDismiss, cancelDismiss } = useMapHoverDismiss();
+  const [container, setContainer] = useState<HTMLDivElement | null>(null);
+  const overlayRef = useRef<google.maps.OverlayView | null>(null);
+  const popupRef = useRef(popup);
+  popupRef.current = popup;
 
-  return (
-    <InfoWindow
-      position={{ lat: popup.lat, lng: popup.lng }}
-      onCloseClick={onClose}
+  const redrawOverlay = useCallback(() => {
+    overlayRef.current?.draw();
+  }, []);
+
+  useEffect(() => {
+    if (!map) return;
+
+    const mapInstance = map;
+    const containerEl = document.createElement("div");
+    containerEl.style.position = "absolute";
+    containerEl.style.zIndex = "1000";
+    containerEl.style.pointerEvents = "none";
+    setContainer(containerEl);
+
+    class TooltipOverlay extends google.maps.OverlayView {
+      onAdd() {
+        this.getPanes()?.floatPane.appendChild(containerEl);
+      }
+
+      draw() {
+        const projection = this.getProjection();
+        const current = popupRef.current;
+        if (!projection || !current) {
+          containerEl.style.visibility = "hidden";
+          return;
+        }
+
+        const point = projection.fromLatLngToDivPixel(
+          new google.maps.LatLng(current.lat, current.lng)
+        );
+        if (!point) return;
+
+        const tooltipHeight =
+          containerEl.offsetHeight || TOOLTIP_HEIGHT_ESTIMATE_PX;
+        const mapHeight = mapInstance.getDiv().offsetHeight;
+        const spaceAbove = point.y;
+        const spaceBelow = mapHeight - point.y;
+        const needHeight =
+          tooltipHeight +
+          TOOLTIP_GAP_PX +
+          MARKER_OFFSET_PX +
+          TOOLTIP_EDGE_MARGIN_PX;
+        const openBelow =
+          spaceAbove < needHeight && spaceBelow >= spaceAbove;
+
+        containerEl.style.visibility = "visible";
+        containerEl.style.left = `${point.x}px`;
+        containerEl.style.top = `${point.y}px`;
+        containerEl.style.transform = openBelow
+          ? `translate(-50%, ${MARKER_OFFSET_PX + TOOLTIP_GAP_PX}px)`
+          : `translate(-50%, calc(-100% - ${MARKER_OFFSET_PX + TOOLTIP_GAP_PX}px))`;
+      }
+
+      onRemove() {
+        containerEl.remove();
+      }
+    }
+
+    const overlay = new TooltipOverlay();
+    overlayRef.current = overlay;
+    overlay.setMap(map);
+
+    const listeners = [
+      map.addListener("bounds_changed", redrawOverlay),
+      map.addListener("zoom_changed", redrawOverlay),
+    ];
+    window.addEventListener("resize", redrawOverlay);
+
+    return () => {
+      listeners.forEach((listener) => listener.remove());
+      window.removeEventListener("resize", redrawOverlay);
+      overlay.setMap(null);
+      overlayRef.current = null;
+      setContainer(null);
+    };
+  }, [map, redrawOverlay]);
+
+  useLayoutEffect(() => {
+    redrawOverlay();
+  }, [popup, redrawOverlay]);
+
+  if (!container) return null;
+
+  return createPortal(
+    <div
+      className="pointer-events-auto py-2"
+      onMouseEnter={cancelDismiss}
+      onMouseLeave={scheduleDismiss}
+      onWheel={(e) => e.stopPropagation()}
     >
-      <div className="text-sm">
-        <p className="font-semibold">{popup.label}</p>
-        {popup.lines.map((line) => (
-          <p key={line}>{line}</p>
-        ))}
-      </div>
-    </InfoWindow>
+      <ResponseDetailTooltip
+        label={popup.label}
+        subtitle={popup.subtitle}
+        averageScoreFive={popup.averageScoreFive}
+        averageTier={popup.averageTier}
+        overallStars={popup.overallStars}
+        sections={popup.sections}
+      />
+    </div>,
+    container
   );
+}
+
+export function MapInfoWindow({ popup }: { popup: MapPopupState | null }) {
+  if (!popup) return null;
+  return <MapHoverOverlay popup={popup} />;
+}
+
+export function useMapClickClear(
+  enabled: boolean,
+  onClear: () => void
+): void {
+  const map = useMap();
+
+  useEffect(() => {
+    if (!map || !enabled) return;
+
+    const listener = map.addListener("click", onClear);
+    return () => listener.remove();
+  }, [map, enabled, onClear]);
+}
+
+export function MapTouchDismiss({
+  enabled,
+  onClear,
+}: {
+  enabled: boolean;
+  onClear: () => void;
+}) {
+  useMapClickClear(enabled, onClear);
+  return null;
 }
 
 export function useGoogleMapsReady(): boolean {
   return hasGoogleMapsApiKey();
+}
+
+export function useTouchOnlyMap(): boolean {
+  const [touchOnly, setTouchOnly] = useState(false);
+
+  useEffect(() => {
+    setTouchOnly(window.matchMedia("(hover: none)").matches);
+  }, []);
+
+  return touchOnly;
 }

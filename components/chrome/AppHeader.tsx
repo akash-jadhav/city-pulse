@@ -2,8 +2,9 @@
 
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { Activity, ChevronDown, Filter } from "lucide-react";
+import { MapPin, ChevronDown, Filter } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { BRAND } from "@/config/brand";
 import { useAvailableCities, useCity } from "@/providers/CityProvider";
 import { getCityDropdownLabel } from "@/config/cities/labels";
 import {
@@ -68,14 +69,14 @@ export function AppHeader() {
       <div className="mx-auto flex max-w-[1600px] items-center justify-between gap-4 px-4 py-2.5 md:px-6">
         <Link href={base} className="flex min-w-0 items-center gap-2.5">
           <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-500 to-violet-600 text-white shadow-sm">
-            <Activity className="h-4 w-4" strokeWidth={1.75} />
+            <MapPin className="h-4 w-4" strokeWidth={1.75} />
           </div>
-          <div className="min-w-0 truncate">
-            <p className="truncate text-sm font-semibold leading-tight text-foreground">
-              City Pulse
+          <div className="min-w-0 max-w-[140px] truncate sm:max-w-none">
+            <p className="truncate text-[13px] font-semibold leading-tight text-foreground sm:text-sm">
+              {BRAND.name}
             </p>
             <p className="truncate text-[11px] font-medium text-muted-foreground">
-              Quality of Life Survey
+              {BRAND.tagline}
             </p>
           </div>
         </Link>

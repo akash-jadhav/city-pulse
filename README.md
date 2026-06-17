@@ -1,6 +1,6 @@
-# City Pulse
+# Know Your Neighborhood
 
-A civic intelligence dashboard that visualizes neighborhood survey data for Delhi. Built with Next.js, deployed on Vercel.
+A Quality of Life Survey dashboard that visualizes neighborhood survey data across India. Built with Next.js, deployed on Vercel.
 
 ## Features
 
@@ -26,7 +26,7 @@ npm run generate:data   # create public/data/*.json + cities.json (mock data)
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) → redirects to `/delhi` **Map Dashboard** (single-screen overview with map, parameters, and analytics).
+Open [http://localhost:3000](http://localhost:3000) → redirects to `/india` **Map Dashboard** (single-screen overview with map, parameters, and analytics).
 
 ## Data pipeline
 

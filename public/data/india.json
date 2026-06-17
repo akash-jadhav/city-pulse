@@ -2,14 +2,14 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "india",
-    "importedAt": "2026-06-16T12:35:12.966Z",
+    "importedAt": "2026-06-17T13:27:26.809Z",
     "source": "csv",
     "totalResponses": 41,
-    "checksum": "48b8c79fa3bd132f"
+    "checksum": "b66527f383f4b790"
   },
   "responses": [
     {
-      "id": "resp-0-1781613307280",
+      "id": "resp-0-1781702841215",
       "submittedAt": "2026-06-12T14:35:39.000Z",
       "geo": {
         "cityId": "india",
@@ -40,7 +40,7 @@
       "loveText": "it's greener than many other areas; decent shops"
     },
     {
-      "id": "resp-1-1781613307285",
+      "id": "resp-1-1781702841216",
       "submittedAt": "2026-06-12T16:10:12.000Z",
       "geo": {
         "cityId": "india",
@@ -78,7 +78,7 @@
       "loveText": "It’s near the metro station (10Mins by rickshaw)"
     },
     {
-      "id": "resp-2-1781613307285",
+      "id": "resp-2-1781702841217",
       "submittedAt": "2026-06-12T16:59:08.000Z",
       "geo": {
         "cityId": "india",
@@ -114,7 +114,7 @@
       ]
     },
     {
-      "id": "resp-3-1781613307286",
+      "id": "resp-3-1781702841217",
       "submittedAt": "2026-06-12T18:10:00.000Z",
       "geo": {
         "cityId": "india",
@@ -149,7 +149,7 @@
       "loveText": "Greenery"
     },
     {
-      "id": "resp-4-1781613307286",
+      "id": "resp-4-1781702841217",
       "submittedAt": "2026-06-13T04:14:00.000Z",
       "geo": {
         "cityId": "india",
@@ -186,7 +186,7 @@
       "commentsText": "Thanks for doing this, adding my own answer as the first survey I conduct for this exercise soo let's do this !"
     },
     {
-      "id": "resp-5-1781613307286",
+      "id": "resp-5-1781702841217",
       "submittedAt": "2026-06-13T04:41:12.000Z",
       "geo": {
         "cityId": "india",
@@ -229,7 +229,7 @@
       "loveText": "It’s proximity to my office and other areas I visit often."
     },
     {
-      "id": "resp-6-1781613307286",
+      "id": "resp-6-1781702841217",
       "submittedAt": "2026-06-13T08:05:52.000Z",
       "geo": {
         "cityId": "india",
@@ -265,7 +265,7 @@
       "loveText": "lots of people"
     },
     {
-      "id": "resp-7-1781613307286",
+      "id": "resp-7-1781702841217",
       "submittedAt": "2026-06-13T08:12:25.000Z",
       "geo": {
         "cityId": "india",
@@ -303,7 +303,7 @@
       "loveText": "nothing"
     },
     {
-      "id": "resp-8-1781613307287",
+      "id": "resp-8-1781702841217",
       "submittedAt": "2026-06-13T12:29:06.000Z",
       "geo": {
         "cityId": "india",
@@ -334,7 +334,7 @@
       ]
     },
     {
-      "id": "resp-9-1781613307287",
+      "id": "resp-9-1781702841217",
       "submittedAt": "2026-06-13T12:32:44.000Z",
       "geo": {
         "cityId": "india",
@@ -368,7 +368,7 @@
       ]
     },
     {
-      "id": "resp-10-1781613307287",
+      "id": "resp-10-1781702841217",
       "submittedAt": "2026-06-13T12:32:46.000Z",
       "geo": {
         "cityId": "india",
@@ -405,7 +405,7 @@
       "loveText": "people are nice"
     },
     {
-      "id": "resp-11-1781613307287",
+      "id": "resp-11-1781702841217",
       "submittedAt": "2026-06-13T12:36:15.000Z",
       "geo": {
         "cityId": "india",
@@ -440,7 +440,7 @@
       ]
     },
     {
-      "id": "resp-12-1781613307287",
+      "id": "resp-12-1781702841218",
       "submittedAt": "2026-06-13T12:55:57.000Z",
       "geo": {
         "cityId": "india",
@@ -477,7 +477,7 @@
       "commentsText": "Even though it was known as a chor gully earlier, in the 1980 and before, today it's pretty safe !"
     },
     {
-      "id": "resp-13-1781613307287",
+      "id": "resp-13-1781702841218",
       "submittedAt": "2026-06-13T12:59:59.000Z",
       "geo": {
         "cityId": "india",
@@ -512,7 +512,7 @@
       "commentsText": "Parks have been taken over by people who consume drugs & are unemployed"
     },
     {
-      "id": "resp-14-1781613307287",
+      "id": "resp-14-1781702841218",
       "submittedAt": "2026-06-13T13:15:13.000Z",
       "geo": {
         "cityId": "india",
@@ -549,7 +549,7 @@
       ]
     },
     {
-      "id": "resp-15-1781613307287",
+      "id": "resp-15-1781702841218",
       "submittedAt": "2026-06-13T13:16:16.000Z",
       "geo": {
         "cityId": "india",
@@ -587,7 +587,7 @@
       "commentsText": "Bhagat Singh park got closed/shut abruptly. We used to frequent there only"
     },
     {
-      "id": "resp-16-1781613307287",
+      "id": "resp-16-1781702841218",
       "submittedAt": "2026-06-13T13:20:35.000Z",
       "geo": {
         "cityId": "india",
@@ -624,7 +624,7 @@
       "loveText": "Unity and respect. People are cooperative"
     },
     {
-      "id": "resp-17-1781613307287",
+      "id": "resp-17-1781702841218",
       "submittedAt": "2026-06-14T04:09:44.000Z",
       "geo": {
         "cityId": "india",
@@ -657,7 +657,7 @@
       "commentsText": "Money transfer issues - can’t send money to his hometown in Nepal as he doesn’t have Aadhaar card. He can only do a bank to bank transfer, and for that he has to go to a far away bank branch in mapusa."
     },
     {
-      "id": "resp-18-1781613307287",
+      "id": "resp-18-1781702841218",
       "submittedAt": "2026-06-14T05:23:34.000Z",
       "geo": {
         "cityId": "india",
@@ -691,7 +691,7 @@
       "commentsText": "Neglected public spaces, such as parks and vacant government-owned plots, are often frequented by individuals involved in substance abuse."
     },
     {
-      "id": "resp-19-1781613307287",
+      "id": "resp-19-1781702841218",
       "submittedAt": "2026-06-14T06:25:48.000Z",
       "geo": {
         "cityId": "india",
@@ -729,7 +729,7 @@
       "commentsText": "No comments"
     },
     {
-      "id": "resp-20-1781613307287",
+      "id": "resp-20-1781702841218",
       "submittedAt": "2026-06-14T12:38:54.000Z",
       "geo": {
         "cityId": "india",
@@ -759,7 +759,7 @@
       "loveText": "great community"
     },
     {
-      "id": "resp-21-1781613307287",
+      "id": "resp-21-1781702841218",
       "submittedAt": "2026-06-14T12:50:40.000Z",
       "geo": {
         "cityId": "india",
@@ -797,7 +797,7 @@
       "loveText": "community is nice, everyone helps each other out"
     },
     {
-      "id": "resp-22-1781613307288",
+      "id": "resp-22-1781702841218",
       "submittedAt": "2026-06-14T12:50:41.000Z",
       "geo": {
         "cityId": "india",
@@ -835,7 +835,7 @@
       "loveText": "Unity in diversity"
     },
     {
-      "id": "resp-23-1781613307288",
+      "id": "resp-23-1781702841218",
       "submittedAt": "2026-06-14T12:54:06.000Z",
       "geo": {
         "cityId": "india",
@@ -867,7 +867,7 @@
       "loveText": "Very safe"
     },
     {
-      "id": "resp-24-1781613307288",
+      "id": "resp-24-1781702841218",
       "submittedAt": "2026-06-14T13:06:59.000Z",
       "geo": {
         "cityId": "india",
@@ -899,7 +899,7 @@
       "loveText": "Customer"
     },
     {
-      "id": "resp-25-1781613307288",
+      "id": "resp-25-1781702841218",
       "submittedAt": "2026-06-14T13:11:15.000Z",
       "geo": {
         "cityId": "india",
@@ -942,7 +942,7 @@
       "commentsText": "police work with influencial and powerful, also castism and regionalism in police approach"
     },
     {
-      "id": "resp-26-1781613307288",
+      "id": "resp-26-1781702841218",
       "submittedAt": "2026-06-14T13:19:19.000Z",
       "geo": {
         "cityId": "india",
@@ -977,7 +977,7 @@
       "commentsText": "public library could be more spacious"
     },
     {
-      "id": "resp-27-1781613307288",
+      "id": "resp-27-1781702841218",
       "submittedAt": "2026-06-14T13:20:40.000Z",
       "geo": {
         "cityId": "india",
@@ -1016,7 +1016,7 @@
       "loveText": "Chehal pehal rehti hai, good food"
     },
     {
-      "id": "resp-28-1781613307288",
+      "id": "resp-28-1781702841218",
       "submittedAt": "2026-06-14T13:28:34.000Z",
       "geo": {
         "cityId": "india",
@@ -1046,7 +1046,7 @@
       "commentsText": "Har do din ke baad paani kam ho jaata hai, poor paani ki quality, hard water"
     },
     {
-      "id": "resp-29-1781613307288",
+      "id": "resp-29-1781702841218",
       "submittedAt": "2026-06-14T13:35:34.000Z",
       "geo": {
         "cityId": "india",
@@ -1083,7 +1083,7 @@
       "commentsText": "More public Library are needed"
     },
     {
-      "id": "resp-30-1781613307288",
+      "id": "resp-30-1781702841218",
       "submittedAt": "2026-06-14T13:36:26.000Z",
       "geo": {
         "cityId": "india",
@@ -1114,7 +1114,7 @@
       "loveText": "Helpful people"
     },
     {
-      "id": "resp-31-1781613307289",
+      "id": "resp-31-1781702841218",
       "submittedAt": "2026-06-14T13:41:24.000Z",
       "geo": {
         "cityId": "india",
@@ -1144,7 +1144,7 @@
       "loveText": "UPSC ka mahol acha hai, log ache hai, easily available hai sab kuch"
     },
     {
-      "id": "resp-32-1781613307289",
+      "id": "resp-32-1781702841219",
       "submittedAt": "2026-06-14T13:52:55.000Z",
       "geo": {
         "cityId": "india",
@@ -1192,7 +1192,7 @@
       "commentsText": "rash driving , law and order issue"
     },
     {
-      "id": "resp-33-1781613307289",
+      "id": "resp-33-1781702841219",
       "submittedAt": "2026-06-14T14:29:29.000Z",
       "geo": {
         "cityId": "india",
@@ -1222,7 +1222,7 @@
       "loveText": "great community"
     },
     {
-      "id": "resp-34-1781613307289",
+      "id": "resp-34-1781702841219",
       "submittedAt": "2026-06-14T14:36:49.000Z",
       "geo": {
         "cityId": "india",
@@ -1263,7 +1263,7 @@
       "commentsText": "Person looked heaitant to answer “humare mohalle ka naam kyu kharab kre kuch bolke”"
     },
     {
-      "id": "resp-35-1781613307289",
+      "id": "resp-35-1781702841219",
       "submittedAt": "2026-06-15T03:48:57.000Z",
       "geo": {
         "cityId": "india",
@@ -1297,7 +1297,7 @@
       "loveText": "Honestly its peaceful , its never loud"
     },
     {
-      "id": "resp-36-1781613307289",
+      "id": "resp-36-1781702841219",
       "submittedAt": "2026-06-15T04:52:31.000Z",
       "geo": {
         "cityId": "india",
@@ -1328,7 +1328,7 @@
       "commentsText": "One neighbour is very arrogant thinks they own the city, panchayat helps with that issue if it comes up."
     },
     {
-      "id": "resp-37-1781613307289",
+      "id": "resp-37-1781702841219",
       "submittedAt": "2026-06-15T08:25:50.000Z",
       "geo": {
         "cityId": "india",
@@ -1366,7 +1366,7 @@
       "commentsText": "gutters and 24 hours water and underground electricity was promised still waiting for it and if they give 24 hours water please give meter at the same time otherwise people will misuse it roads management should be done sweeper should be appointed"
     },
     {
-      "id": "resp-38-1781613307289",
+      "id": "resp-38-1781702841219",
       "submittedAt": "2026-06-15T09:48:52.000Z",
       "geo": {
         "cityId": "india",
@@ -1397,7 +1397,7 @@
       ]
     },
     {
-      "id": "resp-39-1781613307289",
+      "id": "resp-39-1781702841219",
       "submittedAt": "2026-06-15T10:41:01.000Z",
       "geo": {
         "cityId": "india",
@@ -1432,7 +1432,7 @@
       "commentsText": "Get rid of panchayats as they lack any accountability"
     },
     {
-      "id": "resp-40-1781613307289",
+      "id": "resp-40-1781702841219",
       "submittedAt": "2026-06-16T07:49:17.000Z",
       "geo": {
         "cityId": "india",

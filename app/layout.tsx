@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Geist_Mono } from "next/font/google";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { BRAND } from "@/config/brand";
 import "./globals.css";
 
 const inter = Inter({
@@ -15,9 +16,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "City Pulse — Civic Intelligence Dashboard",
-  description:
-    "Neighborhood survey insights for Delhi — safety, infrastructure, and community voice.",
+  title: {
+    default: BRAND.pageTitle,
+    template: `%s · ${BRAND.name}`,
+  },
+  description: BRAND.shortDescription,
 };
 
 export default function RootLayout({
