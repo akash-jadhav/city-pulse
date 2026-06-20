@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "hyderabad",
+    "importedAt": "2026-06-20T05:35:41.959Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "2a72dbc8ceee00b5"
+  },
+  "responses": [
+    {
+      "id": "resp-52-1781933734451",
+      "submittedAt": "2026-06-19T06:51:38.000Z",
+      "geo": {
+        "cityId": "hyderabad",
+        "coordinates": {
+          "lat": 17.327124,
+          "lng": 78.594457
+        },
+        "coordinatesValid": true,
+        "cityName": "Hyderabad"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "roadRating": "average",
+      "roadComment": "Many sinking manholes throughout our area . Approach road to main road is very steep and problematic. No foothpaths of standing place for people beaides main road for baording busses etc",
+      "civicHazards": [
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "garbage"
+      ],
+      "businessComment": "Parking congestion can be improved ,footpaths can be build ,proper parking spaces have to be available",
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "newspapers"
+      ],
+      "loveText": "Less congestion and large open places ( private and public offices ) keep the area relatively cool due to trees and air flow and ventilation is not a problem but things are beginning to change.",
+      "commentsText": "Overall there are systems that are in place but they donot work everytime and often donot coearly address the problem ."
+    }
+  ]
+}

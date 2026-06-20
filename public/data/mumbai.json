@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "mumbai",
+    "importedAt": "2026-06-20T05:35:41.956Z",
+    "source": "csv",
+    "totalResponses": 3,
+    "checksum": "d6b826a61734ccda"
+  },
+  "responses": [
+    {
+      "id": "resp-43-1781933734450",
+      "submittedAt": "2026-06-19T05:10:16.000Z",
+      "geo": {
+        "cityId": "mumbai",
+        "coordinates": {
+          "lat": 19.1418612,
+          "lng": 72.8075143
+        },
+        "coordinatesValid": true,
+        "cityName": "Mumbai"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "electricityComment": "Occasionally powercuts happen, especially during monsoon",
+      "roadRating": "average",
+      "roadComment": "The quality of the roads is okay but there is too much traffic everywhere, constant honking and rule breaking is very common here. There is construction going on everywhere which has ruined the air quality and has increased the traffic severally",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "safetyComment": "There are several areas in the neighborhood where class 1 drugs such as weed maybe sold, the authorities already know about it but it still is rampant. Most of these people are tippers and work for the police.",
+      "businessChallenges": [
+        "other",
+        "parking_congestion"
+      ],
+      "businessComment": "Homestly, more cleanliness and accesible roads would be amazing, there are normal street vendors and vegetable vendors that take 40% of the road in some areas, a fixed area for this would be better",
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "I have grown up in this neighborhood growing up it was very united community, people from all walks of life and religion would coexist. But lately there have been instances where communal politics has been seen and because of that certian incidents have also happened which have been somehow stopped by the locals to not make it a huge deal.",
+      "commentsText": "The water quality we get is quite poor, for eg my Buidlung has BMC supply, and a Borewell supply which we have created. For the past 6 months we are getting water (BMC) that is smelly, and seems like sewage water, on days where we do get it, it is very minimal. If we rely on borewell we have been getting less and less because someone in the area has started a water tanmer business and is oulling from the groundwater supply which is lowering the water level for everyone."
+    },
+    {
+      "id": "resp-48-1781933734451",
+      "submittedAt": "2026-06-19T05:54:17.000Z",
+      "geo": {
+        "cityId": "mumbai",
+        "coordinates": {
+          "lat": 19.05323242719346,
+          "lng": 72.890932178236
+        },
+        "coordinatesValid": true,
+        "cityName": "Mumbai"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "electricityComment": "supply is good but bills are too too too too high(adani btw)",
+      "roadRating": "average",
+      "roadComment": "potholes, potholes & potholes",
+      "civicHazards": [
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "too many wires, no management",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ]
+    },
+    {
+      "id": "resp-53-1781933734451",
+      "submittedAt": "2026-06-19T06:55:44.000Z",
+      "geo": {
+        "cityId": "mumbai",
+        "coordinates": {
+          "lat": 19.0420603,
+          "lng": 72.8939327
+        },
+        "coordinatesValid": true,
+        "cityName": "Mumbai"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "great",
+      "electricityComment": "No power cut and power backup available",
+      "roadRating": "average",
+      "roadComment": "Roads are good but footpath are bad and road cleanliness is bad",
+      "civicHazards": [
+        "water_logging",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "safetyComment": "I live in a gated society and most area around me is that but, there are unsafe spaces in the corners or slums in the area",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "garbage",
+        "lack_public_toilets"
+      ],
+      "businessComment": "Parking infrastructure and no parking on road implementation",
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Its safer and cleaner than surrounding area. Market is close by and work is approachable. Otherwise i seldom leave house",
+      "commentsText": "Too costly for the services being offered and congestion in market is a problem. And its extremely unsafe and hazardous for pedestrians"
+    }
+  ]
+}

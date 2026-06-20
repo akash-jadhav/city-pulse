@@ -1,37 +1,40 @@
 {
   "meta": {
     "version": "1.0.0",
-    "cityId": "vagator",
-    "importedAt": "2026-06-20T05:35:41.955Z",
+    "cityId": "rewa",
+    "importedAt": "2026-06-20T05:35:41.962Z",
     "source": "csv",
     "totalResponses": 1,
-    "checksum": "584d2eae638eb4b4"
+    "checksum": "67286df82d7906c3"
   },
   "responses": [
     {
-      "id": "resp-39-1781933734450",
-      "submittedAt": "2026-06-15T10:41:01.000Z",
+      "id": "resp-69-1781933734452",
+      "submittedAt": "2026-06-19T14:01:10.000Z",
       "geo": {
-        "cityId": "vagator",
+        "cityId": "rewa",
         "coordinates": {
-          "lat": 15.5991814,
-          "lng": 73.7423252
+          "lat": 24.536635,
+          "lng": 81.321102
         },
         "coordinatesValid": true,
-        "cityName": "Vagator"
+        "cityName": "Rewa"
       },
       "demographics": {
-        "age": "30 - 50",
+        "age": "18 - 29",
         "gender": "Male"
       },
       "housingStatus": "homeowner",
       "electricityRating": "average",
-      "roadRating": "average",
+      "electricityComment": "in winters, its perfect. but in summer and rainy season, electricity cut is very unreliable.",
+      "roadRating": "horrible",
+      "roadComment": "shit, literally.",
       "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
         "poor_garbage_collection",
         "potholes_broken_roads",
         "stray_animals",
-        "lack_of_parks",
         "other"
       ],
       "safetyRating": "completely_safe",
@@ -40,8 +43,8 @@
       "newsSources": [
         "neighbours"
       ],
-      "loveText": "It’s close to the beach, great location.",
-      "commentsText": "Get rid of panchayats as they lack any accountability"
+      "loveText": "grew up here, people probably.",
+      "commentsText": "no"
     }
   ]
 }

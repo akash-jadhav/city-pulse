@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "gwalior",
+    "importedAt": "2026-06-20T05:35:41.964Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "35570916fdca04d7"
+  },
+  "responses": [
+    {
+      "id": "resp-81-1781933734452",
+      "submittedAt": "2026-06-20T03:59:24.000Z",
+      "geo": {
+        "cityId": "gwalior",
+        "coordinates": {
+          "lat": 26.255853,
+          "lng": 78.205564
+        },
+        "coordinatesValid": true,
+        "cityName": "Gwalior"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "other",
+      "electricityRating": "good",
+      "electricityComment": "Electricity Supply is OK",
+      "roadRating": "horrible",
+      "roadComment": "Main Roads are okish, but the branch roads and inside colonies is horrible or non existent.",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "safetyComment": "I am in Chambal so what to expect",
+      "businessChallenges": [
+        "other",
+        "parking_congestion"
+      ],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "Very Little, people get work done through connections, so the govt machinery is just for namesake.",
+      "commentsText": "The city we are in is a failed smart city project."
+    }
+  ]
+}

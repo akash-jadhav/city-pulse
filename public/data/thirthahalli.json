@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "thirthahalli",
+    "importedAt": "2026-06-20T05:35:41.961Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "ca90ebd4d700a911"
+  },
+  "responses": [
+    {
+      "id": "resp-64-1781933734451",
+      "submittedAt": "2026-06-19T11:18:34.000Z",
+      "geo": {
+        "cityId": "thirthahalli",
+        "coordinates": {
+          "lat": 13.68911,
+          "lng": 75.23929
+        },
+        "coordinatesValid": true,
+        "cityName": "Thirthahalli"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "average",
+      "electricityComment": "It’s more of a rural township in wester ghats. So there’d be constant power cuts. Situation is worse as we move interior",
+      "roadRating": "average",
+      "civicHazards": [
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [
+        "parking_congestion",
+        "harassment_by_administration",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "Comparatively clean air and less pollution"
+    }
+  ]
+}

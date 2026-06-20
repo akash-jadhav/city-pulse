@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "nashik",
+    "importedAt": "2026-06-20T05:35:41.961Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "eed702bbe80b1237"
+  },
+  "responses": [
+    {
+      "id": "resp-65-1781933734452",
+      "submittedAt": "2026-06-19T12:08:42.000Z",
+      "geo": {
+        "cityId": "nashik",
+        "coordinates": {
+          "lat": 20.0209629,
+          "lng": 73.7574991
+        },
+        "coordinatesValid": true,
+        "cityName": "Nashik"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "electricityComment": "There are frequent power cuts, especially in summers, in mae of - preparing for monsoons - but the first rains and boom, no power! What preparation!",
+      "roadRating": "bad",
+      "roadComment": "There is no road right now. Honestly this is. Bad time to respond to this survey for Nashik, because the city is dig up in \"preparation of the Kumbh\". But my rating is for my area even otherwise.",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "I stay in a neighbourhood with no development around. Covered in bushes. Feels like anything could be hiding there, with increase in leopard sightings around, it's kinda scary. Not so scary to drive, but walk I won't.",
+      "businessChallenges": [
+        "parking_congestion",
+        "garbage"
+      ],
+      "businessComment": "Better road with footpath, and parking. Proper planning.",
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "newspapers"
+      ],
+      "loveText": "It's quiet and less traffic. So long!",
+      "commentsText": "No"
+    }
+  ]
+}

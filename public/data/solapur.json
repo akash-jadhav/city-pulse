@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "solapur",
+    "importedAt": "2026-06-20T05:35:41.962Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "76b44459b5031647"
+  },
+  "responses": [
+    {
+      "id": "resp-70-1781933734452",
+      "submittedAt": "2026-06-19T14:40:48.000Z",
+      "geo": {
+        "cityId": "solapur",
+        "coordinates": {
+          "lat": 17.667303,
+          "lng": 75.916954
+        },
+        "coordinatesValid": true,
+        "cityName": "Solapur"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "electricityComment": "Electricity rate is high",
+      "roadRating": "good",
+      "civicHazards": [
+        "petty_crime_unsafe"
+      ],
+      "safetyRating": "not_safe",
+      "safetyComment": "Needs improvement",
+      "businessChallenges": [],
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Togetherness",
+      "commentsText": "Public safety needs to be better"
+    }
+  ]
+}

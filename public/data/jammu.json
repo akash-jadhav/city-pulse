@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "jammu",
+    "importedAt": "2026-06-20T05:35:41.962Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "54bae172741e28c6"
+  },
+  "responses": [
+    {
+      "id": "resp-72-1781933734452",
+      "submittedAt": "2026-06-19T15:38:35.000Z",
+      "geo": {
+        "cityId": "jammu",
+        "coordinates": {
+          "lat": 32.664581,
+          "lng": 74.841055
+        },
+        "coordinatesValid": true,
+        "cityName": "Jammu"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "Alot of powercuts specially during summers",
+      "roadRating": "bad",
+      "roadComment": "This road in our colony was broken 3 years ago for fixing a drain and it is still not fixed.",
+      "civicHazards": [
+        "water_logging",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks"
+      ],
+      "safetyRating": "sometimes_safe",
+      "safetyComment": "Alot of drunk people during evenings",
+      "businessChallenges": [
+        "garbage"
+      ],
+      "businessComment": "Better cleaning services, less harrasment from the officials",
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "It is still a very peaceful place to live and crime rate is low",
+      "commentsText": "none"
+    }
+  ]
+}

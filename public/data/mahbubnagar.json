@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "mahbubnagar",
+    "importedAt": "2026-06-20T05:35:41.963Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "9af52c6089273cf2"
+  },
+  "responses": [
+    {
+      "id": "resp-78-1781933734452",
+      "submittedAt": "2026-06-19T16:46:48.000Z",
+      "geo": {
+        "cityId": "mahbubnagar",
+        "coordinates": {
+          "lat": 16.737509,
+          "lng": 78.008125
+        },
+        "coordinatesValid": true,
+        "cityName": "Mahbubnagar"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "roadRating": "good",
+      "roadComment": "In telangana except hyderabad all the roads are great. village roads, town roads are very well maintained but when it comes to hyderabad may be due to kichidi of Bureaucracy, mayor, and govt lot many decision takers involved the problem exists.",
+      "civicHazards": [
+        "stray_animals"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "newspapers"
+      ],
+      "loveText": "People, Reasons is people have the guts to go live on media and scold CM. Telangana culture have the spirit of questioning the authorities that what evolved as telangana movement.",
+      "commentsText": "In telangana the basic (includes villages, towns, cities) good roads, 24hr electricity, water connection to all house holds and every district has a Reservoir for agriculture. Mission bhagiratha - every home gets water connectioin for free sucessful. Mission kakatiya - i dont know what happened. mission haritha haram - successful hope govt plan fro 2.0, kg to pg flop. If possible i request to make a video on TIMS telangana."
+    }
+  ]
+}

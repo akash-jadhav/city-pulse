@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "kanpur",
+    "importedAt": "2026-06-20T05:35:41.961Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "0ac3eb268a55cc81"
+  },
+  "responses": [
+    {
+      "id": "resp-67-1781933734452",
+      "submittedAt": "2026-06-19T13:28:21.000Z",
+      "geo": {
+        "cityId": "kanpur",
+        "coordinates": {
+          "lat": 26.464279,
+          "lng": 80.227083
+        },
+        "coordinatesValid": true,
+        "cityName": "Kanpur"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "roadRating": "bad",
+      "roadComment": "There is a specific road here that is constructed every 5-6 months or so, and within 2-3 days its completely disintegrated.",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "Since my area is on the outskirts of the city, the light pollution here is lesser than that in the main city so I am able to look at stars sometimes.",
+      "commentsText": "The levels of pollution here is horrible mostly air pollution (dust) (avg AQI 120) that is caused by the going on metro construction."
+    }
+  ]
+}

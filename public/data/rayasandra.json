@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "rayasandra",
+    "importedAt": "2026-06-20T05:35:41.958Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "178face272201f91"
+  },
+  "responses": [
+    {
+      "id": "resp-49-1781933734451",
+      "submittedAt": "2026-06-19T05:57:40.000Z",
+      "geo": {
+        "cityId": "rayasandra",
+        "coordinates": {
+          "lat": 12.8797,
+          "lng": 77.6841
+        },
+        "coordinatesValid": true,
+        "cityName": "Rayasandra"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "Atleast we get subsidised electricity",
+      "roadRating": "bad",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "businessChallenges": [
+        "parking_congestion",
+        "garbage",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "Well atleast its accessible to major hubs in Bangalore easily, metro, buses and other public transports are easily accessible"
+    }
+  ]
+}

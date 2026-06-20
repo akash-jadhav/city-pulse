@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "kalyan",
+    "importedAt": "2026-06-20T05:35:41.959Z",
+    "source": "csv",
+    "totalResponses": 2,
+    "checksum": "2a1bde911ba629dd"
+  },
+  "responses": [
+    {
+      "id": "resp-55-1781933734451",
+      "submittedAt": "2026-06-19T07:37:12.000Z",
+      "geo": {
+        "cityId": "kalyan",
+        "coordinates": {
+          "lat": 19.2089,
+          "lng": 73.0955
+        },
+        "coordinatesValid": true,
+        "cityName": "Kalyan"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "Nowadays a lot of random powercuts are observed",
+      "roadRating": "horrible",
+      "roadComment": "It's not worth calling them roads especially when you've lived abroad where roads are designed... Let's call these alleyways always under construction and still have potholes and uneven levelling",
+      "civicHazards": [
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Compared to most countries abroad and most other parts of India, I feel extremely safe in my neighborhood and largely the Mumbai Metropolitan Region, even if my wife were to travel late in the night alone, touch wood safety hasn't been a big concern so far.",
+      "commentsText": "It's also been BJP and RSS 'Balekilla' with decades of their stronghold  and cultural influence."
+    },
+    {
+      "id": "resp-60-1781933734451",
+      "submittedAt": "2026-06-19T08:41:32.000Z",
+      "geo": {
+        "cityId": "kalyan",
+        "coordinates": {
+          "lat": 19.2110315,
+          "lng": 73.1038677
+        },
+        "coordinatesValid": true,
+        "cityName": "Kalyan"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "Ridiculously expensive. Senseless usage policy. Maharashtra (MSEDCL) probably is the most expensive DISCOM in the country for residential electricity. You pay almost double with every slab in and around KDMC(my municipality). And the charges for usage from 0-100 would directly double if you used 101 units on a certain month. Same with 100-300, 300-500 and 500+. Charges don't get separated slab-wise!",
+      "roadRating": "bad",
+      "roadComment": "I know roads in entire Maharashtra are pretty bad.. But I don't know what it is about Mumbai, Thane, Kalyan, Dombivali, Ulhasnagar. Our roads are really badly planned and horribly made. The upkeep is an excuse for contractors to make money. Speed breakers hit cars with very high ground clearence. Which leads to entire city buying taller and bigger cars.",
+      "civicHazards": [
+        "water_logging",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "There are entitled teenager of a certain political and community classes which behave like the own the streets, drive horribly, Dark out the glasses. Cops do nothing about them.",
+      "businessChallenges": [
+        "other",
+        "garbage",
+        "harassment_by_administration"
+      ],
+      "businessComment": "Road, Walkability, Garbage. City itself is a hazard for the general populous.",
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "My closer neighbourhood has good people, well educated and roads have been recently concretised.",
+      "commentsText": "Make solar net metering easier in Maharashtra! Why is this not a priority?"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "indore",
+    "importedAt": "2026-06-20T05:35:41.961Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "1c33910460bced99"
+  },
+  "responses": [
+    {
+      "id": "resp-66-1781933734452",
+      "submittedAt": "2026-06-19T12:50:24.000Z",
+      "geo": {
+        "cityId": "indore",
+        "coordinates": {
+          "lat": 22.660839,
+          "lng": 75.906436
+        },
+        "coordinatesValid": true,
+        "cityName": "Indore"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "roadRating": "average",
+      "civicHazards": [
+        "broken_streetlights",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "not_safe",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "sealing_threats"
+      ],
+      "businessComment": "Better footpaths, more trees",
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "newspapers"
+      ],
+      "loveText": "Clean, good garbage collection"
+    }
+  ]
+}

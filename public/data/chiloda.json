@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "chiloda",
+    "importedAt": "2026-06-20T05:35:41.958Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "864c2919deafb960"
+  },
+  "responses": [
+    {
+      "id": "resp-51-1781933734451",
+      "submittedAt": "2026-06-19T06:23:54.000Z",
+      "geo": {
+        "cityId": "chiloda",
+        "coordinates": {
+          "lat": 23.2253,
+          "lng": 72.7318
+        },
+        "coordinatesValid": true,
+        "cityName": "Chiloda"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "bad",
+      "electricityComment": "Highly unstable",
+      "roadRating": "average",
+      "roadComment": "Roads are mostly broken and highway roads are finally getting rebuilt after fights",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ]
+    }
+  ]
+}

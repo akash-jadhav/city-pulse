@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "bhiwadi",
+    "importedAt": "2026-06-20T05:35:41.960Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "ae84c3ecada33cb1"
+  },
+  "responses": [
+    {
+      "id": "resp-63-1781933734451",
+      "submittedAt": "2026-06-19T11:05:55.000Z",
+      "geo": {
+        "cityId": "bhiwadi",
+        "coordinates": {
+          "lat": 28.1967677,
+          "lng": 76.8086751
+        },
+        "coordinatesValid": true,
+        "cityName": "Bhiwadi"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "roadRating": "average",
+      "civicHazards": [
+        "water_logging",
+        "poor_garbage_collection",
+        "stray_animals",
+        "lack_of_parks"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "other"
+      ]
+    }
+  ]
+}

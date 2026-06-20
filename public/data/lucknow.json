@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "lucknow",
+    "importedAt": "2026-06-20T05:35:41.964Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "3aea588dc7523895"
+  },
+  "responses": [
+    {
+      "id": "resp-82-1781933734452",
+      "submittedAt": "2026-06-20T04:03:30.000Z",
+      "geo": {
+        "cityId": "lucknow",
+        "coordinates": {
+          "lat": 26.7938509,
+          "lng": 80.8880659
+        },
+        "coordinatesValid": true,
+        "cityName": "Lucknow"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "roadRating": "average",
+      "roadComment": "no public dustbins so people throw trash on road",
+      "civicHazards": [
+        "water_logging",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "newspapers"
+      ],
+      "loveText": "safety"
+    }
+  ]
+}

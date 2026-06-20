@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "tikli",
+    "importedAt": "2026-06-20T05:35:41.959Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "893f6d79b9c7068c"
+  },
+  "responses": [
+    {
+      "id": "resp-54-1781933734451",
+      "submittedAt": "2026-06-19T07:13:24.000Z",
+      "geo": {
+        "cityId": "tikli",
+        "coordinates": {
+          "lat": 28.3335,
+          "lng": 77.04163
+        },
+        "coordinatesValid": true,
+        "cityName": "Tikli"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "roadRating": "bad",
+      "roadComment": "No spaces for walking, cycling, access to market other parts of area bottlenecked because of overflowing unclean drain, MCD garbage dumps overflowing with area around unclean, full with stray dogs, animals!",
+      "civicHazards": [
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "not_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "Community, still keeping what somewhat village community in a urban/semi urban town-ish village midst in middle of city!"
+    }
+  ]
+}

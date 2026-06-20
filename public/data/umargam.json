@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "umargam",
+    "importedAt": "2026-06-20T05:35:41.963Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "e1702b7c92b1ec41"
+  },
+  "responses": [
+    {
+      "id": "resp-76-1781933734452",
+      "submittedAt": "2026-06-19T15:54:49.000Z",
+      "geo": {
+        "cityId": "umargam",
+        "coordinates": {
+          "lat": 20.1704082,
+          "lng": 72.7678588
+        },
+        "coordinatesValid": true,
+        "cityName": "Umargam"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "electricityComment": "Takleef nahi hai waise jyada. Industrial area hai agar tufaan aaye toh 2-3 Hr jaati hai verna sab thik.",
+      "roadRating": "bad",
+      "roadComment": "Har saal banega,agle saal se pehle gaayab.",
+      "civicHazards": [
+        "poor_garbage_collection"
+      ],
+      "safetyRating": "completely_safe",
+      "safetyComment": "Nope.",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "Log yahan politics nahi karte hain. Aapne kaam se kaam rakhte hain.",
+      "commentsText": "Garmi mein paani ka bahat dikkat hai. Bahaut khaara Paani."
+    }
+  ]
+}

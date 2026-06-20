@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "birpur",
+    "importedAt": "2026-06-20T05:35:41.962Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "a7e70a5d55b4e9ea"
+  },
+  "responses": [
+    {
+      "id": "resp-71-1781933734452",
+      "submittedAt": "2026-06-19T15:08:13.000Z",
+      "geo": {
+        "cityId": "birpur",
+        "coordinates": {
+          "lat": 26.515636,
+          "lng": 87.008479
+        },
+        "coordinatesValid": true,
+        "cityName": "Birpur"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "Even the least rains or wind results in hours of cutoff, also if something breaks, it takes more than half a day to fix atleast.",
+      "roadRating": "bad",
+      "roadComment": "Multiple accidents and deaths. No media coverage",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "petty_crime_unsafe",
+        "other"
+      ],
+      "safetyRating": "not_safe",
+      "safetyComment": "\"i can't comment because there isn't anything to comment\"",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "garbage",
+        "harassment_by_administration",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "Nature, Trees, Jungles and Birds",
+      "commentsText": "Almost No Education opportunity, basically education is not even a topic"
+    }
+  ]
+}

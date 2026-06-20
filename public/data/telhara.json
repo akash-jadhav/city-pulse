@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "telhara",
+    "importedAt": "2026-06-20T05:35:41.957Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "e8c1b0ed9f353387"
+  },
+  "responses": [
+    {
+      "id": "resp-47-1781933734451",
+      "submittedAt": "2026-06-19T05:52:56.000Z",
+      "geo": {
+        "cityId": "telhara",
+        "coordinates": {
+          "lat": 21.06204,
+          "lng": 79.02441
+        },
+        "coordinatesValid": true,
+        "cityName": "Telhara"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "roadRating": "good",
+      "civicHazards": [
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "stray_animals",
+        "petty_crime_unsafe"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [
+        "other",
+        "harassment_by_administration",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "nothing"
+    }
+  ]
+}

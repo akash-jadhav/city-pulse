@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "panaji",
+    "importedAt": "2026-06-20T05:35:41.955Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "20a553c0f335fb5d"
+  },
+  "responses": [
+    {
+      "id": "resp-41-1781933734450",
+      "submittedAt": "2026-06-19T04:50:59.000Z",
+      "geo": {
+        "cityId": "panaji",
+        "coordinates": {
+          "lat": 15.500155,
+          "lng": 73.828696
+        },
+        "coordinatesValid": true,
+        "cityName": "Panaji"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "roadRating": "average",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "potholes_broken_roads"
+      ],
+      "safetyRating": "sometimes_safe",
+      "businessChallenges": [
+        "parking_congestion"
+      ],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "social_media"
+      ]
+    }
+  ]
+}

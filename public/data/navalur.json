@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "navalur",
+    "importedAt": "2026-06-20T05:35:41.961Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "8c29ea073d3357dd"
+  },
+  "responses": [
+    {
+      "id": "resp-68-1781933734452",
+      "submittedAt": "2026-06-19T13:54:02.000Z",
+      "geo": {
+        "cityId": "navalur",
+        "coordinates": {
+          "lat": 12.849057,
+          "lng": 80.230241
+        },
+        "coordinatesValid": true,
+        "cityName": "Navalur"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "bad",
+      "electricityComment": "Electricity supply has recently deteriorated post recent elections",
+      "roadRating": "good",
+      "roadComment": "Water logging post rains resulting in predictable traffic jams at certain location.",
+      "civicHazards": [
+        "stray_animals"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "No petty crimes. You can leave helmet on bike without lock and it usually never gets stolen.",
+      "businessChallenges": [],
+      "businessComment": "Live near majpr arterial road. Need padestrian crossing infrastructure",
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Gated community, kids can play outside without supervision.",
+      "commentsText": "If you arrle willing to pay or can afford it, large gated communities are best."
+    }
+  ]
+}

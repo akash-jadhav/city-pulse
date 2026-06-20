@@ -2,23 +2,170 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "bengaluru",
-    "importedAt": "2026-06-14T12:05:59.464Z",
+    "importedAt": "2026-06-20T05:35:41.956Z",
     "source": "csv",
-    "totalResponses": 1,
-    "checksum": "4e529e96fc84a1f7"
+    "totalResponses": 6,
+    "checksum": "75df41f226eadbbe"
   },
   "responses": [
     {
-      "submittedAt": "2026-06-12T12:57:38.000Z",
+      "id": "resp-42-1781933734450",
+      "submittedAt": "2026-06-19T04:59:09.000Z",
       "geo": {
         "cityId": "bengaluru",
-        "cityName": "Bengaluru",
         "coordinates": {
-          "lat": 12.8863,
-          "lng": 77.586091
+          "lat": 13.0328509,
+          "lng": 77.5779471
         },
         "coordinatesValid": true,
-        "localityName": "Out of bounds sample"
+        "cityName": "Bengaluru"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "Decent but gets disrupted during rainy days",
+      "roadRating": "bad",
+      "roadComment": "Absolute worst, half dug up roads, loose gravel all around , dust",
+      "civicHazards": [
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "Lot secure than most neighbourhoods",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "newspapers"
+      ],
+      "loveText": "Greenary",
+      "commentsText": "Political hoardings everywhere, even the bus stops have politician face on it and on parks every bench is carved with politician name who is a local mla, I have raised rti but no response"
+    },
+    {
+      "id": "resp-45-1781933734450",
+      "submittedAt": "2026-06-19T05:14:27.000Z",
+      "geo": {
+        "cityId": "bengaluru",
+        "coordinates": {
+          "lat": 12.9821918,
+          "lng": 77.5603323
+        },
+        "coordinatesValid": true,
+        "cityName": "Bengaluru"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "roadRating": "average",
+      "roadComment": "Roads are getting damaged by construction of houses , but after construction both owner nor the government fixes the road may after few years they deside to fill the pothole but still will be like a patch not smooth as before",
+      "civicHazards": [
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [
+        "parking_congestion",
+        "lack_public_toilets"
+      ],
+      "businessComment": "Parking spaces and good footpath without vehicle and blocked by random stuffs",
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "It's very central location to Bangalore but still not at all crowded it's like peace but as central you can get before evening gets crowded"
+    },
+    {
+      "id": "resp-57-1781933734451",
+      "submittedAt": "2026-06-19T08:11:23.000Z",
+      "geo": {
+        "cityId": "bengaluru",
+        "coordinates": {
+          "lat": 12.975016,
+          "lng": 77.653313
+        },
+        "coordinatesValid": true,
+        "cityName": "Bengaluru"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "roadRating": "horrible",
+      "civicHazards": [
+        "water_logging",
+        "poor_garbage_collection",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "harassment_by_administration",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "That we don't care about educating ourselves citizen participation, and we love to compain and blame than take action",
+      "commentsText": "A strong community that can have deep roots in local governing body is missing since the last 20 years in 560075"
+    },
+    {
+      "id": "resp-58-1781933734451",
+      "submittedAt": "2026-06-19T08:17:44.000Z",
+      "geo": {
+        "cityId": "bengaluru",
+        "coordinates": {
+          "lat": 12.976382,
+          "lng": 77.650477
+        },
+        "coordinatesValid": true,
+        "cityName": "Bengaluru"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "roadRating": "horrible",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "neighbours"
+      ]
+    },
+    {
+      "id": "resp-59-1781933734451",
+      "submittedAt": "2026-06-19T08:30:50.000Z",
+      "geo": {
+        "cityId": "bengaluru",
+        "coordinates": {
+          "lat": 12.9706839,
+          "lng": 77.762819
+        },
+        "coordinatesValid": true,
+        "cityName": "Bengaluru"
       },
       "demographics": {
         "age": "30 - 50",
@@ -26,27 +173,62 @@
       },
       "housingStatus": "tenant",
       "electricityRating": "average",
-      "electricityComment": "average electricity",
-      "roadRating": "bad",
-      "roadComment": "small roads",
+      "electricityComment": "Very frequent power cuts some times",
+      "roadRating": "horrible",
+      "roadComment": "Illegal encroachment in front of my society itself, the person is not allowing to build roads",
       "civicHazards": [
         "water_logging",
-        "stray_animals"
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
       ],
-      "safetyRating": "quite_safe",
-      "safetyComment": "security concerns in some lanes",
-      "businessChallenges": [
-        "parking_congestion",
-        "harassment_by_administration"
+      "safetyRating": "sometimes_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
       ],
-      "businessComment": "Need better vendor policies",
-      "emergencyResponse": "system_works",
+      "commentsText": "Please help in building proper roads"
+    },
+    {
+      "id": "resp-75-1781933734452",
+      "submittedAt": "2026-06-19T15:54:49.000Z",
+      "geo": {
+        "cityId": "bengaluru",
+        "coordinates": {
+          "lat": 12.940833,
+          "lng": 77.6254
+        },
+        "coordinatesValid": true,
+        "cityName": "Bengaluru"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "bad",
+      "electricityComment": "Power cut 5-6 hours a day",
+      "roadRating": "horrible",
+      "roadComment": "No roads, only potholes. I tried multiple govt apps to complain but nothing gets fixed.",
+      "civicHazards": [
+        "water_logging",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "safetyComment": "This area is very safe. Police vehicles passes multiple times after 9 PM and police does not harrass people. Street lights everywhere.",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
       "newsSources": [
         "social_media"
       ],
-      "loveText": "Friendly neighbours and local markets",
-      "commentsText": "Would like better street lighting",
-      "id": "seed-1"
+      "loveText": "The small stalls and food. Rent is afforadable acc to bangalore standards.",
+      "commentsText": "Water logging even if it rains 5 mins"
     }
   ]
 }

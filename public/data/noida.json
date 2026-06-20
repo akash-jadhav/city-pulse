@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "noida",
+    "importedAt": "2026-06-20T05:35:41.963Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "89d746ec79e5ac46"
+  },
+  "responses": [
+    {
+      "id": "resp-80-1781933734452",
+      "submittedAt": "2026-06-19T20:16:09.000Z",
+      "geo": {
+        "cityId": "noida",
+        "coordinates": {
+          "lat": 28.5728,
+          "lng": 77.3548
+        },
+        "coordinatesValid": true,
+        "cityName": "Noida"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "other",
+      "electricityRating": "good",
+      "electricityComment": "Was a lil inconsistent during the stormy days this year thats the only thing stoping it from five stars",
+      "roadRating": "good",
+      "roadComment": "They were great then dug up for new sewage pipes",
+      "civicHazards": [
+        "stray_animals"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "Noida is generally safe till you go to unplanned parts",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "Its much more structured and planned with wide enough roads green spaces and public infrastructure",
+      "commentsText": "For all the great things in noida generally for a public quite comfy there are few very distrubing serial killer american psyco crime cases that we never imagined happens here pop up time to time , yeah you can look that up usually around unplanned parts like the parts that predate the planned noida for example mithari"
+    }
+  ]
+}

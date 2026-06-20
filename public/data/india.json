@@ -2,14 +2,14 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "india",
-    "importedAt": "2026-06-17T13:27:26.809Z",
+    "importedAt": "2026-06-20T05:35:41.965Z",
     "source": "csv",
-    "totalResponses": 41,
-    "checksum": "b66527f383f4b790"
+    "totalResponses": 84,
+    "checksum": "243a1d869a798339"
   },
   "responses": [
     {
-      "id": "resp-0-1781702841215",
+      "id": "resp-0-1781933734444",
       "submittedAt": "2026-06-12T14:35:39.000Z",
       "geo": {
         "cityId": "india",
@@ -40,7 +40,7 @@
       "loveText": "it's greener than many other areas; decent shops"
     },
     {
-      "id": "resp-1-1781702841216",
+      "id": "resp-1-1781933734446",
       "submittedAt": "2026-06-12T16:10:12.000Z",
       "geo": {
         "cityId": "india",
@@ -78,7 +78,7 @@
       "loveText": "It’s near the metro station (10Mins by rickshaw)"
     },
     {
-      "id": "resp-2-1781702841217",
+      "id": "resp-2-1781933734447",
       "submittedAt": "2026-06-12T16:59:08.000Z",
       "geo": {
         "cityId": "india",
@@ -114,7 +114,7 @@
       ]
     },
     {
-      "id": "resp-3-1781702841217",
+      "id": "resp-3-1781933734447",
       "submittedAt": "2026-06-12T18:10:00.000Z",
       "geo": {
         "cityId": "india",
@@ -149,7 +149,7 @@
       "loveText": "Greenery"
     },
     {
-      "id": "resp-4-1781702841217",
+      "id": "resp-4-1781933734447",
       "submittedAt": "2026-06-13T04:14:00.000Z",
       "geo": {
         "cityId": "india",
@@ -186,7 +186,7 @@
       "commentsText": "Thanks for doing this, adding my own answer as the first survey I conduct for this exercise soo let's do this !"
     },
     {
-      "id": "resp-5-1781702841217",
+      "id": "resp-5-1781933734447",
       "submittedAt": "2026-06-13T04:41:12.000Z",
       "geo": {
         "cityId": "india",
@@ -229,7 +229,7 @@
       "loveText": "It’s proximity to my office and other areas I visit often."
     },
     {
-      "id": "resp-6-1781702841217",
+      "id": "resp-6-1781933734448",
       "submittedAt": "2026-06-13T08:05:52.000Z",
       "geo": {
         "cityId": "india",
@@ -265,7 +265,7 @@
       "loveText": "lots of people"
     },
     {
-      "id": "resp-7-1781702841217",
+      "id": "resp-7-1781933734448",
       "submittedAt": "2026-06-13T08:12:25.000Z",
       "geo": {
         "cityId": "india",
@@ -303,7 +303,7 @@
       "loveText": "nothing"
     },
     {
-      "id": "resp-8-1781702841217",
+      "id": "resp-8-1781933734448",
       "submittedAt": "2026-06-13T12:29:06.000Z",
       "geo": {
         "cityId": "india",
@@ -334,7 +334,7 @@
       ]
     },
     {
-      "id": "resp-9-1781702841217",
+      "id": "resp-9-1781933734448",
       "submittedAt": "2026-06-13T12:32:44.000Z",
       "geo": {
         "cityId": "india",
@@ -368,7 +368,7 @@
       ]
     },
     {
-      "id": "resp-10-1781702841217",
+      "id": "resp-10-1781933734448",
       "submittedAt": "2026-06-13T12:32:46.000Z",
       "geo": {
         "cityId": "india",
@@ -405,7 +405,7 @@
       "loveText": "people are nice"
     },
     {
-      "id": "resp-11-1781702841217",
+      "id": "resp-11-1781933734448",
       "submittedAt": "2026-06-13T12:36:15.000Z",
       "geo": {
         "cityId": "india",
@@ -440,7 +440,7 @@
       ]
     },
     {
-      "id": "resp-12-1781702841218",
+      "id": "resp-12-1781933734448",
       "submittedAt": "2026-06-13T12:55:57.000Z",
       "geo": {
         "cityId": "india",
@@ -477,7 +477,7 @@
       "commentsText": "Even though it was known as a chor gully earlier, in the 1980 and before, today it's pretty safe !"
     },
     {
-      "id": "resp-13-1781702841218",
+      "id": "resp-13-1781933734448",
       "submittedAt": "2026-06-13T12:59:59.000Z",
       "geo": {
         "cityId": "india",
@@ -512,7 +512,7 @@
       "commentsText": "Parks have been taken over by people who consume drugs & are unemployed"
     },
     {
-      "id": "resp-14-1781702841218",
+      "id": "resp-14-1781933734448",
       "submittedAt": "2026-06-13T13:15:13.000Z",
       "geo": {
         "cityId": "india",
@@ -549,7 +549,7 @@
       ]
     },
     {
-      "id": "resp-15-1781702841218",
+      "id": "resp-15-1781933734448",
       "submittedAt": "2026-06-13T13:16:16.000Z",
       "geo": {
         "cityId": "india",
@@ -587,7 +587,7 @@
       "commentsText": "Bhagat Singh park got closed/shut abruptly. We used to frequent there only"
     },
     {
-      "id": "resp-16-1781702841218",
+      "id": "resp-16-1781933734448",
       "submittedAt": "2026-06-13T13:20:35.000Z",
       "geo": {
         "cityId": "india",
@@ -624,7 +624,7 @@
       "loveText": "Unity and respect. People are cooperative"
     },
     {
-      "id": "resp-17-1781702841218",
+      "id": "resp-17-1781933734448",
       "submittedAt": "2026-06-14T04:09:44.000Z",
       "geo": {
         "cityId": "india",
@@ -657,7 +657,7 @@
       "commentsText": "Money transfer issues - can’t send money to his hometown in Nepal as he doesn’t have Aadhaar card. He can only do a bank to bank transfer, and for that he has to go to a far away bank branch in mapusa."
     },
     {
-      "id": "resp-18-1781702841218",
+      "id": "resp-18-1781933734449",
       "submittedAt": "2026-06-14T05:23:34.000Z",
       "geo": {
         "cityId": "india",
@@ -691,7 +691,7 @@
       "commentsText": "Neglected public spaces, such as parks and vacant government-owned plots, are often frequented by individuals involved in substance abuse."
     },
     {
-      "id": "resp-19-1781702841218",
+      "id": "resp-19-1781933734449",
       "submittedAt": "2026-06-14T06:25:48.000Z",
       "geo": {
         "cityId": "india",
@@ -729,7 +729,7 @@
       "commentsText": "No comments"
     },
     {
-      "id": "resp-20-1781702841218",
+      "id": "resp-20-1781933734449",
       "submittedAt": "2026-06-14T12:38:54.000Z",
       "geo": {
         "cityId": "india",
@@ -759,7 +759,7 @@
       "loveText": "great community"
     },
     {
-      "id": "resp-21-1781702841218",
+      "id": "resp-21-1781933734449",
       "submittedAt": "2026-06-14T12:50:40.000Z",
       "geo": {
         "cityId": "india",
@@ -797,7 +797,7 @@
       "loveText": "community is nice, everyone helps each other out"
     },
     {
-      "id": "resp-22-1781702841218",
+      "id": "resp-22-1781933734449",
       "submittedAt": "2026-06-14T12:50:41.000Z",
       "geo": {
         "cityId": "india",
@@ -835,7 +835,7 @@
       "loveText": "Unity in diversity"
     },
     {
-      "id": "resp-23-1781702841218",
+      "id": "resp-23-1781933734449",
       "submittedAt": "2026-06-14T12:54:06.000Z",
       "geo": {
         "cityId": "india",
@@ -867,7 +867,7 @@
       "loveText": "Very safe"
     },
     {
-      "id": "resp-24-1781702841218",
+      "id": "resp-24-1781933734449",
       "submittedAt": "2026-06-14T13:06:59.000Z",
       "geo": {
         "cityId": "india",
@@ -899,7 +899,7 @@
       "loveText": "Customer"
     },
     {
-      "id": "resp-25-1781702841218",
+      "id": "resp-25-1781933734449",
       "submittedAt": "2026-06-14T13:11:15.000Z",
       "geo": {
         "cityId": "india",
@@ -942,7 +942,7 @@
       "commentsText": "police work with influencial and powerful, also castism and regionalism in police approach"
     },
     {
-      "id": "resp-26-1781702841218",
+      "id": "resp-26-1781933734449",
       "submittedAt": "2026-06-14T13:19:19.000Z",
       "geo": {
         "cityId": "india",
@@ -977,7 +977,7 @@
       "commentsText": "public library could be more spacious"
     },
     {
-      "id": "resp-27-1781702841218",
+      "id": "resp-27-1781933734449",
       "submittedAt": "2026-06-14T13:20:40.000Z",
       "geo": {
         "cityId": "india",
@@ -1016,7 +1016,7 @@
       "loveText": "Chehal pehal rehti hai, good food"
     },
     {
-      "id": "resp-28-1781702841218",
+      "id": "resp-28-1781933734450",
       "submittedAt": "2026-06-14T13:28:34.000Z",
       "geo": {
         "cityId": "india",
@@ -1046,7 +1046,7 @@
       "commentsText": "Har do din ke baad paani kam ho jaata hai, poor paani ki quality, hard water"
     },
     {
-      "id": "resp-29-1781702841218",
+      "id": "resp-29-1781933734450",
       "submittedAt": "2026-06-14T13:35:34.000Z",
       "geo": {
         "cityId": "india",
@@ -1083,7 +1083,7 @@
       "commentsText": "More public Library are needed"
     },
     {
-      "id": "resp-30-1781702841218",
+      "id": "resp-30-1781933734450",
       "submittedAt": "2026-06-14T13:36:26.000Z",
       "geo": {
         "cityId": "india",
@@ -1114,7 +1114,7 @@
       "loveText": "Helpful people"
     },
     {
-      "id": "resp-31-1781702841218",
+      "id": "resp-31-1781933734450",
       "submittedAt": "2026-06-14T13:41:24.000Z",
       "geo": {
         "cityId": "india",
@@ -1144,7 +1144,7 @@
       "loveText": "UPSC ka mahol acha hai, log ache hai, easily available hai sab kuch"
     },
     {
-      "id": "resp-32-1781702841219",
+      "id": "resp-32-1781933734450",
       "submittedAt": "2026-06-14T13:52:55.000Z",
       "geo": {
         "cityId": "india",
@@ -1192,7 +1192,7 @@
       "commentsText": "rash driving , law and order issue"
     },
     {
-      "id": "resp-33-1781702841219",
+      "id": "resp-33-1781933734450",
       "submittedAt": "2026-06-14T14:29:29.000Z",
       "geo": {
         "cityId": "india",
@@ -1222,7 +1222,7 @@
       "loveText": "great community"
     },
     {
-      "id": "resp-34-1781702841219",
+      "id": "resp-34-1781933734450",
       "submittedAt": "2026-06-14T14:36:49.000Z",
       "geo": {
         "cityId": "india",
@@ -1263,7 +1263,7 @@
       "commentsText": "Person looked heaitant to answer “humare mohalle ka naam kyu kharab kre kuch bolke”"
     },
     {
-      "id": "resp-35-1781702841219",
+      "id": "resp-35-1781933734450",
       "submittedAt": "2026-06-15T03:48:57.000Z",
       "geo": {
         "cityId": "india",
@@ -1297,7 +1297,7 @@
       "loveText": "Honestly its peaceful , its never loud"
     },
     {
-      "id": "resp-36-1781702841219",
+      "id": "resp-36-1781933734450",
       "submittedAt": "2026-06-15T04:52:31.000Z",
       "geo": {
         "cityId": "india",
@@ -1328,7 +1328,7 @@
       "commentsText": "One neighbour is very arrogant thinks they own the city, panchayat helps with that issue if it comes up."
     },
     {
-      "id": "resp-37-1781702841219",
+      "id": "resp-37-1781933734450",
       "submittedAt": "2026-06-15T08:25:50.000Z",
       "geo": {
         "cityId": "india",
@@ -1366,7 +1366,7 @@
       "commentsText": "gutters and 24 hours water and underground electricity was promised still waiting for it and if they give 24 hours water please give meter at the same time otherwise people will misuse it roads management should be done sweeper should be appointed"
     },
     {
-      "id": "resp-38-1781702841219",
+      "id": "resp-38-1781933734450",
       "submittedAt": "2026-06-15T09:48:52.000Z",
       "geo": {
         "cityId": "india",
@@ -1397,7 +1397,7 @@
       ]
     },
     {
-      "id": "resp-39-1781702841219",
+      "id": "resp-39-1781933734450",
       "submittedAt": "2026-06-15T10:41:01.000Z",
       "geo": {
         "cityId": "india",
@@ -1432,7 +1432,7 @@
       "commentsText": "Get rid of panchayats as they lack any accountability"
     },
     {
-      "id": "resp-40-1781702841219",
+      "id": "resp-40-1781933734450",
       "submittedAt": "2026-06-16T07:49:17.000Z",
       "geo": {
         "cityId": "india",
@@ -1472,6 +1472,1615 @@
       ],
       "loveText": "No sound pollution, less air pollution due to greenery, large open space for me to have a kitchen garden, family and support system in the area, only 1 entry gate so safe for kids to play.",
       "commentsText": "If only we as human beings and citizens could change and stop failing each other. The government cannot do everything for us. We are the most unhygienic people and we make our areas like open bathroom spitoons. Traffic jams also due to green and a lack of pride in their jobs."
+    },
+    {
+      "id": "resp-41-1781933734450",
+      "submittedAt": "2026-06-19T04:50:59.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 15.500155,
+          "lng": 73.828696
+        },
+        "coordinatesValid": true,
+        "cityName": "Panaji"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "roadRating": "average",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "potholes_broken_roads"
+      ],
+      "safetyRating": "sometimes_safe",
+      "businessChallenges": [
+        "parking_congestion"
+      ],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "social_media"
+      ]
+    },
+    {
+      "id": "resp-42-1781933734450",
+      "submittedAt": "2026-06-19T04:59:09.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 13.0328509,
+          "lng": 77.5779471
+        },
+        "coordinatesValid": true,
+        "cityName": "Bengaluru"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "Decent but gets disrupted during rainy days",
+      "roadRating": "bad",
+      "roadComment": "Absolute worst, half dug up roads, loose gravel all around , dust",
+      "civicHazards": [
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "Lot secure than most neighbourhoods",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "newspapers"
+      ],
+      "loveText": "Greenary",
+      "commentsText": "Political hoardings everywhere, even the bus stops have politician face on it and on parks every bench is carved with politician name who is a local mla, I have raised rti but no response"
+    },
+    {
+      "id": "resp-43-1781933734450",
+      "submittedAt": "2026-06-19T05:10:16.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 19.1418612,
+          "lng": 72.8075143
+        },
+        "coordinatesValid": true,
+        "cityName": "Mumbai"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "electricityComment": "Occasionally powercuts happen, especially during monsoon",
+      "roadRating": "average",
+      "roadComment": "The quality of the roads is okay but there is too much traffic everywhere, constant honking and rule breaking is very common here. There is construction going on everywhere which has ruined the air quality and has increased the traffic severally",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "safetyComment": "There are several areas in the neighborhood where class 1 drugs such as weed maybe sold, the authorities already know about it but it still is rampant. Most of these people are tippers and work for the police.",
+      "businessChallenges": [
+        "other",
+        "parking_congestion"
+      ],
+      "businessComment": "Homestly, more cleanliness and accesible roads would be amazing, there are normal street vendors and vegetable vendors that take 40% of the road in some areas, a fixed area for this would be better",
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "I have grown up in this neighborhood growing up it was very united community, people from all walks of life and religion would coexist. But lately there have been instances where communal politics has been seen and because of that certian incidents have also happened which have been somehow stopped by the locals to not make it a huge deal.",
+      "commentsText": "The water quality we get is quite poor, for eg my Buidlung has BMC supply, and a Borewell supply which we have created. For the past 6 months we are getting water (BMC) that is smelly, and seems like sewage water, on days where we do get it, it is very minimal. If we rely on borewell we have been getting less and less because someone in the area has started a water tanmer business and is oulling from the groundwater supply which is lowering the water level for everyone."
+    },
+    {
+      "id": "resp-44-1781933734450",
+      "submittedAt": "2026-06-19T05:12:55.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 25.2644266,
+          "lng": 83.0307677
+        },
+        "coordinatesValid": true,
+        "cityName": "Varanasi"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "roadRating": "bad",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "garbage",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "social_media"
+      ]
+    },
+    {
+      "id": "resp-45-1781933734450",
+      "submittedAt": "2026-06-19T05:14:27.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 12.9821918,
+          "lng": 77.5603323
+        },
+        "coordinatesValid": true,
+        "cityName": "Bengaluru"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "roadRating": "average",
+      "roadComment": "Roads are getting damaged by construction of houses , but after construction both owner nor the government fixes the road may after few years they deside to fill the pothole but still will be like a patch not smooth as before",
+      "civicHazards": [
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [
+        "parking_congestion",
+        "lack_public_toilets"
+      ],
+      "businessComment": "Parking spaces and good footpath without vehicle and blocked by random stuffs",
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "It's very central location to Bangalore but still not at all crowded it's like peace but as central you can get before evening gets crowded"
+    },
+    {
+      "id": "resp-46-1781933734451",
+      "submittedAt": "2026-06-19T05:33:27.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinatesValid": false
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "Supply is good, throughout the year. However, the electrical poles are not maintained well. It is quite risky at some places.",
+      "roadRating": "bad",
+      "roadComment": "They build concrete roads every few years, for drainage, and they say, they forgot install pipes and they build again, but the build quality is bad.",
+      "civicHazards": [
+        "water_logging",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "social_media"
+      ],
+      "commentsText": "There is no drainage system in my neighbourhood yet. All my lifetime, we still have open gutters. However recently they installed drainage system pipes inside the roads, but the pipes they installed are so low quality, and the size of the pipe is just 6 inches. I wonder, how is that gonna hold up."
+    },
+    {
+      "id": "resp-47-1781933734451",
+      "submittedAt": "2026-06-19T05:52:56.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 21.06204,
+          "lng": 79.02441
+        },
+        "coordinatesValid": true,
+        "cityName": "Telhara"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "roadRating": "good",
+      "civicHazards": [
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "stray_animals",
+        "petty_crime_unsafe"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [
+        "other",
+        "harassment_by_administration",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "nothing"
+    },
+    {
+      "id": "resp-48-1781933734451",
+      "submittedAt": "2026-06-19T05:54:17.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 19.05323242719346,
+          "lng": 72.890932178236
+        },
+        "coordinatesValid": true,
+        "cityName": "Mumbai"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "electricityComment": "supply is good but bills are too too too too high(adani btw)",
+      "roadRating": "average",
+      "roadComment": "potholes, potholes & potholes",
+      "civicHazards": [
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "too many wires, no management",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ]
+    },
+    {
+      "id": "resp-49-1781933734451",
+      "submittedAt": "2026-06-19T05:57:40.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 12.8797,
+          "lng": 77.6841
+        },
+        "coordinatesValid": true,
+        "cityName": "Rayasandra"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "Atleast we get subsidised electricity",
+      "roadRating": "bad",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "businessChallenges": [
+        "parking_congestion",
+        "garbage",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "Well atleast its accessible to major hubs in Bangalore easily, metro, buses and other public transports are easily accessible"
+    },
+    {
+      "id": "resp-50-1781933734451",
+      "submittedAt": "2026-06-19T06:03:24.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 22.313434,
+          "lng": 73.118475
+        },
+        "coordinatesValid": true,
+        "cityName": "Vadodara"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "Severe voltage fluctuations and inconsistent power supply",
+      "roadRating": "average",
+      "roadComment": "The digging of road again and again is a common practice here",
+      "civicHazards": [
+        "water_logging",
+        "poor_garbage_collection",
+        "potholes_broken_roads"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "Police is not to help us but to exploit commoners",
+      "businessChallenges": [
+        "garbage",
+        "lack_public_toilets"
+      ],
+      "businessComment": "The drainage line should be made proper",
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "The neighborhood had good green space at one point of time but now it's reducing drastically. That's why planning to change my neighbour hood",
+      "commentsText": "The fear or law and order is something that is reducing day by day in my locality"
+    },
+    {
+      "id": "resp-51-1781933734451",
+      "submittedAt": "2026-06-19T06:23:54.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 23.2253,
+          "lng": 72.7318
+        },
+        "coordinatesValid": true,
+        "cityName": "Chiloda"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "bad",
+      "electricityComment": "Highly unstable",
+      "roadRating": "average",
+      "roadComment": "Roads are mostly broken and highway roads are finally getting rebuilt after fights",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ]
+    },
+    {
+      "id": "resp-52-1781933734451",
+      "submittedAt": "2026-06-19T06:51:38.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 17.327124,
+          "lng": 78.594457
+        },
+        "coordinatesValid": true,
+        "cityName": "Hyderabad"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "roadRating": "average",
+      "roadComment": "Many sinking manholes throughout our area . Approach road to main road is very steep and problematic. No foothpaths of standing place for people beaides main road for baording busses etc",
+      "civicHazards": [
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "garbage"
+      ],
+      "businessComment": "Parking congestion can be improved ,footpaths can be build ,proper parking spaces have to be available",
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "newspapers"
+      ],
+      "loveText": "Less congestion and large open places ( private and public offices ) keep the area relatively cool due to trees and air flow and ventilation is not a problem but things are beginning to change.",
+      "commentsText": "Overall there are systems that are in place but they donot work everytime and often donot coearly address the problem ."
+    },
+    {
+      "id": "resp-53-1781933734451",
+      "submittedAt": "2026-06-19T06:55:44.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 19.0420603,
+          "lng": 72.8939327
+        },
+        "coordinatesValid": true,
+        "cityName": "Mumbai"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "great",
+      "electricityComment": "No power cut and power backup available",
+      "roadRating": "average",
+      "roadComment": "Roads are good but footpath are bad and road cleanliness is bad",
+      "civicHazards": [
+        "water_logging",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "safetyComment": "I live in a gated society and most area around me is that but, there are unsafe spaces in the corners or slums in the area",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "garbage",
+        "lack_public_toilets"
+      ],
+      "businessComment": "Parking infrastructure and no parking on road implementation",
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Its safer and cleaner than surrounding area. Market is close by and work is approachable. Otherwise i seldom leave house",
+      "commentsText": "Too costly for the services being offered and congestion in market is a problem. And its extremely unsafe and hazardous for pedestrians"
+    },
+    {
+      "id": "resp-54-1781933734451",
+      "submittedAt": "2026-06-19T07:13:24.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 28.3335,
+          "lng": 77.04163
+        },
+        "coordinatesValid": true,
+        "cityName": "Tikli"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "roadRating": "bad",
+      "roadComment": "No spaces for walking, cycling, access to market other parts of area bottlenecked because of overflowing unclean drain, MCD garbage dumps overflowing with area around unclean, full with stray dogs, animals!",
+      "civicHazards": [
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "not_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "Community, still keeping what somewhat village community in a urban/semi urban town-ish village midst in middle of city!"
+    },
+    {
+      "id": "resp-55-1781933734451",
+      "submittedAt": "2026-06-19T07:37:12.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 19.2089,
+          "lng": 73.0955
+        },
+        "coordinatesValid": true,
+        "cityName": "Kalyan"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "Nowadays a lot of random powercuts are observed",
+      "roadRating": "horrible",
+      "roadComment": "It's not worth calling them roads especially when you've lived abroad where roads are designed... Let's call these alleyways always under construction and still have potholes and uneven levelling",
+      "civicHazards": [
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Compared to most countries abroad and most other parts of India, I feel extremely safe in my neighborhood and largely the Mumbai Metropolitan Region, even if my wife were to travel late in the night alone, touch wood safety hasn't been a big concern so far.",
+      "commentsText": "It's also been BJP and RSS 'Balekilla' with decades of their stronghold  and cultural influence."
+    },
+    {
+      "id": "resp-56-1781933734451",
+      "submittedAt": "2026-06-19T07:55:35.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 26.748768,
+          "lng": 80.922636
+        },
+        "coordinatesValid": true,
+        "cityName": "Bijnor"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Female"
+      },
+      "housingStatus": "other",
+      "electricityRating": "horrible",
+      "electricityComment": "The area where I live doesn't still has government connection reached so a post property owner of this area installed a transformer lf his own money and charges extra too extra for electricity connection about 50000 for it's availability at your house followed up by bills later.",
+      "roadRating": "horrible",
+      "roadComment": "It's not even built it's a raw (kacchi road here in my society) It's a undeveloped society but roads are needed. We personally had to made dumb some damur material to make this raw road lil fine as in rainy days it's because bizzare.",
+      "civicHazards": [
+        "broken_streetlights",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "petty_crime_unsafe",
+        "other"
+      ],
+      "safetyRating": "terrified",
+      "safetyComment": "Lack of safety regular theft take place here and not safe to go out even cases of kidnapping and murders are pretty often nearby",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "It's not too populated yet so i get some peace here although it's not gonna last more than 5 years many apartments are being built so it's gonna be overpopulated soon 🤧🤧🥺",
+      "commentsText": "Some parks and even local shops are lacking here I've to go pretty far to buy stationary amd other stuff there's no development here no safety no roads and electricity is cutted off every night for too long man we need to sleep after long working days and lack of safety people lacking civic sense eve teasing is too much commenting is too much I've been inappropriately touched twice in public places here been bad  commented tons of times ."
+    },
+    {
+      "id": "resp-57-1781933734451",
+      "submittedAt": "2026-06-19T08:11:23.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 12.975016,
+          "lng": 77.653313
+        },
+        "coordinatesValid": true,
+        "cityName": "Bengaluru"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "roadRating": "horrible",
+      "civicHazards": [
+        "water_logging",
+        "poor_garbage_collection",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "harassment_by_administration",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "That we don't care about educating ourselves citizen participation, and we love to compain and blame than take action",
+      "commentsText": "A strong community that can have deep roots in local governing body is missing since the last 20 years in 560075"
+    },
+    {
+      "id": "resp-58-1781933734451",
+      "submittedAt": "2026-06-19T08:17:44.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 12.976382,
+          "lng": 77.650477
+        },
+        "coordinatesValid": true,
+        "cityName": "Bengaluru"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "roadRating": "horrible",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "neighbours"
+      ]
+    },
+    {
+      "id": "resp-59-1781933734451",
+      "submittedAt": "2026-06-19T08:30:50.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 12.9706839,
+          "lng": 77.762819
+        },
+        "coordinatesValid": true,
+        "cityName": "Bengaluru"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "average",
+      "electricityComment": "Very frequent power cuts some times",
+      "roadRating": "horrible",
+      "roadComment": "Illegal encroachment in front of my society itself, the person is not allowing to build roads",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "commentsText": "Please help in building proper roads"
+    },
+    {
+      "id": "resp-60-1781933734451",
+      "submittedAt": "2026-06-19T08:41:32.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 19.2110315,
+          "lng": 73.1038677
+        },
+        "coordinatesValid": true,
+        "cityName": "Kalyan"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "Ridiculously expensive. Senseless usage policy. Maharashtra (MSEDCL) probably is the most expensive DISCOM in the country for residential electricity. You pay almost double with every slab in and around KDMC(my municipality). And the charges for usage from 0-100 would directly double if you used 101 units on a certain month. Same with 100-300, 300-500 and 500+. Charges don't get separated slab-wise!",
+      "roadRating": "bad",
+      "roadComment": "I know roads in entire Maharashtra are pretty bad.. But I don't know what it is about Mumbai, Thane, Kalyan, Dombivali, Ulhasnagar. Our roads are really badly planned and horribly made. The upkeep is an excuse for contractors to make money. Speed breakers hit cars with very high ground clearence. Which leads to entire city buying taller and bigger cars.",
+      "civicHazards": [
+        "water_logging",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "There are entitled teenager of a certain political and community classes which behave like the own the streets, drive horribly, Dark out the glasses. Cops do nothing about them.",
+      "businessChallenges": [
+        "other",
+        "garbage",
+        "harassment_by_administration"
+      ],
+      "businessComment": "Road, Walkability, Garbage. City itself is a hazard for the general populous.",
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "My closer neighbourhood has good people, well educated and roads have been recently concretised.",
+      "commentsText": "Make solar net metering easier in Maharashtra! Why is this not a priority?"
+    },
+    {
+      "id": "resp-61-1781933734451",
+      "submittedAt": "2026-06-19T08:54:11.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 19.01721,
+          "lng": 73.096434
+        },
+        "coordinatesValid": true,
+        "cityName": "Panvel"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "There are power cuts for multiple hours during peak summer. This happens about 5-6 times every month.",
+      "roadRating": "good",
+      "roadComment": "They do clean and maintain the roads well, but the footpaths aren't as well maintained.",
+      "civicHazards": [
+        "broken_streetlights",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "safetyComment": "Kamothe is a very calm town overall, I've never faced or heard of anyone facing any safety issue, but streetlights do need a bit of improvement.",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "People are generally nice, there's good connectivity to Mumbai, Pune and Thane. Good restaurants and snack corners, multiple gyms, pretty close to NMI airport, multiple hospitals and banks close by, and comparatively affordable housing than the rest of Navi Mumbai",
+      "commentsText": "They NEED TO have better cleanliness and larger public parks, the current ones are crowded, and better management of traffic is required too."
+    },
+    {
+      "id": "resp-62-1781933734451",
+      "submittedAt": "2026-06-19T10:33:47.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 19.8703884,
+          "lng": 75.3771104
+        },
+        "coordinatesValid": true,
+        "cityName": "Chhatrapati Sambhajinagar"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "These days power cuts have become frequent. Another problem is MSEB officers whom we called for damaged meter asked us to come there physically to file complain but upon going there, perhaps looking at my privileged face, they conveyed that I didn't have to come.",
+      "roadRating": "average",
+      "roadComment": "There are cement roads everywhere but strips have been excavated for water pipeline have not been repaired.",
+      "civicHazards": [
+        "water_logging",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "petty_crime_unsafe",
+        "other"
+      ],
+      "safetyRating": "not_safe",
+      "safetyComment": "People drive very fast in the residential place. Some follow girls on bikes, some on feet. Girls playing badminton or merely strolling out of their houses gets honked at or they maybe weird noises. Some affray occurs once a while. Drunkard pass out on the streets or worse in the gate.",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "newspapers"
+      ],
+      "loveText": "Market places are very close.",
+      "commentsText": "Our corporator who recently hit elected, he has worked very well for us in the past, on the election day there was an affray on the polling station as people from rural side came to vote in corporation election. It was alleged that around 700 people were brought from rural side. Also whole election was speculated to be rigged as 45% of population voted i.e. 5.5 lakhs but more than 2 lakh people voted after 17:00 and didn't see voting going on after time."
+    },
+    {
+      "id": "resp-63-1781933734451",
+      "submittedAt": "2026-06-19T11:05:55.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 28.1967677,
+          "lng": 76.8086751
+        },
+        "coordinatesValid": true,
+        "cityName": "Bhiwadi"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "roadRating": "average",
+      "civicHazards": [
+        "water_logging",
+        "poor_garbage_collection",
+        "stray_animals",
+        "lack_of_parks"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "other"
+      ]
+    },
+    {
+      "id": "resp-64-1781933734451",
+      "submittedAt": "2026-06-19T11:18:34.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 13.68911,
+          "lng": 75.23929
+        },
+        "coordinatesValid": true,
+        "cityName": "Thirthahalli"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "average",
+      "electricityComment": "It’s more of a rural township in wester ghats. So there’d be constant power cuts. Situation is worse as we move interior",
+      "roadRating": "average",
+      "civicHazards": [
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [
+        "parking_congestion",
+        "harassment_by_administration",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "Comparatively clean air and less pollution"
+    },
+    {
+      "id": "resp-65-1781933734452",
+      "submittedAt": "2026-06-19T12:08:42.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 20.0209629,
+          "lng": 73.7574991
+        },
+        "coordinatesValid": true,
+        "cityName": "Nashik"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "electricityComment": "There are frequent power cuts, especially in summers, in mae of - preparing for monsoons - but the first rains and boom, no power! What preparation!",
+      "roadRating": "bad",
+      "roadComment": "There is no road right now. Honestly this is. Bad time to respond to this survey for Nashik, because the city is dig up in \"preparation of the Kumbh\". But my rating is for my area even otherwise.",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "I stay in a neighbourhood with no development around. Covered in bushes. Feels like anything could be hiding there, with increase in leopard sightings around, it's kinda scary. Not so scary to drive, but walk I won't.",
+      "businessChallenges": [
+        "parking_congestion",
+        "garbage"
+      ],
+      "businessComment": "Better road with footpath, and parking. Proper planning.",
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "newspapers"
+      ],
+      "loveText": "It's quiet and less traffic. So long!",
+      "commentsText": "No"
+    },
+    {
+      "id": "resp-66-1781933734452",
+      "submittedAt": "2026-06-19T12:50:24.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 22.660839,
+          "lng": 75.906436
+        },
+        "coordinatesValid": true,
+        "cityName": "Indore"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "roadRating": "average",
+      "civicHazards": [
+        "broken_streetlights",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "not_safe",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "sealing_threats"
+      ],
+      "businessComment": "Better footpaths, more trees",
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "newspapers"
+      ],
+      "loveText": "Clean, good garbage collection"
+    },
+    {
+      "id": "resp-67-1781933734452",
+      "submittedAt": "2026-06-19T13:28:21.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 26.464279,
+          "lng": 80.227083
+        },
+        "coordinatesValid": true,
+        "cityName": "Kanpur"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "roadRating": "bad",
+      "roadComment": "There is a specific road here that is constructed every 5-6 months or so, and within 2-3 days its completely disintegrated.",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "Since my area is on the outskirts of the city, the light pollution here is lesser than that in the main city so I am able to look at stars sometimes.",
+      "commentsText": "The levels of pollution here is horrible mostly air pollution (dust) (avg AQI 120) that is caused by the going on metro construction."
+    },
+    {
+      "id": "resp-68-1781933734452",
+      "submittedAt": "2026-06-19T13:54:02.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 12.849057,
+          "lng": 80.230241
+        },
+        "coordinatesValid": true,
+        "cityName": "Navalur"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "bad",
+      "electricityComment": "Electricity supply has recently deteriorated post recent elections",
+      "roadRating": "good",
+      "roadComment": "Water logging post rains resulting in predictable traffic jams at certain location.",
+      "civicHazards": [
+        "stray_animals"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "No petty crimes. You can leave helmet on bike without lock and it usually never gets stolen.",
+      "businessChallenges": [],
+      "businessComment": "Live near majpr arterial road. Need padestrian crossing infrastructure",
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Gated community, kids can play outside without supervision.",
+      "commentsText": "If you arrle willing to pay or can afford it, large gated communities are best."
+    },
+    {
+      "id": "resp-69-1781933734452",
+      "submittedAt": "2026-06-19T14:01:10.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 24.536635,
+          "lng": 81.321102
+        },
+        "coordinatesValid": true,
+        "cityName": "Rewa"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "in winters, its perfect. but in summer and rainy season, electricity cut is very unreliable.",
+      "roadRating": "horrible",
+      "roadComment": "shit, literally.",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "grew up here, people probably.",
+      "commentsText": "no"
+    },
+    {
+      "id": "resp-70-1781933734452",
+      "submittedAt": "2026-06-19T14:40:48.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 17.667303,
+          "lng": 75.916954
+        },
+        "coordinatesValid": true,
+        "cityName": "Solapur"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "electricityComment": "Electricity rate is high",
+      "roadRating": "good",
+      "civicHazards": [
+        "petty_crime_unsafe"
+      ],
+      "safetyRating": "not_safe",
+      "safetyComment": "Needs improvement",
+      "businessChallenges": [],
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Togetherness",
+      "commentsText": "Public safety needs to be better"
+    },
+    {
+      "id": "resp-71-1781933734452",
+      "submittedAt": "2026-06-19T15:08:13.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 26.515636,
+          "lng": 87.008479
+        },
+        "coordinatesValid": true,
+        "cityName": "Birpur"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "Even the least rains or wind results in hours of cutoff, also if something breaks, it takes more than half a day to fix atleast.",
+      "roadRating": "bad",
+      "roadComment": "Multiple accidents and deaths. No media coverage",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "petty_crime_unsafe",
+        "other"
+      ],
+      "safetyRating": "not_safe",
+      "safetyComment": "\"i can't comment because there isn't anything to comment\"",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "garbage",
+        "harassment_by_administration",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "Nature, Trees, Jungles and Birds",
+      "commentsText": "Almost No Education opportunity, basically education is not even a topic"
+    },
+    {
+      "id": "resp-72-1781933734452",
+      "submittedAt": "2026-06-19T15:38:35.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 32.664581,
+          "lng": 74.841055
+        },
+        "coordinatesValid": true,
+        "cityName": "Jammu"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "Alot of powercuts specially during summers",
+      "roadRating": "bad",
+      "roadComment": "This road in our colony was broken 3 years ago for fixing a drain and it is still not fixed.",
+      "civicHazards": [
+        "water_logging",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks"
+      ],
+      "safetyRating": "sometimes_safe",
+      "safetyComment": "Alot of drunk people during evenings",
+      "businessChallenges": [
+        "garbage"
+      ],
+      "businessComment": "Better cleaning services, less harrasment from the officials",
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "It is still a very peaceful place to live and crime rate is low",
+      "commentsText": "none"
+    },
+    {
+      "id": "resp-73-1781933734452",
+      "submittedAt": "2026-06-19T15:44:28.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 19.1594299,
+          "lng": 72.9362099
+        },
+        "coordinatesValid": true,
+        "cityName": "मुंबई"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "electricityComment": "The cost is very high and there is a infrequent yet irritating electricity loss",
+      "roadRating": "bad",
+      "roadComment": "Shit roads",
+      "civicHazards": [
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "safetyComment": "More street lights otherwise great",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "The People and sometimes good air",
+      "commentsText": "It is a good neighbourhood to movie into."
+    },
+    {
+      "id": "resp-74-1781933734452",
+      "submittedAt": "2026-06-19T15:46:43.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 28.4624301,
+          "lng": 77.086204
+        },
+        "coordinatesValid": true,
+        "cityName": "Gurugram"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "electricityComment": "There are electricity cuts but not often.",
+      "roadRating": "good",
+      "civicHazards": [
+        "stray_animals"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Proximity to Galleria Market, Footpaths (average quality but at least it's there)"
+    },
+    {
+      "id": "resp-75-1781933734452",
+      "submittedAt": "2026-06-19T15:54:49.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 12.940833,
+          "lng": 77.6254
+        },
+        "coordinatesValid": true,
+        "cityName": "Bengaluru"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "bad",
+      "electricityComment": "Power cut 5-6 hours a day",
+      "roadRating": "horrible",
+      "roadComment": "No roads, only potholes. I tried multiple govt apps to complain but nothing gets fixed.",
+      "civicHazards": [
+        "water_logging",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "safetyComment": "This area is very safe. Police vehicles passes multiple times after 9 PM and police does not harrass people. Street lights everywhere.",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "The small stalls and food. Rent is afforadable acc to bangalore standards.",
+      "commentsText": "Water logging even if it rains 5 mins"
+    },
+    {
+      "id": "resp-76-1781933734452",
+      "submittedAt": "2026-06-19T15:54:49.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 20.1704082,
+          "lng": 72.7678588
+        },
+        "coordinatesValid": true,
+        "cityName": "Umargam"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "electricityComment": "Takleef nahi hai waise jyada. Industrial area hai agar tufaan aaye toh 2-3 Hr jaati hai verna sab thik.",
+      "roadRating": "bad",
+      "roadComment": "Har saal banega,agle saal se pehle gaayab.",
+      "civicHazards": [
+        "poor_garbage_collection"
+      ],
+      "safetyRating": "completely_safe",
+      "safetyComment": "Nope.",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "Log yahan politics nahi karte hain. Aapne kaam se kaam rakhte hain.",
+      "commentsText": "Garmi mein paani ka bahat dikkat hai. Bahaut khaara Paani."
+    },
+    {
+      "id": "resp-77-1781933734452",
+      "submittedAt": "2026-06-19T16:23:50.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinatesValid": false
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "roadRating": "unknown",
+      "civicHazards": [
+        "potholes_broken_roads",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "garbage",
+        "lack_public_toilets"
+      ],
+      "businessComment": "Remove all ilegal occupied footpath by CRPF and shop keepers",
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "A pond but now it's full of duck weed"
+    },
+    {
+      "id": "resp-78-1781933734452",
+      "submittedAt": "2026-06-19T16:46:48.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 16.737509,
+          "lng": 78.008125
+        },
+        "coordinatesValid": true,
+        "cityName": "Mahbubnagar"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "roadRating": "good",
+      "roadComment": "In telangana except hyderabad all the roads are great. village roads, town roads are very well maintained but when it comes to hyderabad may be due to kichidi of Bureaucracy, mayor, and govt lot many decision takers involved the problem exists.",
+      "civicHazards": [
+        "stray_animals"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "newspapers"
+      ],
+      "loveText": "People, Reasons is people have the guts to go live on media and scold CM. Telangana culture have the spirit of questioning the authorities that what evolved as telangana movement.",
+      "commentsText": "In telangana the basic (includes villages, towns, cities) good roads, 24hr electricity, water connection to all house holds and every district has a Reservoir for agriculture. Mission bhagiratha - every home gets water connectioin for free sucessful. Mission kakatiya - i dont know what happened. mission haritha haram - successful hope govt plan fro 2.0, kg to pg flop. If possible i request to make a video on TIMS telangana."
+    },
+    {
+      "id": "resp-79-1781933734452",
+      "submittedAt": "2026-06-19T17:40:25.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 47.605007,
+          "lng": -122.317371
+        },
+        "coordinatesValid": true,
+        "cityName": "Seattle"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "roadRating": "horrible",
+      "civicHazards": [
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ]
+    },
+    {
+      "id": "resp-80-1781933734452",
+      "submittedAt": "2026-06-19T20:16:09.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 28.5728,
+          "lng": 77.3548
+        },
+        "coordinatesValid": true,
+        "cityName": "Noida"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "other",
+      "electricityRating": "good",
+      "electricityComment": "Was a lil inconsistent during the stormy days this year thats the only thing stoping it from five stars",
+      "roadRating": "good",
+      "roadComment": "They were great then dug up for new sewage pipes",
+      "civicHazards": [
+        "stray_animals"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "Noida is generally safe till you go to unplanned parts",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "Its much more structured and planned with wide enough roads green spaces and public infrastructure",
+      "commentsText": "For all the great things in noida generally for a public quite comfy there are few very distrubing serial killer american psyco crime cases that we never imagined happens here pop up time to time , yeah you can look that up usually around unplanned parts like the parts that predate the planned noida for example mithari"
+    },
+    {
+      "id": "resp-81-1781933734452",
+      "submittedAt": "2026-06-20T03:59:24.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 26.255853,
+          "lng": 78.205564
+        },
+        "coordinatesValid": true,
+        "cityName": "Gwalior"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "other",
+      "electricityRating": "good",
+      "electricityComment": "Electricity Supply is OK",
+      "roadRating": "horrible",
+      "roadComment": "Main Roads are okish, but the branch roads and inside colonies is horrible or non existent.",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "safetyComment": "I am in Chambal so what to expect",
+      "businessChallenges": [
+        "other",
+        "parking_congestion"
+      ],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "Very Little, people get work done through connections, so the govt machinery is just for namesake.",
+      "commentsText": "The city we are in is a failed smart city project."
+    },
+    {
+      "id": "resp-82-1781933734452",
+      "submittedAt": "2026-06-20T04:03:30.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 26.7938509,
+          "lng": 80.8880659
+        },
+        "coordinatesValid": true,
+        "cityName": "Lucknow"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "roadRating": "average",
+      "roadComment": "no public dustbins so people throw trash on road",
+      "civicHazards": [
+        "water_logging",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "newspapers"
+      ],
+      "loveText": "safety"
+    },
+    {
+      "id": "resp-83-1781933734452",
+      "submittedAt": "2026-06-20T04:36:51.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinatesValid": false
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Female"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "electricityComment": "Not experienced any breakdown",
+      "roadRating": "bad",
+      "roadComment": "Lot of potholes, continuous construction, poor quality, congestion,",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "petty_crime_unsafe",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "garbage",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Accessibility to public transport and communication"
     }
   ]
 }

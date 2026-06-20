@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "panvel",
+    "importedAt": "2026-06-20T05:35:41.960Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "419778478796574f"
+  },
+  "responses": [
+    {
+      "id": "resp-61-1781933734451",
+      "submittedAt": "2026-06-19T08:54:11.000Z",
+      "geo": {
+        "cityId": "panvel",
+        "coordinates": {
+          "lat": 19.01721,
+          "lng": 73.096434
+        },
+        "coordinatesValid": true,
+        "cityName": "Panvel"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "There are power cuts for multiple hours during peak summer. This happens about 5-6 times every month.",
+      "roadRating": "good",
+      "roadComment": "They do clean and maintain the roads well, but the footpaths aren't as well maintained.",
+      "civicHazards": [
+        "broken_streetlights",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "safetyComment": "Kamothe is a very calm town overall, I've never faced or heard of anyone facing any safety issue, but streetlights do need a bit of improvement.",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "People are generally nice, there's good connectivity to Mumbai, Pune and Thane. Good restaurants and snack corners, multiple gyms, pretty close to NMI airport, multiple hospitals and banks close by, and comparatively affordable housing than the rest of Navi Mumbai",
+      "commentsText": "They NEED TO have better cleanliness and larger public parks, the current ones are crowded, and better management of traffic is required too."
+    }
+  ]
+}

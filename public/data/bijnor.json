@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "bijnor",
+    "importedAt": "2026-06-20T05:35:41.959Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "a0bdc8094bac2798"
+  },
+  "responses": [
+    {
+      "id": "resp-56-1781933734451",
+      "submittedAt": "2026-06-19T07:55:35.000Z",
+      "geo": {
+        "cityId": "bijnor",
+        "coordinates": {
+          "lat": 26.748768,
+          "lng": 80.922636
+        },
+        "coordinatesValid": true,
+        "cityName": "Bijnor"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Female"
+      },
+      "housingStatus": "other",
+      "electricityRating": "horrible",
+      "electricityComment": "The area where I live doesn't still has government connection reached so a post property owner of this area installed a transformer lf his own money and charges extra too extra for electricity connection about 50000 for it's availability at your house followed up by bills later.",
+      "roadRating": "horrible",
+      "roadComment": "It's not even built it's a raw (kacchi road here in my society) It's a undeveloped society but roads are needed. We personally had to made dumb some damur material to make this raw road lil fine as in rainy days it's because bizzare.",
+      "civicHazards": [
+        "broken_streetlights",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "petty_crime_unsafe",
+        "other"
+      ],
+      "safetyRating": "terrified",
+      "safetyComment": "Lack of safety regular theft take place here and not safe to go out even cases of kidnapping and murders are pretty often nearby",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "It's not too populated yet so i get some peace here although it's not gonna last more than 5 years many apartments are being built so it's gonna be overpopulated soon 🤧🤧🥺",
+      "commentsText": "Some parks and even local shops are lacking here I've to go pretty far to buy stationary amd other stuff there's no development here no safety no roads and electricity is cutted off every night for too long man we need to sleep after long working days and lack of safety people lacking civic sense eve teasing is too much commenting is too much I've been inappropriately touched twice in public places here been bad  commented tons of times ."
+    }
+  ]
+}

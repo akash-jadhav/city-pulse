@@ -1,24 +1,24 @@
 {
   "meta": {
     "version": "1.0.0",
-    "cityId": "rajakhedi",
-    "importedAt": "2026-06-20T05:35:41.946Z",
+    "cityId": "varanasi",
+    "importedAt": "2026-06-20T05:35:41.957Z",
     "source": "csv",
     "totalResponses": 1,
-    "checksum": "aa44b6d9e79878dc"
+    "checksum": "fc0dae6dd2c5655b"
   },
   "responses": [
     {
-      "id": "resp-2-1781933734447",
-      "submittedAt": "2026-06-12T16:59:08.000Z",
+      "id": "resp-44-1781933734450",
+      "submittedAt": "2026-06-19T05:12:55.000Z",
       "geo": {
-        "cityId": "rajakhedi",
+        "cityId": "varanasi",
         "coordinates": {
-          "lat": 23.8631851,
-          "lng": 78.8116378
+          "lat": 25.2644266,
+          "lng": 83.0307677
         },
         "coordinatesValid": true,
-        "cityName": "Rajakhedi"
+        "cityName": "Varanasi"
       },
       "demographics": {
         "age": "30 - 50",
@@ -26,22 +26,25 @@
       },
       "housingStatus": "homeowner",
       "electricityRating": "good",
-      "electricityComment": "Small 10 to 15 min cuts",
-      "roadRating": "average",
+      "roadRating": "bad",
       "civicHazards": [
+        "water_logging",
         "broken_streetlights",
-        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
         "lack_of_parks",
-        "petty_crime_unsafe",
         "other"
       ],
-      "safetyRating": "sometimes_safe",
+      "safetyRating": "quite_safe",
       "businessChallenges": [
-        "other"
+        "other",
+        "parking_congestion",
+        "garbage",
+        "lack_public_toilets"
       ],
       "emergencyResponse": "unknown",
       "newsSources": [
-        "neighbours"
+        "social_media"
       ]
     }
   ]

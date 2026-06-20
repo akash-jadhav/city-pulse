@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "chhatrapati-sambhajinagar",
+    "importedAt": "2026-06-20T05:35:41.960Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "aee565a80f56952e"
+  },
+  "responses": [
+    {
+      "id": "resp-62-1781933734451",
+      "submittedAt": "2026-06-19T10:33:47.000Z",
+      "geo": {
+        "cityId": "chhatrapati-sambhajinagar",
+        "coordinates": {
+          "lat": 19.8703884,
+          "lng": 75.3771104
+        },
+        "coordinatesValid": true,
+        "cityName": "Chhatrapati Sambhajinagar"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "These days power cuts have become frequent. Another problem is MSEB officers whom we called for damaged meter asked us to come there physically to file complain but upon going there, perhaps looking at my privileged face, they conveyed that I didn't have to come.",
+      "roadRating": "average",
+      "roadComment": "There are cement roads everywhere but strips have been excavated for water pipeline have not been repaired.",
+      "civicHazards": [
+        "water_logging",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "petty_crime_unsafe",
+        "other"
+      ],
+      "safetyRating": "not_safe",
+      "safetyComment": "People drive very fast in the residential place. Some follow girls on bikes, some on feet. Girls playing badminton or merely strolling out of their houses gets honked at or they maybe weird noises. Some affray occurs once a while. Drunkard pass out on the streets or worse in the gate.",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "newspapers"
+      ],
+      "loveText": "Market places are very close.",
+      "commentsText": "Our corporator who recently hit elected, he has worked very well for us in the past, on the election day there was an affray on the polling station as people from rural side came to vote in corporation election. It was alleged that around 700 people were brought from rural side. Also whole election was speculated to be rigged as 45% of population voted i.e. 5.5 lakhs but more than 2 lakh people voted after 17:00 and didn't see voting going on after time."
+    }
+  ]
+}

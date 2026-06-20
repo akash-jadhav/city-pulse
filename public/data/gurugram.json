@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "gurugram",
+    "importedAt": "2026-06-20T05:35:41.962Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "8d5ff20f59b7c0c5"
+  },
+  "responses": [
+    {
+      "id": "resp-74-1781933734452",
+      "submittedAt": "2026-06-19T15:46:43.000Z",
+      "geo": {
+        "cityId": "gurugram",
+        "coordinates": {
+          "lat": 28.4624301,
+          "lng": 77.086204
+        },
+        "coordinatesValid": true,
+        "cityName": "Gurugram"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "electricityComment": "There are electricity cuts but not often.",
+      "roadRating": "good",
+      "civicHazards": [
+        "stray_animals"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Proximity to Galleria Market, Footpaths (average quality but at least it's there)"
+    }
+  ]
+}
