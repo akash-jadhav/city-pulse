@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T05:35:41.966Z",
+  "generatedAt": "2026-06-21T06:44:24.656Z",
   "cities": [
     {
       "slug": "india",
@@ -14,7 +14,7 @@
         "east": 97.4,
         "west": 68.1
       },
-      "responseCount": 84
+      "responseCount": 92
     },
     {
       "slug": "new-delhi",
@@ -32,34 +32,19 @@
       "responseCount": 23
     },
     {
-      "slug": "unknown",
-      "name": "मुंबई",
-      "defaultCenter": [
-        19.15945,
-        72.93615495
-      ],
-      "bounds": {
-        "north": 19.1795,
-        "south": 19.139400000000002,
-        "east": 72.95620989999999,
-        "west": 72.9161
-      },
-      "responseCount": 6
-    },
-    {
       "slug": "bengaluru",
       "name": "Bengaluru",
       "defaultCenter": [
-        12.986841949999999,
+        12.96604445,
         77.66157565
       ],
       "bounds": {
         "north": 13.0528509,
-        "south": 12.920833,
+        "south": 12.879238,
         "east": 77.78281899999999,
         "west": 77.5403323
       },
-      "responseCount": 6
+      "responseCount": 7
     },
     {
       "slug": "delhi",
@@ -77,6 +62,21 @@
       "responseCount": 5
     },
     {
+      "slug": "unknown",
+      "name": "मुंबई",
+      "defaultCenter": [
+        19.15945,
+        72.93615495
+      ],
+      "bounds": {
+        "north": 19.1795,
+        "south": 19.139400000000002,
+        "east": 72.95620989999999,
+        "west": 72.9161
+      },
+      "responseCount": 4
+    },
+    {
       "slug": "mumbai",
       "name": "Mumbai",
       "defaultCenter": [
@@ -90,6 +90,36 @@
         "west": 72.7875143
       },
       "responseCount": 3
+    },
+    {
+      "slug": "kalyan",
+      "name": "Kalyan",
+      "defaultCenter": [
+        19.219516900000002,
+        73.09752305
+      ],
+      "bounds": {
+        "north": 19.2501338,
+        "south": 19.1889,
+        "east": 73.12386769999999,
+        "west": 73.07117840000001
+      },
+      "responseCount": 3
+    },
+    {
+      "slug": "faridabad",
+      "name": "Faridabad",
+      "defaultCenter": [
+        28.4331964,
+        77.33341419999999
+      ],
+      "bounds": {
+        "north": 28.4931608,
+        "south": 28.373232,
+        "east": 77.36521599999999,
+        "west": 77.30161240000001
+      },
+      "responseCount": 2
     },
     {
       "slug": "silchar",
@@ -122,17 +152,32 @@
       "responseCount": 2
     },
     {
-      "slug": "kalyan",
-      "name": "Kalyan",
+      "slug": "kanpur",
+      "name": "Kanpur",
       "defaultCenter": [
-        19.209965750000002,
-        73.09968384999999
+        26.477915000000003,
+        80.239034
       ],
       "bounds": {
-        "north": 19.2310315,
-        "south": 19.1889,
-        "east": 73.12386769999999,
-        "west": 73.0755
+        "north": 26.511551,
+        "south": 26.444279,
+        "east": 80.270985,
+        "west": 80.207083
+      },
+      "responseCount": 2
+    },
+    {
+      "slug": "lucknow",
+      "name": "Lucknow",
+      "defaultCenter": [
+        26.7938204,
+        80.88805550000001
+      ],
+      "bounds": {
+        "north": 26.8138509,
+        "south": 26.7737899,
+        "east": 80.9080659,
+        "west": 80.8680451
       },
       "responseCount": 2
     },
@@ -163,21 +208,6 @@
         "south": 23.8431851,
         "east": 78.8316378,
         "west": 78.7916378
-      },
-      "responseCount": 1
-    },
-    {
-      "slug": "faridabad",
-      "name": "Faridabad",
-      "defaultCenter": [
-        28.393232,
-        77.345216
-      ],
-      "bounds": {
-        "north": 28.413232,
-        "south": 28.373232,
-        "east": 77.36521599999999,
-        "west": 77.325216
       },
       "responseCount": 1
     },
@@ -467,21 +497,6 @@
       "responseCount": 1
     },
     {
-      "slug": "kanpur",
-      "name": "Kanpur",
-      "defaultCenter": [
-        26.464279,
-        80.227083
-      ],
-      "bounds": {
-        "north": 26.484279,
-        "south": 26.444279,
-        "east": 80.24708299999999,
-        "west": 80.207083
-      },
-      "responseCount": 1
-    },
-    {
       "slug": "navalur",
       "name": "Navalur",
       "defaultCenter": [
@@ -647,17 +662,77 @@
       "responseCount": 1
     },
     {
-      "slug": "lucknow",
-      "name": "Lucknow",
+      "slug": "shahkot",
+      "name": "Shahkot",
       "defaultCenter": [
-        26.7938509,
-        80.8880659
+        31.08247,
+        75.33585
       ],
       "bounds": {
-        "north": 26.8138509,
-        "south": 26.7738509,
-        "east": 80.9080659,
-        "west": 80.8680659
+        "north": 31.10247,
+        "south": 31.06247,
+        "east": 75.35584999999999,
+        "west": 75.31585
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "kolkata",
+      "name": "Kolkata",
+      "defaultCenter": [
+        22.6706704,
+        88.3749321
+      ],
+      "bounds": {
+        "north": 22.6906704,
+        "south": 22.6506704,
+        "east": 88.39493209999999,
+        "west": 88.3549321
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "manika",
+      "name": "Manika",
+      "defaultCenter": [
+        23.85347,
+        84.3562205
+      ],
+      "bounds": {
+        "north": 23.87347,
+        "south": 23.833470000000002,
+        "east": 84.3762205,
+        "west": 84.33622050000001
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "durgapur",
+      "name": "Durgapur",
+      "defaultCenter": [
+        23.552893,
+        87.270201
+      ],
+      "bounds": {
+        "north": 23.572893,
+        "south": 23.532893,
+        "east": 87.290201,
+        "west": 87.250201
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "thane",
+      "name": "Thane",
+      "defaultCenter": [
+        19.203504,
+        72.961863
+      ],
+      "bounds": {
+        "north": 19.223504,
+        "south": 19.183504,
+        "east": 72.98186299999999,
+        "west": 72.941863
       },
       "responseCount": 1
     }

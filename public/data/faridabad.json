@@ -2,14 +2,14 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "faridabad",
-    "importedAt": "2026-06-20T05:35:41.947Z",
+    "importedAt": "2026-06-21T06:44:24.632Z",
     "source": "csv",
-    "totalResponses": 1,
-    "checksum": "fd49f8322a40d468"
+    "totalResponses": 2,
+    "checksum": "aca373e3ddf030da"
   },
   "responses": [
     {
-      "id": "resp-3-1781933734447",
+      "id": "resp-3-1782024252465",
       "submittedAt": "2026-06-12T18:10:00.000Z",
       "geo": {
         "cityId": "faridabad",
@@ -42,6 +42,52 @@
         "other"
       ],
       "loveText": "Greenery"
+    },
+    {
+      "id": "resp-87-1782024252470",
+      "submittedAt": "2026-06-20T09:56:23.000Z",
+      "geo": {
+        "cityId": "faridabad",
+        "coordinates": {
+          "lat": 28.4731608,
+          "lng": 77.3216124
+        },
+        "coordinatesValid": true,
+        "cityName": "Faridabad"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "average",
+      "electricityComment": "Very unreliable and too much power cuts",
+      "roadRating": "bad",
+      "roadComment": "Broken and dusty. Very narrow.",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "petty_crime_unsafe",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "safetyComment": "Police will do all the things which they are suppose to stop",
+      "businessChallenges": [
+        "parking_congestion",
+        "garbage",
+        "lack_public_toilets"
+      ],
+      "businessComment": "Development of market. Proper organization, garbage management, public toilets should be there. During monsoon, water gets logged right in front of the shop and it creates a hurdle for customers to enter the shop, and it takes water weeks to proper drain.",
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "Nothing. We live here cause it’s close to the capital.",
+      "commentsText": "MLA/MP only takes care of their own locality, from where he gets the maximum votes. The area nearby his house is lush green with good roads, drainage system, garbage management, proper 24 x 7 electricity, no stay animals. But when it comes to other areas, condition is very bad."
     }
   ]
 }

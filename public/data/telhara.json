@@ -2,14 +2,14 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "telhara",
-    "importedAt": "2026-06-20T05:35:41.957Z",
+    "importedAt": "2026-06-21T06:44:24.643Z",
     "source": "csv",
     "totalResponses": 1,
-    "checksum": "e8c1b0ed9f353387"
+    "checksum": "66fe8721fd32be6b"
   },
   "responses": [
     {
-      "id": "resp-47-1781933734451",
+      "id": "resp-47-1782024252468",
       "submittedAt": "2026-06-19T05:52:56.000Z",
       "geo": {
         "cityId": "telhara",

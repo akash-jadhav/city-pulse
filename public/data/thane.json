@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "thane",
+    "importedAt": "2026-06-21T06:44:24.654Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "7b75a9ecfeb1bd90"
+  },
+  "responses": [
+    {
+      "id": "resp-91-1782024252471",
+      "submittedAt": "2026-06-21T04:59:15.000Z",
+      "geo": {
+        "cityId": "thane",
+        "coordinates": {
+          "lat": 19.203504,
+          "lng": 72.961863
+        },
+        "coordinatesValid": true,
+        "cityName": "Thane"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "electricityComment": "Power cuts are frequent but short in the summer",
+      "roadRating": "great",
+      "roadComment": "Roads are good and wide but the traffic is unbareable",
+      "civicHazards": [
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "Footpaths are broken or dimly lit at some places and non existent at some, stray dogs are aggressive",
+      "businessChallenges": [
+        "other"
+      ],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "Hospitals, school, malls and the highway are at close proximity yet its very quiet and green"
+    }
+  ]
+}

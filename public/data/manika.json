@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "manika",
+    "importedAt": "2026-06-21T06:44:24.654Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "75dbeb3213f08518"
+  },
+  "responses": [
+    {
+      "id": "resp-88-1782024252471",
+      "submittedAt": "2026-06-20T10:04:56.000Z",
+      "geo": {
+        "cityId": "manika",
+        "coordinates": {
+          "lat": 23.85347,
+          "lng": 84.3562205
+        },
+        "coordinatesValid": true,
+        "cityName": "Manika"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "roadRating": "horrible",
+      "roadComment": "It's the worst than ever, too many potholes. It's a national highway but it's still a two lane so anyone can imagine the congestion and traffic.",
+      "civicHazards": [
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "petty_crime_unsafe",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "safetyComment": "Again all the problems except of water logging ciz of the rugged terrain of this area. Biggest civic hazard would be the burning of plastics, tires and other materials by shop owners or even common people out in the open. No one collects any garbage, and this will be the biggest hazard for the locals! Park and footpaths don't even exist. Dust and other pollutants are a daily staple of the residents here. 🙂",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "garbage",
+        "harassment_by_administration",
+        "sealing_threats",
+        "electricity_tariffs",
+        "lack_public_toilets"
+      ],
+      "businessComment": "This is a bit odd that i selected all the options which have been provided here!! One can imagine the situation here.",
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "I like the different types of birds i see here despite being a noisy neighbourhood (horns, vehicles, noisy temple bhajans, machines etc). Will always get surprised by seeing new type of birds on a random evening in my backyard. Apart from that, it maybe not unique to this place but people here are helpful, if the accidents happen they'll surely help them to carry them to local hospitals and all.",
+      "commentsText": "Garbage not being collected by the concerned authorities is so concerning! Even when a person wants to keep his locality clean, how would he able to do it if there isn't any system for it! Not just that, govt should be transparent about what do they do with the garbage, do they actually segregate it and make good use of it, or do they just dump it elsewhere. In our district headquarter, sewage water is directly being dumped to the neighbouring river, woww!!  Sewage plant doesn't even exist!!"
+    }
+  ]
+}

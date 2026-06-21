@@ -2,14 +2,14 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "kalyan",
-    "importedAt": "2026-06-20T05:35:41.959Z",
+    "importedAt": "2026-06-21T06:44:24.646Z",
     "source": "csv",
-    "totalResponses": 2,
-    "checksum": "2a1bde911ba629dd"
+    "totalResponses": 3,
+    "checksum": "1322704cdf0fe6aa"
   },
   "responses": [
     {
-      "id": "resp-55-1781933734451",
+      "id": "resp-55-1782024252469",
       "submittedAt": "2026-06-19T07:37:12.000Z",
       "geo": {
         "cityId": "kalyan",
@@ -46,7 +46,7 @@
       "commentsText": "It's also been BJP and RSS 'Balekilla' with decades of their stronghold  and cultural influence."
     },
     {
-      "id": "resp-60-1781933734451",
+      "id": "resp-60-1782024252469",
       "submittedAt": "2026-06-19T08:41:32.000Z",
       "geo": {
         "cityId": "kalyan",
@@ -88,6 +88,47 @@
       ],
       "loveText": "My closer neighbourhood has good people, well educated and roads have been recently concretised.",
       "commentsText": "Make solar net metering easier in Maharashtra! Why is this not a priority?"
+    },
+    {
+      "id": "resp-83-1782024252470",
+      "submittedAt": "2026-06-20T06:40:07.000Z",
+      "geo": {
+        "cityId": "kalyan",
+        "coordinates": {
+          "lat": 19.2301338,
+          "lng": 73.0911784
+        },
+        "coordinatesValid": true,
+        "cityName": "Kalyan"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "electricityComment": "Rate cuts happens every month for maintenance, but increases during monsoon specially.",
+      "roadRating": "horrible",
+      "roadComment": "Lot of construction around my area, with lot of trucks moving around. Also, trucks moving at night for dumping construction waste in nearby river.",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "businessChallenges": [
+        "other",
+        "garbage",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "social_media"
+      ]
     }
   ]
 }

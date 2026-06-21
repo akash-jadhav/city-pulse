@@ -2,14 +2,14 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "bengaluru",
-    "importedAt": "2026-06-20T05:35:41.956Z",
+    "importedAt": "2026-06-21T06:44:24.640Z",
     "source": "csv",
-    "totalResponses": 6,
-    "checksum": "75df41f226eadbbe"
+    "totalResponses": 7,
+    "checksum": "00bceed7ae5d7a3b"
   },
   "responses": [
     {
-      "id": "resp-42-1781933734450",
+      "id": "resp-42-1782024252468",
       "submittedAt": "2026-06-19T04:59:09.000Z",
       "geo": {
         "cityId": "bengaluru",
@@ -45,7 +45,7 @@
       "commentsText": "Political hoardings everywhere, even the bus stops have politician face on it and on parks every bench is carved with politician name who is a local mla, I have raised rti but no response"
     },
     {
-      "id": "resp-45-1781933734450",
+      "id": "resp-45-1782024252468",
       "submittedAt": "2026-06-19T05:14:27.000Z",
       "geo": {
         "cityId": "bengaluru",
@@ -81,7 +81,7 @@
       "loveText": "It's very central location to Bangalore but still not at all crowded it's like peace but as central you can get before evening gets crowded"
     },
     {
-      "id": "resp-57-1781933734451",
+      "id": "resp-57-1782024252469",
       "submittedAt": "2026-06-19T08:11:23.000Z",
       "geo": {
         "cityId": "bengaluru",
@@ -119,7 +119,7 @@
       "commentsText": "A strong community that can have deep roots in local governing body is missing since the last 20 years in 560075"
     },
     {
-      "id": "resp-58-1781933734451",
+      "id": "resp-58-1782024252469",
       "submittedAt": "2026-06-19T08:17:44.000Z",
       "geo": {
         "cityId": "bengaluru",
@@ -156,7 +156,7 @@
       ]
     },
     {
-      "id": "resp-59-1781933734451",
+      "id": "resp-59-1782024252469",
       "submittedAt": "2026-06-19T08:30:50.000Z",
       "geo": {
         "cityId": "bengaluru",
@@ -194,7 +194,7 @@
       "commentsText": "Please help in building proper roads"
     },
     {
-      "id": "resp-75-1781933734452",
+      "id": "resp-75-1782024252470",
       "submittedAt": "2026-06-19T15:54:49.000Z",
       "geo": {
         "cityId": "bengaluru",
@@ -229,6 +229,39 @@
       ],
       "loveText": "The small stalls and food. Rent is afforadable acc to bangalore standards.",
       "commentsText": "Water logging even if it rains 5 mins"
+    },
+    {
+      "id": "resp-82-1782024252470",
+      "submittedAt": "2026-06-20T06:12:04.000Z",
+      "geo": {
+        "cityId": "bengaluru",
+        "coordinates": {
+          "lat": 12.899238,
+          "lng": 77.6735139
+        },
+        "coordinatesValid": true,
+        "cityName": "Bengaluru"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "roadRating": "horrible",
+      "roadComment": "congestion Is horrible",
+      "civicHazards": [
+        "potholes_broken_roads",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Peaceful, less noisy"
     }
   ]
 }

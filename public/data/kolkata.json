@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "kolkata",
+    "importedAt": "2026-06-21T06:44:24.653Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "e93c7fa2447ff75f"
+  },
+  "responses": [
+    {
+      "id": "resp-86-1782024252470",
+      "submittedAt": "2026-06-20T09:05:50.000Z",
+      "geo": {
+        "cityId": "kolkata",
+        "coordinates": {
+          "lat": 22.6706704,
+          "lng": 88.3749321
+        },
+        "coordinatesValid": true,
+        "cityName": "Kolkata"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "electricityComment": "Its good as in we get reliable electricity supply. But like adoption of new technologies is not happening or facilities for people who want to have solar panels installed on roof or terrace and EV infrastructure is just pathetic and this is in Metro city of Kolkata.",
+      "roadRating": "bad",
+      "roadComment": "There's no proper drainage. Also although our neighbourhood is connected and part of the famous Barrackpore Trunk Road but waterlogging is a very big problem and not proper lane and zebra crossing markings and no safe space for walking of pedestrians and potholes and uneven roads are a reality everywhere.",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "petty_crime_unsafe",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "safetyComment": "See I didn't want to be political but the vidhan sabha constituency I live - Madan Mitra from TMC (Kamarhati) won and it's also a muslim majority constituency. But other constituencies around have been won by BJP. Now I am kinda worried that during festivals I feel like jhamela na ho. Already we had some small incidents where Blinkit delivery boys who happened to be muslim were forcefully applied upon Saffron coloured Abir powder the day BJP won in West Bengal elections just cause they were celebrating.",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "garbage",
+        "harassment_by_administration",
+        "sealing_threats",
+        "lack_public_toilets"
+      ],
+      "businessComment": "I guess no intimidation from the authorities and more deregulation and encouragement of in general and entrepreneurial temperament among the people as we have seen 34 years of left rule. I feel people think all profits are dirty and kind of seeing entrepreneurship with contempt and discourage the natural scaling of a business from small to big ethically.",
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "Harmony and Syncreticism and helpfulness within misery",
+      "commentsText": "Bengal needs entrepreneurship and huge Infrastructure investments and Jobs and also we need to fix our schools we have an absolutely ruined education sector and job sector. People have been fleeing from the state. Don't want cultural clashes just development. Also we want the state to take step back and not interfere and have meritocratic appointments and not politically motivated. We need free and fair and transparent execution in government schemes and law and order."
+    }
+  ]
+}

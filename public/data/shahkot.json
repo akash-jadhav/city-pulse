@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "shahkot",
+    "importedAt": "2026-06-21T06:44:24.653Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "bb2a2a57546b9dee"
+  },
+  "responses": [
+    {
+      "id": "resp-84-1782024252470",
+      "submittedAt": "2026-06-20T07:06:42.000Z",
+      "geo": {
+        "cityId": "shahkot",
+        "coordinates": {
+          "lat": 31.08247,
+          "lng": 75.33585
+        },
+        "coordinatesValid": true,
+        "cityName": "Shahkot"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "When it gets windy or there is cloud coverage and its rainy the shut down the electricity, otherwise its okay. Due to AAP government scheme Of free 300 units it has become affordable for many people but due to frequent seasonal electricity cutoff many people have diesel generators at home due to which fuel costs add up",
+      "roadRating": "average",
+      "roadComment": "Road quality is good in my town but drainage is very bad some areas clog up water with very few mm of rainfall. For example the road in front of the grain mandi of our town is clogged up with water every time it rains but authorities refuse to higher its elevation due to the fear of mandi being flooded. They are idiots who refuse to construct a drainage system.",
+      "civicHazards": [
+        "water_logging",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "There is drug trafficking in some areas of the town but most of the drug related activities occurs mostly out of town mostly in villages. Marginalised sections of the society such as Dalits and poor farming communities are the most devastated by this drug trade.",
+      "businessChallenges": [
+        "lack_public_toilets",
+        "other"
+      ],
+      "businessComment": "Like i said previously an shade in summer heat for the small market of our town will greatly increase customers in the market And in my business, which is of selling clothes.",
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "newspapers",
+        "social_media"
+      ],
+      "loveText": "this town is its surrounded by farms and greenery as far as the eye can see and there is a lovely Sutlej river 10 km from the town",
+      "commentsText": "I live in the min market of our town (building has three floors 1st and the ground floor is my shop and the topmost floor is my home). Being in the market you can guess the community which lives near the market and works in the market. Most of the people in the community outwardly don’t care about caste and sit and eat with everyone but when they talk between their community they throw every kind of casteist remark imaginable about everyone. This type of ideas they spread to their kids who also develop preconceived notion about types of people they belong to insted of seeing whole of humanity as their tribe."
+    }
+  ]
+}

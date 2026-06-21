@@ -2,14 +2,14 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "lucknow",
-    "importedAt": "2026-06-20T05:35:41.964Z",
+    "importedAt": "2026-06-21T06:44:24.653Z",
     "source": "csv",
-    "totalResponses": 1,
-    "checksum": "3aea588dc7523895"
+    "totalResponses": 2,
+    "checksum": "29504c72527e6fcb"
   },
   "responses": [
     {
-      "id": "resp-82-1781933734452",
+      "id": "resp-81-1782024252470",
       "submittedAt": "2026-06-20T04:03:30.000Z",
       "geo": {
         "cityId": "lucknow",
@@ -42,6 +42,43 @@
         "newspapers"
       ],
       "loveText": "safety"
+    },
+    {
+      "id": "resp-85-1782024252470",
+      "submittedAt": "2026-06-20T07:18:59.000Z",
+      "geo": {
+        "cityId": "lucknow",
+        "coordinates": {
+          "lat": 26.7937899,
+          "lng": 80.8880451
+        },
+        "coordinatesValid": true,
+        "cityName": "Lucknow"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Female"
+      },
+      "housingStatus": "other",
+      "electricityRating": "great",
+      "electricityComment": "Sometimes due to high demand a small fire breaks out in the wires",
+      "roadRating": "average",
+      "roadComment": "Lots of potholes and some construction material clogging the entire street",
+      "civicHazards": [
+        "water_logging",
+        "potholes_broken_roads",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "It is safe in terms of people but lots of stray dogs even though they are usually calm",
+      "businessChallenges": [],
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "Quiet, friendly people and proximity to metro station",
+      "commentsText": "I think if cleanliness was maintained and some more trees were planted + honking was limited it would be a perfect place to live"
     }
   ]
 }

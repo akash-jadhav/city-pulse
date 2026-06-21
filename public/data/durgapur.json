@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "durgapur",
+    "importedAt": "2026-06-21T06:44:24.654Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "931d97eb34521adf"
+  },
+  "responses": [
+    {
+      "id": "resp-89-1782024252471",
+      "submittedAt": "2026-06-20T15:51:47.000Z",
+      "geo": {
+        "cityId": "durgapur",
+        "coordinates": {
+          "lat": 23.552893,
+          "lng": 87.270201
+        },
+        "coordinatesValid": true,
+        "cityName": "Durgapur"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "We have good backup in our housing but there is often electricity blackout in our locality.",
+      "roadRating": "bad",
+      "roadComment": "Tbh it could be worse.",
+      "civicHazards": [
+        "broken_streetlights",
+        "potholes_broken_roads",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [],
+      "businessComment": "We need better roads.",
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "Being a small neighbourhood it is quite peaceful."
+    }
+  ]
+}
