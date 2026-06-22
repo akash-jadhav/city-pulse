@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "sahibzada-ajit-singh-nagar",
+    "importedAt": "2026-06-22T13:57:56.945Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "eda25b2bc6218837"
+  },
+  "responses": [
+    {
+      "id": "resp-103-1782136665685",
+      "submittedAt": "2026-06-21T11:30:40.000Z",
+      "geo": {
+        "cityId": "sahibzada-ajit-singh-nagar",
+        "coordinates": {
+          "lat": 30.6890866,
+          "lng": 76.665239
+        },
+        "coordinatesValid": true,
+        "cityName": "Sahibzada Ajit Singh Nagar"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "Electricity cuts are very rare.",
+      "roadRating": "average",
+      "roadComment": "Potholes, Congested Roads, Broken Dividers, Cracked & Missing Roads",
+      "civicHazards": [
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "safetyComment": "Because drugs are very common here, it is difficult to walk around alone at night. Who knows when you'd meet someone who's in drunk/high and in a bad mood.",
+      "businessChallenges": [
+        "garbage",
+        "other"
+      ],
+      "businessComment": "N/A",
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "N/A",
+      "commentsText": "N/A"
+    }
+  ]
+}

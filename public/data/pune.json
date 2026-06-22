@@ -2,14 +2,14 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "pune",
-    "importedAt": "2026-06-21T06:44:24.630Z",
+    "importedAt": "2026-06-22T13:57:56.912Z",
     "source": "csv",
-    "totalResponses": 1,
-    "checksum": "e65cf4b9b3f56937"
+    "totalResponses": 8,
+    "checksum": "17fcd5d5cdc408ad"
   },
   "responses": [
     {
-      "id": "resp-1-1782024252464",
+      "id": "resp-1-1782136665679",
       "submittedAt": "2026-06-12T16:10:12.000Z",
       "geo": {
         "cityId": "pune",
@@ -45,6 +45,245 @@
         "social_media"
       ],
       "loveText": "It’s near the metro station (10Mins by rickshaw)"
+    },
+    {
+      "id": "resp-95-1782136665685",
+      "submittedAt": "2026-06-21T09:47:04.000Z",
+      "geo": {
+        "cityId": "pune",
+        "coordinates": {
+          "lat": 18.500353,
+          "lng": 73.858239
+        },
+        "coordinatesValid": true,
+        "cityName": "Pune"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "great",
+      "roadRating": "average",
+      "roadComment": "Jam on vadgaon bridge",
+      "civicHazards": [
+        "water_logging",
+        "potholes_broken_roads",
+        "stray_animals",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [
+        "parking_congestion"
+      ],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "No Answer",
+      "commentsText": "Nope. Very neutral person"
+    },
+    {
+      "id": "resp-97-1782136665685",
+      "submittedAt": "2026-06-21T10:06:15.000Z",
+      "geo": {
+        "cityId": "pune",
+        "coordinates": {
+          "lat": 18.492314,
+          "lng": 73.836786
+        },
+        "coordinatesValid": true,
+        "cityName": "Pune"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Female"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "bad",
+      "electricityComment": "Bill has become double since the last 2 month.",
+      "roadRating": "good",
+      "civicHazards": [
+        "petty_crime_unsafe",
+        "other"
+      ],
+      "safetyRating": "terrified",
+      "safetyComment": "Security is an issue",
+      "businessChallenges": [
+        "other"
+      ],
+      "businessComment": "Traffic congestion",
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "Deshpande Garden is lovely, the area is safe."
+    },
+    {
+      "id": "resp-98-1782136665685",
+      "submittedAt": "2026-06-21T10:20:28.000Z",
+      "geo": {
+        "cityId": "pune",
+        "coordinates": {
+          "lat": 18.502548,
+          "lng": 73.858819
+        },
+        "coordinatesValid": true,
+        "cityName": "Pune"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Female"
+      },
+      "housingStatus": "other",
+      "electricityRating": "great",
+      "roadRating": "average",
+      "civicHazards": [],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [
+        "harassment_by_administration"
+      ],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "No problems",
+      "commentsText": "No worries"
+    },
+    {
+      "id": "resp-99-1782136665685",
+      "submittedAt": "2026-06-21T10:35:55.000Z",
+      "geo": {
+        "cityId": "pune",
+        "coordinates": {
+          "lat": 18.502562,
+          "lng": 73.858819
+        },
+        "coordinatesValid": true,
+        "cityName": "Pune"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Male"
+      },
+      "housingStatus": "other",
+      "electricityRating": "good",
+      "electricityComment": "Cuts in electricity.",
+      "roadRating": "great",
+      "roadComment": "No problems",
+      "civicHazards": [
+        "poor_garbage_collection"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [
+        "other"
+      ],
+      "businessComment": "Farmer wants map for produce",
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "neighbours"
+      ]
+    },
+    {
+      "id": "resp-100-1782136665685",
+      "submittedAt": "2026-06-21T10:52:15.000Z",
+      "geo": {
+        "cityId": "pune",
+        "coordinates": {
+          "lat": 18.504529,
+          "lng": 73.859127
+        },
+        "coordinatesValid": true,
+        "cityName": "Pune"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "roadRating": "bad",
+      "civicHazards": [
+        "poor_garbage_collection"
+      ],
+      "safetyRating": "terrified",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "newspapers"
+      ],
+      "loveText": "Loves that all convenient shops are around here"
+    },
+    {
+      "id": "resp-101-1782136665685",
+      "submittedAt": "2026-06-21T11:03:58.000Z",
+      "geo": {
+        "cityId": "pune",
+        "coordinates": {
+          "lat": 18.50447,
+          "lng": 73.859121
+        },
+        "coordinatesValid": true,
+        "cityName": "Pune"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "Need regular supply of electricity",
+      "roadRating": "good",
+      "roadComment": "Traffic issue",
+      "civicHazards": [
+        "water_logging",
+        "poor_garbage_collection",
+        "stray_animals",
+        "petty_crime_unsafe",
+        "other"
+      ],
+      "safetyRating": "not_safe",
+      "safetyComment": "In general safetyneed to be ensured",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "commentsText": "Public should keep neighbourhood safe and clean."
+    },
+    {
+      "id": "resp-102-1782136665685",
+      "submittedAt": "2026-06-21T11:21:13.000Z",
+      "geo": {
+        "cityId": "pune",
+        "coordinates": {
+          "lat": 18.463755,
+          "lng": 73.8542819
+        },
+        "coordinatesValid": true,
+        "cityName": "Pune"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "roadRating": "bad",
+      "roadComment": "No footpaths, too many street dogs and litter on roads very unsafe to walk",
+      "civicHazards": [
+        "broken_streetlights",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "People"
     }
   ]
 }

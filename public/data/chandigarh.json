@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "chandigarh",
+    "importedAt": "2026-06-22T13:57:56.945Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "e6a29395cb2d8534"
+  },
+  "responses": [
+    {
+      "id": "resp-109-1782136665685",
+      "submittedAt": "2026-06-22T10:44:37.000Z",
+      "geo": {
+        "cityId": "chandigarh",
+        "coordinates": {
+          "lat": 30.716359,
+          "lng": 76.755918
+        },
+        "coordinatesValid": true,
+        "cityName": "Chandigarh"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "electricityComment": "there are power cuts , but usually short , can be bypassed with a inverter , rest is good",
+      "roadRating": "average",
+      "roadComment": "actually , there is no encroachment , but alot of congestion , you can use a cycle and reach the place just as fast as a car , there are some potholes , low quality bitumen is used in recent years",
+      "civicHazards": [
+        "stray_animals",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "it's the dogs 🥀 , and random uncles and aunties that have nothing to bother the youth and have entitlement",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Greenery 🌳",
+      "commentsText": "Fucking Uncles and Aunties man 🥀 , they are the only plague in chandigarh"
+    }
+  ]
+}

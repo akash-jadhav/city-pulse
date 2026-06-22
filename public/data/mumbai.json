@@ -2,14 +2,14 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "mumbai",
-    "importedAt": "2026-06-21T06:44:24.641Z",
+    "importedAt": "2026-06-22T13:57:56.929Z",
     "source": "csv",
-    "totalResponses": 3,
-    "checksum": "80ea2956b8a5cf26"
+    "totalResponses": 4,
+    "checksum": "b8661a08c31109c0"
   },
   "responses": [
     {
-      "id": "resp-43-1782024252468",
+      "id": "resp-43-1782136665682",
       "submittedAt": "2026-06-19T05:10:16.000Z",
       "geo": {
         "cityId": "mumbai",
@@ -50,7 +50,7 @@
       "commentsText": "The water quality we get is quite poor, for eg my Buidlung has BMC supply, and a Borewell supply which we have created. For the past 6 months we are getting water (BMC) that is smelly, and seems like sewage water, on days where we do get it, it is very minimal. If we rely on borewell we have been getting less and less because someone in the area has started a water tanmer business and is oulling from the groundwater supply which is lowering the water level for everyone."
     },
     {
-      "id": "resp-48-1782024252468",
+      "id": "resp-48-1782136665682",
       "submittedAt": "2026-06-19T05:54:17.000Z",
       "geo": {
         "cityId": "mumbai",
@@ -85,7 +85,7 @@
       ]
     },
     {
-      "id": "resp-53-1782024252469",
+      "id": "resp-53-1782136665683",
       "submittedAt": "2026-06-19T06:55:44.000Z",
       "geo": {
         "cityId": "mumbai",
@@ -127,6 +127,38 @@
       ],
       "loveText": "Its safer and cleaner than surrounding area. Market is close by and work is approachable. Otherwise i seldom leave house",
       "commentsText": "Too costly for the services being offered and congestion in market is a problem. And its extremely unsafe and hazardous for pedestrians"
+    },
+    {
+      "id": "resp-94-1782136665685",
+      "submittedAt": "2026-06-21T08:23:03.000Z",
+      "geo": {
+        "cityId": "mumbai",
+        "coordinates": {
+          "lat": 19.167004,
+          "lng": 72.850588
+        },
+        "coordinatesValid": true,
+        "cityName": "Mumbai"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "nb"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "electricityComment": "Mumbai generally doesn't face any severe power cuts, but there were some minor outages during these summers.",
+      "roadRating": "bad",
+      "roadComment": "They build good roads initially, but then they suddenly realise that they forgot to install something or the other, so it again gets dup up and becomes patchy since it the surface is not remade properly. The roads are often in a much worse shape at the junctions of asphalt and concrete roads.",
+      "civicHazards": [
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ]
     }
   ]
 }

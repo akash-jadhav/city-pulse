@@ -1,32 +1,32 @@
 {
   "meta": {
     "version": "1.0.0",
-    "cityId": "thirthahalli",
-    "importedAt": "2026-06-22T13:57:56.934Z",
+    "cityId": "assolna",
+    "importedAt": "2026-06-22T13:57:56.944Z",
     "source": "csv",
     "totalResponses": 1,
-    "checksum": "bbe9176dff525ffa"
+    "checksum": "d7467038904ada1f"
   },
   "responses": [
     {
-      "id": "resp-64-1782136665683",
-      "submittedAt": "2026-06-19T11:18:34.000Z",
+      "id": "resp-92-1782136665684",
+      "submittedAt": "2026-06-21T06:53:34.000Z",
       "geo": {
-        "cityId": "thirthahalli",
+        "cityId": "assolna",
         "coordinates": {
-          "lat": 13.68911,
-          "lng": 75.23929
+          "lat": 15.1806,
+          "lng": 73.9713
         },
         "coordinatesValid": true,
-        "cityName": "Thirthahalli"
+        "cityName": "Assolna"
       },
       "demographics": {
-        "age": "30 - 50",
+        "age": "18 - 29",
         "gender": "Male"
       },
-      "housingStatus": "tenant",
+      "housingStatus": "homeowner",
       "electricityRating": "average",
-      "electricityComment": "It’s more of a rural township in wester ghats. So there’d be constant power cuts. Situation is worse as we move interior",
+      "electricityComment": "Frequent short power cuts which are annoying.",
       "roadRating": "average",
       "civicHazards": [
         "broken_streetlights",
@@ -39,14 +39,15 @@
       "safetyRating": "completely_safe",
       "businessChallenges": [
         "parking_congestion",
-        "harassment_by_administration",
+        "garbage",
         "lack_public_toilets"
       ],
-      "emergencyResponse": "unknown",
+      "businessComment": "Better cleanliness and vehicle parking",
+      "emergencyResponse": "system_works",
       "newsSources": [
         "neighbours"
       ],
-      "loveText": "Comparatively clean air and less pollution"
+      "loveText": "It's peaceful and nice to chill."
     }
   ]
 }

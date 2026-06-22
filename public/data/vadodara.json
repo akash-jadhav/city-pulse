@@ -2,14 +2,14 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "vadodara",
-    "importedAt": "2026-06-21T06:44:24.644Z",
+    "importedAt": "2026-06-22T13:57:56.931Z",
     "source": "csv",
-    "totalResponses": 1,
-    "checksum": "96ac11c59bdf0c0a"
+    "totalResponses": 6,
+    "checksum": "d34b04032cf24a71"
   },
   "responses": [
     {
-      "id": "resp-50-1782024252468",
+      "id": "resp-50-1782136665683",
       "submittedAt": "2026-06-19T06:03:24.000Z",
       "geo": {
         "cityId": "vadodara",
@@ -47,6 +47,207 @@
       ],
       "loveText": "The neighborhood had good green space at one point of time but now it's reducing drastically. That's why planning to change my neighbour hood",
       "commentsText": "The fear or law and order is something that is reducing day by day in my locality"
+    },
+    {
+      "id": "resp-104-1782136665685",
+      "submittedAt": "2026-06-21T12:35:34.000Z",
+      "geo": {
+        "cityId": "vadodara",
+        "coordinates": {
+          "lat": 22.303881,
+          "lng": 73.193512
+        },
+        "coordinatesValid": true,
+        "cityName": "Vadodara"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "During floods the power cuts are massive. Even for Weeks",
+      "roadRating": "average",
+      "civicHazards": [
+        "water_logging",
+        "potholes_broken_roads",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "safetyComment": "Area is safe, there is no fear of getting out at anytime of the day.",
+      "businessChallenges": [
+        "other",
+        "parking_congestion"
+      ],
+      "businessComment": "He does like to change anything because he have given up on ambitions and is he surving.",
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "newspapers"
+      ],
+      "loveText": "The parks around and the business culture. Also appreciate about the educational industry in the city",
+      "commentsText": "Nothing much. But love to live in locality because of the helpful nature of everyone."
+    },
+    {
+      "id": "resp-105-1782136665685",
+      "submittedAt": "2026-06-21T13:15:00.000Z",
+      "geo": {
+        "cityId": "vadodara",
+        "coordinates": {
+          "lat": 22.322187,
+          "lng": 73.165587
+        },
+        "coordinatesValid": true,
+        "cityName": "Vadodara"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "electricityComment": "Power cut during flood",
+      "roadRating": "bad",
+      "roadComment": "Not clean and dusty",
+      "civicHazards": [
+        "water_logging",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "safetyComment": "Not much. Everything is fine and safe here.",
+      "businessChallenges": [
+        "other",
+        "garbage"
+      ],
+      "businessComment": "Nothing much just improve road quality",
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "People are corporative and helpful",
+      "commentsText": "Want to hire the watchman in the society"
+    },
+    {
+      "id": "resp-106-1782136665685",
+      "submittedAt": "2026-06-21T13:55:18.000Z",
+      "geo": {
+        "cityId": "vadodara",
+        "coordinates": {
+          "lat": 22.3221872,
+          "lng": 73.1655875
+        },
+        "coordinatesValid": true,
+        "cityName": "Vadodara"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "electricityComment": "Everything is great",
+      "roadRating": "great",
+      "roadComment": "Everything is perfect",
+      "civicHazards": [
+        "water_logging",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "safetyComment": "Everything is fine",
+      "businessChallenges": [
+        "other"
+      ],
+      "businessComment": "Everything is good",
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "The spirituality and culture",
+      "commentsText": "Perfect city to live."
+    },
+    {
+      "id": "resp-107-1782136665685",
+      "submittedAt": "2026-06-21T16:37:38.000Z",
+      "geo": {
+        "cityId": "vadodara",
+        "coordinates": {
+          "lat": 22.3221874,
+          "lng": 73.165587
+        },
+        "coordinatesValid": true,
+        "cityName": "Vadodara"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Female"
+      },
+      "housingStatus": "other",
+      "electricityRating": "horrible",
+      "electricityComment": "Electricity get cut of in 3-4 times a month",
+      "roadRating": "horrible",
+      "roadComment": "So many pot holes",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "Good",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "garbage",
+        "lack_public_toilets"
+      ],
+      "businessComment": "Safety from boys in work environment",
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Good mindset of people"
+    },
+    {
+      "id": "resp-108-1782136665685",
+      "submittedAt": "2026-06-21T21:50:41.000Z",
+      "geo": {
+        "cityId": "vadodara",
+        "coordinates": {
+          "lat": 22.3049533,
+          "lng": 73.1925464
+        },
+        "coordinatesValid": true,
+        "cityName": "Vadodara"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "electricityComment": "Cut off during flood",
+      "roadRating": "good",
+      "roadComment": "There are a lot of pot holes and water get collected in that which leads to mosquito breeding",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "potholes_broken_roads",
+        "lack_of_parks"
+      ],
+      "safetyRating": "completely_safe",
+      "safetyComment": "It is good",
+      "businessChallenges": [
+        "other",
+        "parking_congestion"
+      ],
+      "businessComment": "Just better roads and footpath",
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "But people and corporation with and within community",
+      "commentsText": "Nothing much"
     }
   ]
 }

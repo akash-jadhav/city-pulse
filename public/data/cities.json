@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T06:44:24.656Z",
+  "generatedAt": "2026-06-22T13:57:56.948Z",
   "cities": [
     {
       "slug": "india",
@@ -14,7 +14,7 @@
         "east": 97.4,
         "west": 68.1
       },
-      "responseCount": 92
+      "responseCount": 110
     },
     {
       "slug": "new-delhi",
@@ -32,6 +32,21 @@
       "responseCount": 23
     },
     {
+      "slug": "pune",
+      "name": "Pune",
+      "defaultCenter": [
+        18.4993532,
+        73.8766144
+      ],
+      "bounds": {
+        "north": 18.5549514,
+        "south": 18.443755,
+        "east": 73.9364428,
+        "west": 73.81678600000001
+      },
+      "responseCount": 8
+    },
+    {
       "slug": "bengaluru",
       "name": "Bengaluru",
       "defaultCenter": [
@@ -45,6 +60,21 @@
         "west": 77.5403323
       },
       "responseCount": 7
+    },
+    {
+      "slug": "vadodara",
+      "name": "Vadodara",
+      "defaultCenter": [
+        22.3130342,
+        73.1559935
+      ],
+      "bounds": {
+        "north": 22.3421874,
+        "south": 22.283881,
+        "east": 73.213512,
+        "west": 73.09847500000001
+      },
+      "responseCount": 6
     },
     {
       "slug": "delhi",
@@ -80,16 +110,16 @@
       "slug": "mumbai",
       "name": "Mumbai",
       "defaultCenter": [
-        19.09196075,
+        19.104532149999997,
         72.85072349999999
       ],
       "bounds": {
-        "north": 19.1618612,
+        "north": 19.187003999999998,
         "south": 19.0220603,
         "east": 72.91393269999999,
         "west": 72.7875143
       },
-      "responseCount": 3
+      "responseCount": 4
     },
     {
       "slug": "kalyan",
@@ -167,6 +197,21 @@
       "responseCount": 2
     },
     {
+      "slug": "jammu",
+      "name": "Jammu",
+      "defaultCenter": [
+        32.7016335,
+        74.852868
+      ],
+      "bounds": {
+        "north": 32.758686000000004,
+        "south": 32.644580999999995,
+        "east": 74.884681,
+        "west": 74.821055
+      },
+      "responseCount": 2
+    },
+    {
       "slug": "lucknow",
       "name": "Lucknow",
       "defaultCenter": [
@@ -180,21 +225,6 @@
         "west": 80.8680451
       },
       "responseCount": 2
-    },
-    {
-      "slug": "pune",
-      "name": "Pune",
-      "defaultCenter": [
-        18.5349514,
-        73.9164428
-      ],
-      "bounds": {
-        "north": 18.5549514,
-        "south": 18.5149514,
-        "east": 73.9364428,
-        "west": 73.8964428
-      },
-      "responseCount": 1
     },
     {
       "slug": "rajakhedi",
@@ -328,21 +358,6 @@
         "south": 12.8597,
         "east": 77.7041,
         "west": 77.6641
-      },
-      "responseCount": 1
-    },
-    {
-      "slug": "vadodara",
-      "name": "Vadodara",
-      "defaultCenter": [
-        22.313434,
-        73.118475
-      ],
-      "bounds": {
-        "north": 22.333434,
-        "south": 22.293434,
-        "east": 73.138475,
-        "west": 73.09847500000001
       },
       "responseCount": 1
     },
@@ -557,21 +572,6 @@
       "responseCount": 1
     },
     {
-      "slug": "jammu",
-      "name": "Jammu",
-      "defaultCenter": [
-        32.664581,
-        74.841055
-      ],
-      "bounds": {
-        "north": 32.684581,
-        "south": 32.644580999999995,
-        "east": 74.861055,
-        "west": 74.821055
-      },
-      "responseCount": 1
-    },
-    {
       "slug": "gurugram",
       "name": "Gurugram",
       "defaultCenter": [
@@ -733,6 +733,66 @@
         "south": 19.183504,
         "east": 72.98186299999999,
         "west": 72.941863
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "assolna",
+      "name": "Assolna",
+      "defaultCenter": [
+        15.1806,
+        73.9713
+      ],
+      "bounds": {
+        "north": 15.2006,
+        "south": 15.1606,
+        "east": 73.9913,
+        "west": 73.9513
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "kanathur-reddykuppam",
+      "name": "Kanathur Reddykuppam",
+      "defaultCenter": [
+        12.85023,
+        80.24385
+      ],
+      "bounds": {
+        "north": 12.87023,
+        "south": 12.83023,
+        "east": 80.26384999999999,
+        "west": 80.22385
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "sahibzada-ajit-singh-nagar",
+      "name": "Sahibzada Ajit Singh Nagar",
+      "defaultCenter": [
+        30.6890866,
+        76.665239
+      ],
+      "bounds": {
+        "north": 30.7090866,
+        "south": 30.6690866,
+        "east": 76.685239,
+        "west": 76.645239
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "chandigarh",
+      "name": "Chandigarh",
+      "defaultCenter": [
+        30.716359,
+        76.755918
+      ],
+      "bounds": {
+        "north": 30.736359,
+        "south": 30.696359,
+        "east": 76.77591799999999,
+        "west": 76.735918
       },
       "responseCount": 1
     }
