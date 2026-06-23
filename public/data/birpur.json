@@ -2,15 +2,15 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "birpur",
-    "importedAt": "2026-06-22T13:57:56.937Z",
+    "importedAt": "2026-06-23T10:17:36.875Z",
     "source": "csv",
     "totalResponses": 1,
-    "checksum": "b2263161b3344135"
+    "checksum": "4df8c2f44b8e04be"
   },
   "responses": [
     {
-      "id": "resp-71-1782136665683",
-      "submittedAt": "2026-06-19T15:08:13.000Z",
+      "id": "resp-71-1782209845362",
+      "submittedAt": "2026-06-20T03:38:13.000Z",
       "geo": {
         "cityId": "birpur",
         "coordinates": {

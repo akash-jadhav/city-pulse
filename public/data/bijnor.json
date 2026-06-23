@@ -2,15 +2,15 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "bijnor",
-    "importedAt": "2026-06-22T13:57:56.933Z",
+    "importedAt": "2026-06-23T10:17:36.871Z",
     "source": "csv",
     "totalResponses": 1,
-    "checksum": "725602e005f5a0d5"
+    "checksum": "196756531c1e35a2"
   },
   "responses": [
     {
-      "id": "resp-56-1782136665683",
-      "submittedAt": "2026-06-19T07:55:35.000Z",
+      "id": "resp-56-1782209845361",
+      "submittedAt": "2026-06-19T20:25:35.000Z",
       "geo": {
         "cityId": "bijnor",
         "coordinates": {

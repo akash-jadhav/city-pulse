@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T13:57:56.948Z",
+  "generatedAt": "2026-06-23T10:17:36.882Z",
   "cities": [
     {
       "slug": "india",
@@ -14,7 +14,7 @@
         "east": 97.4,
         "west": 68.1
       },
-      "responseCount": 110
+      "responseCount": 111
     },
     {
       "slug": "new-delhi",
@@ -223,6 +223,21 @@
         "south": 26.7737899,
         "east": 80.9080659,
         "west": 80.8680451
+      },
+      "responseCount": 2
+    },
+    {
+      "slug": "kolkata",
+      "name": "Kolkata",
+      "defaultCenter": [
+        22.6204502,
+        88.41117155
+      ],
+      "bounds": {
+        "north": 22.6906704,
+        "south": 22.55023,
+        "east": 88.467411,
+        "west": 88.3549321
       },
       "responseCount": 2
     },
@@ -673,21 +688,6 @@
         "south": 31.06247,
         "east": 75.35584999999999,
         "west": 75.31585
-      },
-      "responseCount": 1
-    },
-    {
-      "slug": "kolkata",
-      "name": "Kolkata",
-      "defaultCenter": [
-        22.6706704,
-        88.3749321
-      ],
-      "bounds": {
-        "north": 22.6906704,
-        "south": 22.6506704,
-        "east": 88.39493209999999,
-        "west": 88.3549321
       },
       "responseCount": 1
     },

@@ -2,15 +2,15 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "varanasi",
-    "importedAt": "2026-06-22T13:57:56.930Z",
+    "importedAt": "2026-06-23T10:17:36.868Z",
     "source": "csv",
     "totalResponses": 1,
-    "checksum": "6c6bbc73c31014ab"
+    "checksum": "84393f5bda2bb4e5"
   },
   "responses": [
     {
-      "id": "resp-44-1782136665682",
-      "submittedAt": "2026-06-19T05:12:55.000Z",
+      "id": "resp-44-1782209845361",
+      "submittedAt": "2026-06-19T17:42:55.000Z",
       "geo": {
         "cityId": "varanasi",
         "coordinates": {

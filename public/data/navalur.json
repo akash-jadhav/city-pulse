@@ -2,15 +2,15 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "navalur",
-    "importedAt": "2026-06-22T13:57:56.935Z",
+    "importedAt": "2026-06-23T10:17:36.874Z",
     "source": "csv",
     "totalResponses": 1,
-    "checksum": "2019e0ed6889eb30"
+    "checksum": "5f63a37c8949dbac"
   },
   "responses": [
     {
-      "id": "resp-68-1782136665683",
-      "submittedAt": "2026-06-19T13:54:02.000Z",
+      "id": "resp-68-1782209845362",
+      "submittedAt": "2026-06-20T02:24:02.000Z",
       "geo": {
         "cityId": "navalur",
         "coordinates": {

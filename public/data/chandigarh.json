@@ -2,15 +2,15 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "chandigarh",
-    "importedAt": "2026-06-22T13:57:56.945Z",
+    "importedAt": "2026-06-23T10:17:36.879Z",
     "source": "csv",
     "totalResponses": 1,
-    "checksum": "e6a29395cb2d8534"
+    "checksum": "7b6c80ff69c8739e"
   },
   "responses": [
     {
-      "id": "resp-109-1782136665685",
-      "submittedAt": "2026-06-22T10:44:37.000Z",
+      "id": "resp-109-1782209845364",
+      "submittedAt": "2026-06-22T23:14:37.000Z",
       "geo": {
         "cityId": "chandigarh",
         "coordinates": {

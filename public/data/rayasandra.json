@@ -2,15 +2,15 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "rayasandra",
-    "importedAt": "2026-06-22T13:57:56.931Z",
+    "importedAt": "2026-06-23T10:17:36.869Z",
     "source": "csv",
     "totalResponses": 1,
-    "checksum": "1ff49c485dc02717"
+    "checksum": "3070667932ceb403"
   },
   "responses": [
     {
-      "id": "resp-49-1782136665683",
-      "submittedAt": "2026-06-19T05:57:40.000Z",
+      "id": "resp-49-1782209845361",
+      "submittedAt": "2026-06-19T18:27:40.000Z",
       "geo": {
         "cityId": "rayasandra",
         "coordinates": {

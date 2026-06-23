@@ -2,15 +2,15 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "vagator",
-    "importedAt": "2026-06-22T13:57:56.927Z",
+    "importedAt": "2026-06-23T10:17:36.866Z",
     "source": "csv",
     "totalResponses": 1,
-    "checksum": "9b707dc21b50ed51"
+    "checksum": "92ccf2cd189c79e4"
   },
   "responses": [
     {
-      "id": "resp-39-1782136665682",
-      "submittedAt": "2026-06-15T10:41:01.000Z",
+      "id": "resp-39-1782209845360",
+      "submittedAt": "2026-06-15T23:11:01.000Z",
       "geo": {
         "cityId": "vagator",
         "coordinates": {

@@ -2,15 +2,15 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "rewa",
-    "importedAt": "2026-06-22T13:57:56.936Z",
+    "importedAt": "2026-06-23T10:17:36.874Z",
     "source": "csv",
     "totalResponses": 1,
-    "checksum": "ba0ded0fbd065123"
+    "checksum": "d363059fd6d440d7"
   },
   "responses": [
     {
-      "id": "resp-69-1782136665683",
-      "submittedAt": "2026-06-19T14:01:10.000Z",
+      "id": "resp-69-1782209845362",
+      "submittedAt": "2026-06-20T02:31:10.000Z",
       "geo": {
         "cityId": "rewa",
         "coordinates": {

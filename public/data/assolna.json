@@ -2,15 +2,15 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "assolna",
-    "importedAt": "2026-06-22T13:57:56.944Z",
+    "importedAt": "2026-06-23T10:17:36.878Z",
     "source": "csv",
     "totalResponses": 1,
-    "checksum": "d7467038904ada1f"
+    "checksum": "9ba12a70f0b98af3"
   },
   "responses": [
     {
-      "id": "resp-92-1782136665684",
-      "submittedAt": "2026-06-21T06:53:34.000Z",
+      "id": "resp-92-1782209845363",
+      "submittedAt": "2026-06-21T19:23:34.000Z",
       "geo": {
         "cityId": "assolna",
         "coordinates": {

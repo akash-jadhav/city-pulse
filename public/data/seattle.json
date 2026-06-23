@@ -2,15 +2,15 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "seattle",
-    "importedAt": "2026-06-22T13:57:56.939Z",
+    "importedAt": "2026-06-23T10:17:36.876Z",
     "source": "csv",
     "totalResponses": 1,
-    "checksum": "e107310fa0b5656d"
+    "checksum": "2061ab13460c4877"
   },
   "responses": [
     {
-      "id": "resp-78-1782136665684",
-      "submittedAt": "2026-06-19T17:40:25.000Z",
+      "id": "resp-78-1782209845362",
+      "submittedAt": "2026-06-20T06:10:25.000Z",
       "geo": {
         "cityId": "seattle",
         "coordinates": {

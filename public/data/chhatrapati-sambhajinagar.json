@@ -2,15 +2,15 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "chhatrapati-sambhajinagar",
-    "importedAt": "2026-06-22T13:57:56.934Z",
+    "importedAt": "2026-06-23T10:17:36.872Z",
     "source": "csv",
     "totalResponses": 1,
-    "checksum": "cba4d1d0b081cc55"
+    "checksum": "f86ea51fc15069f0"
   },
   "responses": [
     {
-      "id": "resp-62-1782136665683",
-      "submittedAt": "2026-06-19T10:33:47.000Z",
+      "id": "resp-62-1782209845361",
+      "submittedAt": "2026-06-19T23:03:47.000Z",
       "geo": {
         "cityId": "chhatrapati-sambhajinagar",
         "coordinates": {

@@ -2,15 +2,15 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "umargam",
-    "importedAt": "2026-06-22T13:57:56.938Z",
+    "importedAt": "2026-06-23T10:17:36.875Z",
     "source": "csv",
     "totalResponses": 1,
-    "checksum": "537f27aeb46ab194"
+    "checksum": "530221fb69766adc"
   },
   "responses": [
     {
-      "id": "resp-76-1782136665683",
-      "submittedAt": "2026-06-19T15:54:49.000Z",
+      "id": "resp-76-1782209845362",
+      "submittedAt": "2026-06-20T04:24:49.000Z",
       "geo": {
         "cityId": "umargam",
         "coordinates": {

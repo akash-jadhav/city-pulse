@@ -2,15 +2,15 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "kolkata",
-    "importedAt": "2026-06-22T13:57:56.941Z",
+    "importedAt": "2026-06-23T10:17:36.877Z",
     "source": "csv",
-    "totalResponses": 1,
-    "checksum": "b2cd07ccec8e3557"
+    "totalResponses": 2,
+    "checksum": "d19a0620fda7fd8e"
   },
   "responses": [
     {
-      "id": "resp-86-1782136665684",
-      "submittedAt": "2026-06-20T09:05:50.000Z",
+      "id": "resp-86-1782209845363",
+      "submittedAt": "2026-06-20T21:35:50.000Z",
       "geo": {
         "cityId": "kolkata",
         "coordinates": {
@@ -56,6 +56,48 @@
       ],
       "loveText": "Harmony and Syncreticism and helpfulness within misery",
       "commentsText": "Bengal needs entrepreneurship and huge Infrastructure investments and Jobs and also we need to fix our schools we have an absolutely ruined education sector and job sector. People have been fleeing from the state. Don't want cultural clashes just development. Also we want the state to take step back and not interfere and have meritocratic appointments and not politically motivated. We need free and fair and transparent execution in government schemes and law and order."
+    },
+    {
+      "id": "resp-110-1782209845364",
+      "submittedAt": "2026-06-23T07:50:58.000Z",
+      "geo": {
+        "cityId": "kolkata",
+        "coordinates": {
+          "lat": 22.57023,
+          "lng": 88.447411
+        },
+        "coordinatesValid": true,
+        "cityName": "Kolkata"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "electricityComment": "No power cuts but heavy voltage fluctuations sometimes",
+      "roadRating": "good",
+      "roadComment": "Roads are fine but bad speed breakers and no footpaths",
+      "civicHazards": [
+        "water_logging",
+        "potholes_broken_roads",
+        "stray_animals",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "safetyComment": "Security is fine but can be better",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "lack_public_toilets"
+      ],
+      "businessComment": "Better roads and cheaper rent",
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "It's safe and very green, close to office and well connected",
+      "commentsText": "Water can be better(sometimes not clean)"
     }
   ]
 }

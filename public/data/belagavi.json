@@ -2,15 +2,15 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "belagavi",
-    "importedAt": "2026-06-22T13:57:56.927Z",
+    "importedAt": "2026-06-23T10:17:36.866Z",
     "source": "csv",
     "totalResponses": 1,
-    "checksum": "55aaba1501abfa75"
+    "checksum": "4ad73cf0e78a47ef"
   },
   "responses": [
     {
-      "id": "resp-37-1782136665682",
-      "submittedAt": "2026-06-15T08:25:50.000Z",
+      "id": "resp-37-1782209845360",
+      "submittedAt": "2026-06-15T20:55:50.000Z",
       "geo": {
         "cityId": "belagavi",
         "coordinates": {

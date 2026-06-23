@@ -2,15 +2,15 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "kalyan",
-    "importedAt": "2026-06-22T13:57:56.933Z",
+    "importedAt": "2026-06-23T10:17:36.871Z",
     "source": "csv",
     "totalResponses": 3,
-    "checksum": "65288bad30b95048"
+    "checksum": "f09da1a3b5c270ae"
   },
   "responses": [
     {
-      "id": "resp-55-1782136665683",
-      "submittedAt": "2026-06-19T07:37:12.000Z",
+      "id": "resp-55-1782209845361",
+      "submittedAt": "2026-06-19T20:07:12.000Z",
       "geo": {
         "cityId": "kalyan",
         "coordinates": {
@@ -46,8 +46,8 @@
       "commentsText": "It's also been BJP and RSS 'Balekilla' with decades of their stronghold  and cultural influence."
     },
     {
-      "id": "resp-60-1782136665683",
-      "submittedAt": "2026-06-19T08:41:32.000Z",
+      "id": "resp-60-1782209845361",
+      "submittedAt": "2026-06-19T21:11:32.000Z",
       "geo": {
         "cityId": "kalyan",
         "coordinates": {
@@ -90,8 +90,8 @@
       "commentsText": "Make solar net metering easier in Maharashtra! Why is this not a priority?"
     },
     {
-      "id": "resp-83-1782136665684",
-      "submittedAt": "2026-06-20T06:40:07.000Z",
+      "id": "resp-83-1782209845363",
+      "submittedAt": "2026-06-20T19:10:07.000Z",
       "geo": {
         "cityId": "kalyan",
         "coordinates": {

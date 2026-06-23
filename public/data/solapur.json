@@ -2,15 +2,15 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "solapur",
-    "importedAt": "2026-06-22T13:57:56.937Z",
+    "importedAt": "2026-06-23T10:17:36.874Z",
     "source": "csv",
     "totalResponses": 1,
-    "checksum": "aa7046a257e43d02"
+    "checksum": "ba0c4a5c163453a2"
   },
   "responses": [
     {
-      "id": "resp-70-1782136665683",
-      "submittedAt": "2026-06-19T14:40:48.000Z",
+      "id": "resp-70-1782209845362",
+      "submittedAt": "2026-06-20T03:10:48.000Z",
       "geo": {
         "cityId": "solapur",
         "coordinates": {

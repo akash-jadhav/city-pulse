@@ -2,15 +2,15 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "nashik",
-    "importedAt": "2026-06-22T13:57:56.935Z",
+    "importedAt": "2026-06-23T10:17:36.873Z",
     "source": "csv",
     "totalResponses": 1,
-    "checksum": "e24f6e00b1b805cb"
+    "checksum": "c39ee23c4880dfce"
   },
   "responses": [
     {
-      "id": "resp-65-1782136665683",
-      "submittedAt": "2026-06-19T12:08:42.000Z",
+      "id": "resp-65-1782209845361",
+      "submittedAt": "2026-06-20T00:38:42.000Z",
       "geo": {
         "cityId": "nashik",
         "coordinates": {
