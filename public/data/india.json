@@ -2,14 +2,14 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "india",
-    "importedAt": "2026-06-23T10:17:36.880Z",
+    "importedAt": "2026-06-25T07:07:13.152Z",
     "source": "csv",
-    "totalResponses": 111,
-    "checksum": "7d9df9c8439ea5ba"
+    "totalResponses": 113,
+    "checksum": "7ecb74a8749bb64b"
   },
   "responses": [
     {
-      "id": "resp-0-1782209845355",
+      "id": "resp-0-1782371217600",
       "submittedAt": "2026-06-13T03:05:39.000Z",
       "geo": {
         "cityId": "india",
@@ -40,7 +40,7 @@
       "loveText": "it's greener than many other areas; decent shops"
     },
     {
-      "id": "resp-1-1782209845357",
+      "id": "resp-1-1782371217603",
       "submittedAt": "2026-06-13T04:40:12.000Z",
       "geo": {
         "cityId": "india",
@@ -78,7 +78,7 @@
       "loveText": "It’s near the metro station (10Mins by rickshaw)"
     },
     {
-      "id": "resp-2-1782209845358",
+      "id": "resp-2-1782371217603",
       "submittedAt": "2026-06-13T05:29:08.000Z",
       "geo": {
         "cityId": "india",
@@ -114,7 +114,7 @@
       ]
     },
     {
-      "id": "resp-3-1782209845358",
+      "id": "resp-3-1782371217604",
       "submittedAt": "2026-06-13T06:40:00.000Z",
       "geo": {
         "cityId": "india",
@@ -149,7 +149,7 @@
       "loveText": "Greenery"
     },
     {
-      "id": "resp-4-1782209845358",
+      "id": "resp-4-1782371217604",
       "submittedAt": "2026-06-13T16:44:00.000Z",
       "geo": {
         "cityId": "india",
@@ -186,7 +186,7 @@
       "commentsText": "Thanks for doing this, adding my own answer as the first survey I conduct for this exercise soo let's do this !"
     },
     {
-      "id": "resp-5-1782209845358",
+      "id": "resp-5-1782371217604",
       "submittedAt": "2026-06-13T17:11:12.000Z",
       "geo": {
         "cityId": "india",
@@ -229,7 +229,7 @@
       "loveText": "It’s proximity to my office and other areas I visit often."
     },
     {
-      "id": "resp-6-1782209845358",
+      "id": "resp-6-1782371217604",
       "submittedAt": "2026-06-13T20:35:52.000Z",
       "geo": {
         "cityId": "india",
@@ -265,7 +265,7 @@
       "loveText": "lots of people"
     },
     {
-      "id": "resp-7-1782209845359",
+      "id": "resp-7-1782371217604",
       "submittedAt": "2026-06-13T20:42:25.000Z",
       "geo": {
         "cityId": "india",
@@ -303,7 +303,7 @@
       "loveText": "nothing"
     },
     {
-      "id": "resp-8-1782209845359",
+      "id": "resp-8-1782371217604",
       "submittedAt": "2026-06-14T00:59:06.000Z",
       "geo": {
         "cityId": "india",
@@ -334,7 +334,7 @@
       ]
     },
     {
-      "id": "resp-9-1782209845359",
+      "id": "resp-9-1782371217604",
       "submittedAt": "2026-06-14T01:02:44.000Z",
       "geo": {
         "cityId": "india",
@@ -368,7 +368,7 @@
       ]
     },
     {
-      "id": "resp-10-1782209845359",
+      "id": "resp-10-1782371217605",
       "submittedAt": "2026-06-14T01:02:46.000Z",
       "geo": {
         "cityId": "india",
@@ -405,7 +405,7 @@
       "loveText": "people are nice"
     },
     {
-      "id": "resp-11-1782209845359",
+      "id": "resp-11-1782371217605",
       "submittedAt": "2026-06-14T01:06:15.000Z",
       "geo": {
         "cityId": "india",
@@ -440,7 +440,7 @@
       ]
     },
     {
-      "id": "resp-12-1782209845359",
+      "id": "resp-12-1782371217605",
       "submittedAt": "2026-06-14T01:25:57.000Z",
       "geo": {
         "cityId": "india",
@@ -477,7 +477,7 @@
       "commentsText": "Even though it was known as a chor gully earlier, in the 1980 and before, today it's pretty safe !"
     },
     {
-      "id": "resp-13-1782209845359",
+      "id": "resp-13-1782371217605",
       "submittedAt": "2026-06-14T01:29:59.000Z",
       "geo": {
         "cityId": "india",
@@ -512,7 +512,7 @@
       "commentsText": "Parks have been taken over by people who consume drugs & are unemployed"
     },
     {
-      "id": "resp-14-1782209845359",
+      "id": "resp-14-1782371217605",
       "submittedAt": "2026-06-14T01:45:13.000Z",
       "geo": {
         "cityId": "india",
@@ -549,7 +549,7 @@
       ]
     },
     {
-      "id": "resp-15-1782209845359",
+      "id": "resp-15-1782371217605",
       "submittedAt": "2026-06-14T01:46:16.000Z",
       "geo": {
         "cityId": "india",
@@ -587,7 +587,7 @@
       "commentsText": "Bhagat Singh park got closed/shut abruptly. We used to frequent there only"
     },
     {
-      "id": "resp-16-1782209845359",
+      "id": "resp-16-1782371217605",
       "submittedAt": "2026-06-14T01:50:35.000Z",
       "geo": {
         "cityId": "india",
@@ -624,7 +624,7 @@
       "loveText": "Unity and respect. People are cooperative"
     },
     {
-      "id": "resp-17-1782209845359",
+      "id": "resp-17-1782371217605",
       "submittedAt": "2026-06-14T16:39:44.000Z",
       "geo": {
         "cityId": "india",
@@ -657,7 +657,7 @@
       "commentsText": "Money transfer issues - can’t send money to his hometown in Nepal as he doesn’t have Aadhaar card. He can only do a bank to bank transfer, and for that he has to go to a far away bank branch in mapusa."
     },
     {
-      "id": "resp-18-1782209845359",
+      "id": "resp-18-1782371217605",
       "submittedAt": "2026-06-14T17:53:34.000Z",
       "geo": {
         "cityId": "india",
@@ -691,7 +691,7 @@
       "commentsText": "Neglected public spaces, such as parks and vacant government-owned plots, are often frequented by individuals involved in substance abuse."
     },
     {
-      "id": "resp-19-1782209845359",
+      "id": "resp-19-1782371217605",
       "submittedAt": "2026-06-14T18:55:48.000Z",
       "geo": {
         "cityId": "india",
@@ -729,7 +729,7 @@
       "commentsText": "No comments"
     },
     {
-      "id": "resp-20-1782209845359",
+      "id": "resp-20-1782371217605",
       "submittedAt": "2026-06-15T01:08:54.000Z",
       "geo": {
         "cityId": "india",
@@ -759,7 +759,7 @@
       "loveText": "great community"
     },
     {
-      "id": "resp-21-1782209845359",
+      "id": "resp-21-1782371217605",
       "submittedAt": "2026-06-15T01:20:40.000Z",
       "geo": {
         "cityId": "india",
@@ -797,7 +797,7 @@
       "loveText": "community is nice, everyone helps each other out"
     },
     {
-      "id": "resp-22-1782209845360",
+      "id": "resp-22-1782371217605",
       "submittedAt": "2026-06-15T01:20:41.000Z",
       "geo": {
         "cityId": "india",
@@ -835,7 +835,7 @@
       "loveText": "Unity in diversity"
     },
     {
-      "id": "resp-23-1782209845360",
+      "id": "resp-23-1782371217605",
       "submittedAt": "2026-06-15T01:24:06.000Z",
       "geo": {
         "cityId": "india",
@@ -867,7 +867,7 @@
       "loveText": "Very safe"
     },
     {
-      "id": "resp-24-1782209845360",
+      "id": "resp-24-1782371217605",
       "submittedAt": "2026-06-15T01:36:59.000Z",
       "geo": {
         "cityId": "india",
@@ -899,7 +899,7 @@
       "loveText": "Customer"
     },
     {
-      "id": "resp-25-1782209845360",
+      "id": "resp-25-1782371217605",
       "submittedAt": "2026-06-15T01:41:15.000Z",
       "geo": {
         "cityId": "india",
@@ -942,7 +942,7 @@
       "commentsText": "police work with influencial and powerful, also castism and regionalism in police approach"
     },
     {
-      "id": "resp-26-1782209845360",
+      "id": "resp-26-1782371217605",
       "submittedAt": "2026-06-15T01:49:19.000Z",
       "geo": {
         "cityId": "india",
@@ -977,7 +977,7 @@
       "commentsText": "public library could be more spacious"
     },
     {
-      "id": "resp-27-1782209845360",
+      "id": "resp-27-1782371217606",
       "submittedAt": "2026-06-15T01:50:40.000Z",
       "geo": {
         "cityId": "india",
@@ -1016,7 +1016,7 @@
       "loveText": "Chehal pehal rehti hai, good food"
     },
     {
-      "id": "resp-28-1782209845360",
+      "id": "resp-28-1782371217606",
       "submittedAt": "2026-06-15T01:58:34.000Z",
       "geo": {
         "cityId": "india",
@@ -1046,7 +1046,7 @@
       "commentsText": "Har do din ke baad paani kam ho jaata hai, poor paani ki quality, hard water"
     },
     {
-      "id": "resp-29-1782209845360",
+      "id": "resp-29-1782371217606",
       "submittedAt": "2026-06-15T02:05:34.000Z",
       "geo": {
         "cityId": "india",
@@ -1083,7 +1083,7 @@
       "commentsText": "More public Library are needed"
     },
     {
-      "id": "resp-30-1782209845360",
+      "id": "resp-30-1782371217606",
       "submittedAt": "2026-06-15T02:06:26.000Z",
       "geo": {
         "cityId": "india",
@@ -1114,7 +1114,7 @@
       "loveText": "Helpful people"
     },
     {
-      "id": "resp-31-1782209845360",
+      "id": "resp-31-1782371217606",
       "submittedAt": "2026-06-15T02:11:24.000Z",
       "geo": {
         "cityId": "india",
@@ -1144,7 +1144,7 @@
       "loveText": "UPSC ka mahol acha hai, log ache hai, easily available hai sab kuch"
     },
     {
-      "id": "resp-32-1782209845360",
+      "id": "resp-32-1782371217606",
       "submittedAt": "2026-06-15T02:22:55.000Z",
       "geo": {
         "cityId": "india",
@@ -1192,7 +1192,7 @@
       "commentsText": "rash driving , law and order issue"
     },
     {
-      "id": "resp-33-1782209845360",
+      "id": "resp-33-1782371217606",
       "submittedAt": "2026-06-15T02:59:29.000Z",
       "geo": {
         "cityId": "india",
@@ -1222,7 +1222,7 @@
       "loveText": "great community"
     },
     {
-      "id": "resp-34-1782209845360",
+      "id": "resp-34-1782371217606",
       "submittedAt": "2026-06-15T03:06:49.000Z",
       "geo": {
         "cityId": "india",
@@ -1263,7 +1263,7 @@
       "commentsText": "Person looked heaitant to answer “humare mohalle ka naam kyu kharab kre kuch bolke”"
     },
     {
-      "id": "resp-35-1782209845360",
+      "id": "resp-35-1782371217606",
       "submittedAt": "2026-06-15T16:18:57.000Z",
       "geo": {
         "cityId": "india",
@@ -1297,7 +1297,7 @@
       "loveText": "Honestly its peaceful , its never loud"
     },
     {
-      "id": "resp-36-1782209845360",
+      "id": "resp-36-1782371217606",
       "submittedAt": "2026-06-15T17:22:31.000Z",
       "geo": {
         "cityId": "india",
@@ -1328,7 +1328,7 @@
       "commentsText": "One neighbour is very arrogant thinks they own the city, panchayat helps with that issue if it comes up."
     },
     {
-      "id": "resp-37-1782209845360",
+      "id": "resp-37-1782371217606",
       "submittedAt": "2026-06-15T20:55:50.000Z",
       "geo": {
         "cityId": "india",
@@ -1366,7 +1366,7 @@
       "commentsText": "gutters and 24 hours water and underground electricity was promised still waiting for it and if they give 24 hours water please give meter at the same time otherwise people will misuse it roads management should be done sweeper should be appointed"
     },
     {
-      "id": "resp-38-1782209845360",
+      "id": "resp-38-1782371217606",
       "submittedAt": "2026-06-15T22:18:52.000Z",
       "geo": {
         "cityId": "india",
@@ -1397,7 +1397,7 @@
       ]
     },
     {
-      "id": "resp-39-1782209845360",
+      "id": "resp-39-1782371217606",
       "submittedAt": "2026-06-15T23:11:01.000Z",
       "geo": {
         "cityId": "india",
@@ -1432,7 +1432,7 @@
       "commentsText": "Get rid of panchayats as they lack any accountability"
     },
     {
-      "id": "resp-40-1782209845360",
+      "id": "resp-40-1782371217606",
       "submittedAt": "2026-06-16T20:19:17.000Z",
       "geo": {
         "cityId": "india",
@@ -1474,7 +1474,7 @@
       "commentsText": "If only we as human beings and citizens could change and stop failing each other. The government cannot do everything for us. We are the most unhygienic people and we make our areas like open bathroom spitoons. Traffic jams also due to green and a lack of pride in their jobs."
     },
     {
-      "id": "resp-41-1782209845360",
+      "id": "resp-41-1782371217606",
       "submittedAt": "2026-06-19T17:20:59.000Z",
       "geo": {
         "cityId": "india",
@@ -1507,7 +1507,7 @@
       ]
     },
     {
-      "id": "resp-42-1782209845360",
+      "id": "resp-42-1782371217606",
       "submittedAt": "2026-06-19T17:29:09.000Z",
       "geo": {
         "cityId": "india",
@@ -1543,7 +1543,7 @@
       "commentsText": "Political hoardings everywhere, even the bus stops have politician face on it and on parks every bench is carved with politician name who is a local mla, I have raised rti but no response"
     },
     {
-      "id": "resp-43-1782209845361",
+      "id": "resp-43-1782371217607",
       "submittedAt": "2026-06-19T17:40:16.000Z",
       "geo": {
         "cityId": "india",
@@ -1584,7 +1584,7 @@
       "commentsText": "The water quality we get is quite poor, for eg my Buidlung has BMC supply, and a Borewell supply which we have created. For the past 6 months we are getting water (BMC) that is smelly, and seems like sewage water, on days where we do get it, it is very minimal. If we rely on borewell we have been getting less and less because someone in the area has started a water tanmer business and is oulling from the groundwater supply which is lowering the water level for everyone."
     },
     {
-      "id": "resp-44-1782209845361",
+      "id": "resp-44-1782371217607",
       "submittedAt": "2026-06-19T17:42:55.000Z",
       "geo": {
         "cityId": "india",
@@ -1623,7 +1623,7 @@
       ]
     },
     {
-      "id": "resp-45-1782209845361",
+      "id": "resp-45-1782371217607",
       "submittedAt": "2026-06-19T17:44:27.000Z",
       "geo": {
         "cityId": "india",
@@ -1659,7 +1659,7 @@
       "loveText": "It's very central location to Bangalore but still not at all crowded it's like peace but as central you can get before evening gets crowded"
     },
     {
-      "id": "resp-46-1782209845361",
+      "id": "resp-46-1782371217607",
       "submittedAt": "2026-06-19T18:03:27.000Z",
       "geo": {
         "cityId": "india",
@@ -1690,7 +1690,7 @@
       "commentsText": "There is no drainage system in my neighbourhood yet. All my lifetime, we still have open gutters. However recently they installed drainage system pipes inside the roads, but the pipes they installed are so low quality, and the size of the pipe is just 6 inches. I wonder, how is that gonna hold up."
     },
     {
-      "id": "resp-47-1782209845361",
+      "id": "resp-47-1782371217607",
       "submittedAt": "2026-06-19T18:22:56.000Z",
       "geo": {
         "cityId": "india",
@@ -1727,7 +1727,7 @@
       "loveText": "nothing"
     },
     {
-      "id": "resp-48-1782209845361",
+      "id": "resp-48-1782371217607",
       "submittedAt": "2026-06-19T18:24:17.000Z",
       "geo": {
         "cityId": "india",
@@ -1762,7 +1762,7 @@
       ]
     },
     {
-      "id": "resp-49-1782209845361",
+      "id": "resp-49-1782371217607",
       "submittedAt": "2026-06-19T18:27:40.000Z",
       "geo": {
         "cityId": "india",
@@ -1803,7 +1803,7 @@
       "loveText": "Well atleast its accessible to major hubs in Bangalore easily, metro, buses and other public transports are easily accessible"
     },
     {
-      "id": "resp-50-1782209845361",
+      "id": "resp-50-1782371217607",
       "submittedAt": "2026-06-19T18:33:24.000Z",
       "geo": {
         "cityId": "india",
@@ -1843,7 +1843,7 @@
       "commentsText": "The fear or law and order is something that is reducing day by day in my locality"
     },
     {
-      "id": "resp-51-1782209845361",
+      "id": "resp-51-1782371217607",
       "submittedAt": "2026-06-19T18:53:54.000Z",
       "geo": {
         "cityId": "india",
@@ -1883,7 +1883,7 @@
       ]
     },
     {
-      "id": "resp-52-1782209845361",
+      "id": "resp-52-1782371217607",
       "submittedAt": "2026-06-19T19:21:38.000Z",
       "geo": {
         "cityId": "india",
@@ -1924,7 +1924,7 @@
       "commentsText": "Overall there are systems that are in place but they donot work everytime and often donot coearly address the problem ."
     },
     {
-      "id": "resp-53-1782209845361",
+      "id": "resp-53-1782371217607",
       "submittedAt": "2026-06-19T19:25:44.000Z",
       "geo": {
         "cityId": "india",
@@ -1968,7 +1968,7 @@
       "commentsText": "Too costly for the services being offered and congestion in market is a problem. And its extremely unsafe and hazardous for pedestrians"
     },
     {
-      "id": "resp-54-1782209845361",
+      "id": "resp-54-1782371217607",
       "submittedAt": "2026-06-19T19:43:24.000Z",
       "geo": {
         "cityId": "india",
@@ -2004,7 +2004,7 @@
       "loveText": "Community, still keeping what somewhat village community in a urban/semi urban town-ish village midst in middle of city!"
     },
     {
-      "id": "resp-55-1782209845361",
+      "id": "resp-55-1782371217607",
       "submittedAt": "2026-06-19T20:07:12.000Z",
       "geo": {
         "cityId": "india",
@@ -2041,7 +2041,7 @@
       "commentsText": "It's also been BJP and RSS 'Balekilla' with decades of their stronghold  and cultural influence."
     },
     {
-      "id": "resp-56-1782209845361",
+      "id": "resp-56-1782371217607",
       "submittedAt": "2026-06-19T20:25:35.000Z",
       "geo": {
         "cityId": "india",
@@ -2080,7 +2080,7 @@
       "commentsText": "Some parks and even local shops are lacking here I've to go pretty far to buy stationary amd other stuff there's no development here no safety no roads and electricity is cutted off every night for too long man we need to sleep after long working days and lack of safety people lacking civic sense eve teasing is too much commenting is too much I've been inappropriately touched twice in public places here been bad  commented tons of times ."
     },
     {
-      "id": "resp-57-1782209845361",
+      "id": "resp-57-1782371217607",
       "submittedAt": "2026-06-19T20:41:23.000Z",
       "geo": {
         "cityId": "india",
@@ -2118,7 +2118,7 @@
       "commentsText": "A strong community that can have deep roots in local governing body is missing since the last 20 years in 560075"
     },
     {
-      "id": "resp-58-1782209845361",
+      "id": "resp-58-1782371217607",
       "submittedAt": "2026-06-19T20:47:44.000Z",
       "geo": {
         "cityId": "india",
@@ -2155,7 +2155,7 @@
       ]
     },
     {
-      "id": "resp-59-1782209845361",
+      "id": "resp-59-1782371217607",
       "submittedAt": "2026-06-19T21:00:50.000Z",
       "geo": {
         "cityId": "india",
@@ -2193,7 +2193,7 @@
       "commentsText": "Please help in building proper roads"
     },
     {
-      "id": "resp-60-1782209845361",
+      "id": "resp-60-1782371217608",
       "submittedAt": "2026-06-19T21:11:32.000Z",
       "geo": {
         "cityId": "india",
@@ -2237,7 +2237,7 @@
       "commentsText": "Make solar net metering easier in Maharashtra! Why is this not a priority?"
     },
     {
-      "id": "resp-61-1782209845361",
+      "id": "resp-61-1782371217608",
       "submittedAt": "2026-06-19T21:24:11.000Z",
       "geo": {
         "cityId": "india",
@@ -2273,7 +2273,7 @@
       "commentsText": "They NEED TO have better cleanliness and larger public parks, the current ones are crowded, and better management of traffic is required too."
     },
     {
-      "id": "resp-62-1782209845361",
+      "id": "resp-62-1782371217608",
       "submittedAt": "2026-06-19T23:03:47.000Z",
       "geo": {
         "cityId": "india",
@@ -2313,7 +2313,7 @@
       "commentsText": "Our corporator who recently hit elected, he has worked very well for us in the past, on the election day there was an affray on the polling station as people from rural side came to vote in corporation election. It was alleged that around 700 people were brought from rural side. Also whole election was speculated to be rigged as 45% of population voted i.e. 5.5 lakhs but more than 2 lakh people voted after 17:00 and didn't see voting going on after time."
     },
     {
-      "id": "resp-63-1782209845361",
+      "id": "resp-63-1782371217608",
       "submittedAt": "2026-06-19T23:35:55.000Z",
       "geo": {
         "cityId": "india",
@@ -2345,7 +2345,7 @@
       ]
     },
     {
-      "id": "resp-64-1782209845361",
+      "id": "resp-64-1782371217608",
       "submittedAt": "2026-06-19T23:48:34.000Z",
       "geo": {
         "cityId": "india",
@@ -2385,7 +2385,7 @@
       "loveText": "Comparatively clean air and less pollution"
     },
     {
-      "id": "resp-65-1782209845361",
+      "id": "resp-65-1782371217608",
       "submittedAt": "2026-06-20T00:38:42.000Z",
       "geo": {
         "cityId": "india",
@@ -2428,7 +2428,7 @@
       "commentsText": "No"
     },
     {
-      "id": "resp-66-1782209845362",
+      "id": "resp-66-1782371217608",
       "submittedAt": "2026-06-20T01:20:24.000Z",
       "geo": {
         "cityId": "india",
@@ -2466,7 +2466,7 @@
       "loveText": "Clean, good garbage collection"
     },
     {
-      "id": "resp-67-1782209845362",
+      "id": "resp-67-1782371217608",
       "submittedAt": "2026-06-20T01:58:21.000Z",
       "geo": {
         "cityId": "india",
@@ -2503,7 +2503,7 @@
       "commentsText": "The levels of pollution here is horrible mostly air pollution (dust) (avg AQI 120) that is caused by the going on metro construction."
     },
     {
-      "id": "resp-68-1782209845362",
+      "id": "resp-68-1782371217609",
       "submittedAt": "2026-06-20T02:24:02.000Z",
       "geo": {
         "cityId": "india",
@@ -2538,7 +2538,7 @@
       "commentsText": "If you arrle willing to pay or can afford it, large gated communities are best."
     },
     {
-      "id": "resp-69-1782209845362",
+      "id": "resp-69-1782371217609",
       "submittedAt": "2026-06-20T02:31:10.000Z",
       "geo": {
         "cityId": "india",
@@ -2576,7 +2576,7 @@
       "commentsText": "no"
     },
     {
-      "id": "resp-70-1782209845362",
+      "id": "resp-70-1782371217609",
       "submittedAt": "2026-06-20T03:10:48.000Z",
       "geo": {
         "cityId": "india",
@@ -2609,7 +2609,7 @@
       "commentsText": "Public safety needs to be better"
     },
     {
-      "id": "resp-71-1782209845362",
+      "id": "resp-71-1782371217609",
       "submittedAt": "2026-06-20T03:38:13.000Z",
       "geo": {
         "cityId": "india",
@@ -2656,7 +2656,7 @@
       "commentsText": "Almost No Education opportunity, basically education is not even a topic"
     },
     {
-      "id": "resp-72-1782209845362",
+      "id": "resp-72-1782371217609",
       "submittedAt": "2026-06-20T04:08:35.000Z",
       "geo": {
         "cityId": "india",
@@ -2697,7 +2697,7 @@
       "commentsText": "none"
     },
     {
-      "id": "resp-73-1782209845362",
+      "id": "resp-73-1782371217609",
       "submittedAt": "2026-06-20T04:14:28.000Z",
       "geo": {
         "cityId": "india",
@@ -2734,7 +2734,7 @@
       "commentsText": "It is a good neighbourhood to movie into."
     },
     {
-      "id": "resp-74-1782209845362",
+      "id": "resp-74-1782371217609",
       "submittedAt": "2026-06-20T04:16:43.000Z",
       "geo": {
         "cityId": "india",
@@ -2765,7 +2765,7 @@
       "loveText": "Proximity to Galleria Market, Footpaths (average quality but at least it's there)"
     },
     {
-      "id": "resp-75-1782209845362",
+      "id": "resp-75-1782371217609",
       "submittedAt": "2026-06-20T04:24:49.000Z",
       "geo": {
         "cityId": "india",
@@ -2802,7 +2802,7 @@
       "commentsText": "Water logging even if it rains 5 mins"
     },
     {
-      "id": "resp-76-1782209845362",
+      "id": "resp-76-1782371217609",
       "submittedAt": "2026-06-20T04:24:49.000Z",
       "geo": {
         "cityId": "india",
@@ -2836,7 +2836,7 @@
       "commentsText": "Garmi mein paani ka bahat dikkat hai. Bahaut khaara Paani."
     },
     {
-      "id": "resp-77-1782209845362",
+      "id": "resp-77-1782371217610",
       "submittedAt": "2026-06-20T05:16:48.000Z",
       "geo": {
         "cityId": "india",
@@ -2870,7 +2870,7 @@
       "commentsText": "In telangana the basic (includes villages, towns, cities) good roads, 24hr electricity, water connection to all house holds and every district has a Reservoir for agriculture. Mission bhagiratha - every home gets water connectioin for free sucessful. Mission kakatiya - i dont know what happened. mission haritha haram - successful hope govt plan fro 2.0, kg to pg flop. If possible i request to make a video on TIMS telangana."
     },
     {
-      "id": "resp-78-1782209845362",
+      "id": "resp-78-1782371217610",
       "submittedAt": "2026-06-20T06:10:25.000Z",
       "geo": {
         "cityId": "india",
@@ -2901,7 +2901,7 @@
       ]
     },
     {
-      "id": "resp-79-1782209845362",
+      "id": "resp-79-1782371217610",
       "submittedAt": "2026-06-20T08:46:09.000Z",
       "geo": {
         "cityId": "india",
@@ -2935,7 +2935,7 @@
       "commentsText": "For all the great things in noida generally for a public quite comfy there are few very distrubing serial killer american psyco crime cases that we never imagined happens here pop up time to time , yeah you can look that up usually around unplanned parts like the parts that predate the planned noida for example mithari"
     },
     {
-      "id": "resp-80-1782209845363",
+      "id": "resp-80-1782371217610",
       "submittedAt": "2026-06-20T16:29:24.000Z",
       "geo": {
         "cityId": "india",
@@ -2978,7 +2978,7 @@
       "commentsText": "The city we are in is a failed smart city project."
     },
     {
-      "id": "resp-81-1782209845363",
+      "id": "resp-81-1782371217610",
       "submittedAt": "2026-06-20T16:33:30.000Z",
       "geo": {
         "cityId": "india",
@@ -3013,7 +3013,7 @@
       "loveText": "safety"
     },
     {
-      "id": "resp-82-1782209845363",
+      "id": "resp-82-1782371217610",
       "submittedAt": "2026-06-20T18:42:04.000Z",
       "geo": {
         "cityId": "india",
@@ -3046,7 +3046,7 @@
       "loveText": "Peaceful, less noisy"
     },
     {
-      "id": "resp-83-1782209845363",
+      "id": "resp-83-1782371217610",
       "submittedAt": "2026-06-20T19:10:07.000Z",
       "geo": {
         "cityId": "india",
@@ -3087,7 +3087,7 @@
       ]
     },
     {
-      "id": "resp-84-1782209845363",
+      "id": "resp-84-1782371217610",
       "submittedAt": "2026-06-20T19:36:42.000Z",
       "geo": {
         "cityId": "india",
@@ -3128,7 +3128,7 @@
       "commentsText": "I live in the min market of our town (building has three floors 1st and the ground floor is my shop and the topmost floor is my home). Being in the market you can guess the community which lives near the market and works in the market. Most of the people in the community outwardly don’t care about caste and sit and eat with everyone but when they talk between their community they throw every kind of casteist remark imaginable about everyone. This type of ideas they spread to their kids who also develop preconceived notion about types of people they belong to insted of seeing whole of humanity as their tribe."
     },
     {
-      "id": "resp-85-1782209845363",
+      "id": "resp-85-1782371217610",
       "submittedAt": "2026-06-20T19:48:59.000Z",
       "geo": {
         "cityId": "india",
@@ -3165,7 +3165,7 @@
       "commentsText": "I think if cleanliness was maintained and some more trees were planted + honking was limited it would be a perfect place to live"
     },
     {
-      "id": "resp-86-1782209845363",
+      "id": "resp-86-1782371217610",
       "submittedAt": "2026-06-20T21:35:50.000Z",
       "geo": {
         "cityId": "india",
@@ -3214,7 +3214,7 @@
       "commentsText": "Bengal needs entrepreneurship and huge Infrastructure investments and Jobs and also we need to fix our schools we have an absolutely ruined education sector and job sector. People have been fleeing from the state. Don't want cultural clashes just development. Also we want the state to take step back and not interfere and have meritocratic appointments and not politically motivated. We need free and fair and transparent execution in government schemes and law and order."
     },
     {
-      "id": "resp-87-1782209845363",
+      "id": "resp-87-1782371217610",
       "submittedAt": "2026-06-20T22:26:23.000Z",
       "geo": {
         "cityId": "india",
@@ -3260,7 +3260,7 @@
       "commentsText": "MLA/MP only takes care of their own locality, from where he gets the maximum votes. The area nearby his house is lush green with good roads, drainage system, garbage management, proper 24 x 7 electricity, no stay animals. But when it comes to other areas, condition is very bad."
     },
     {
-      "id": "resp-88-1782209845363",
+      "id": "resp-88-1782371217610",
       "submittedAt": "2026-06-20T22:34:56.000Z",
       "geo": {
         "cityId": "india",
@@ -3308,7 +3308,7 @@
       "commentsText": "Garbage not being collected by the concerned authorities is so concerning! Even when a person wants to keep his locality clean, how would he able to do it if there isn't any system for it! Not just that, govt should be transparent about what do they do with the garbage, do they actually segregate it and make good use of it, or do they just dump it elsewhere. In our district headquarter, sewage water is directly being dumped to the neighbouring river, woww!!  Sewage plant doesn't even exist!!"
     },
     {
-      "id": "resp-89-1782209845363",
+      "id": "resp-89-1782371217610",
       "submittedAt": "2026-06-21T04:21:47.000Z",
       "geo": {
         "cityId": "india",
@@ -3343,7 +3343,7 @@
       "loveText": "Being a small neighbourhood it is quite peaceful."
     },
     {
-      "id": "resp-90-1782209845363",
+      "id": "resp-90-1782371217610",
       "submittedAt": "2026-06-21T15:12:40.000Z",
       "geo": {
         "cityId": "india",
@@ -3378,7 +3378,7 @@
       "loveText": "People are nice, small town."
     },
     {
-      "id": "resp-91-1782209845363",
+      "id": "resp-91-1782371217610",
       "submittedAt": "2026-06-21T17:29:15.000Z",
       "geo": {
         "cityId": "india",
@@ -3415,7 +3415,7 @@
       "loveText": "Hospitals, school, malls and the highway are at close proximity yet its very quiet and green"
     },
     {
-      "id": "resp-92-1782209845363",
+      "id": "resp-92-1782371217610",
       "submittedAt": "2026-06-21T19:23:34.000Z",
       "geo": {
         "cityId": "india",
@@ -3456,7 +3456,7 @@
       "loveText": "It's peaceful and nice to chill."
     },
     {
-      "id": "resp-93-1782209845363",
+      "id": "resp-93-1782371217610",
       "submittedAt": "2026-06-21T20:48:31.000Z",
       "geo": {
         "cityId": "india",
@@ -3491,7 +3491,7 @@
       "loveText": "Very kind"
     },
     {
-      "id": "resp-94-1782209845363",
+      "id": "resp-94-1782371217611",
       "submittedAt": "2026-06-21T20:53:03.000Z",
       "geo": {
         "cityId": "india",
@@ -3523,7 +3523,7 @@
       ]
     },
     {
-      "id": "resp-95-1782209845363",
+      "id": "resp-95-1782371217611",
       "submittedAt": "2026-06-21T22:17:04.000Z",
       "geo": {
         "cityId": "india",
@@ -3560,7 +3560,7 @@
       "commentsText": "Nope. Very neutral person"
     },
     {
-      "id": "resp-96-1782209845363",
+      "id": "resp-96-1782371217611",
       "submittedAt": "2026-06-21T22:27:59.000Z",
       "geo": {
         "cityId": "india",
@@ -3597,7 +3597,7 @@
       "loveText": "Right next to the beach. So cheaper fish."
     },
     {
-      "id": "resp-97-1782209845363",
+      "id": "resp-97-1782371217611",
       "submittedAt": "2026-06-21T22:36:15.000Z",
       "geo": {
         "cityId": "india",
@@ -3633,7 +3633,7 @@
       "loveText": "Deshpande Garden is lovely, the area is safe."
     },
     {
-      "id": "resp-98-1782209845363",
+      "id": "resp-98-1782371217611",
       "submittedAt": "2026-06-21T22:50:28.000Z",
       "geo": {
         "cityId": "india",
@@ -3664,7 +3664,7 @@
       "commentsText": "No worries"
     },
     {
-      "id": "resp-99-1782209845363",
+      "id": "resp-99-1782371217611",
       "submittedAt": "2026-06-21T23:05:55.000Z",
       "geo": {
         "cityId": "india",
@@ -3698,7 +3698,7 @@
       ]
     },
     {
-      "id": "resp-100-1782209845364",
+      "id": "resp-100-1782371217611",
       "submittedAt": "2026-06-21T23:22:15.000Z",
       "geo": {
         "cityId": "india",
@@ -3728,7 +3728,7 @@
       "loveText": "Loves that all convenient shops are around here"
     },
     {
-      "id": "resp-101-1782209845364",
+      "id": "resp-101-1782371217611",
       "submittedAt": "2026-06-21T23:33:58.000Z",
       "geo": {
         "cityId": "india",
@@ -3765,7 +3765,7 @@
       "commentsText": "Public should keep neighbourhood safe and clean."
     },
     {
-      "id": "resp-102-1782209845364",
+      "id": "resp-102-1782371217611",
       "submittedAt": "2026-06-21T23:51:13.000Z",
       "geo": {
         "cityId": "india",
@@ -3799,7 +3799,7 @@
       "loveText": "People"
     },
     {
-      "id": "resp-103-1782209845364",
+      "id": "resp-103-1782371217611",
       "submittedAt": "2026-06-22T00:00:40.000Z",
       "geo": {
         "cityId": "india",
@@ -3839,7 +3839,7 @@
       "commentsText": "N/A"
     },
     {
-      "id": "resp-104-1782209845364",
+      "id": "resp-104-1782371217611",
       "submittedAt": "2026-06-22T01:05:34.000Z",
       "geo": {
         "cityId": "india",
@@ -3878,7 +3878,7 @@
       "commentsText": "Nothing much. But love to live in locality because of the helpful nature of everyone."
     },
     {
-      "id": "resp-105-1782209845364",
+      "id": "resp-105-1782371217611",
       "submittedAt": "2026-06-22T01:45:00.000Z",
       "geo": {
         "cityId": "india",
@@ -3917,7 +3917,7 @@
       "commentsText": "Want to hire the watchman in the society"
     },
     {
-      "id": "resp-106-1782209845364",
+      "id": "resp-106-1782371217611",
       "submittedAt": "2026-06-22T02:25:18.000Z",
       "geo": {
         "cityId": "india",
@@ -3955,7 +3955,7 @@
       "commentsText": "Perfect city to live."
     },
     {
-      "id": "resp-107-1782209845364",
+      "id": "resp-107-1782371217611",
       "submittedAt": "2026-06-22T05:07:38.000Z",
       "geo": {
         "cityId": "india",
@@ -3999,7 +3999,7 @@
       "loveText": "Good mindset of people"
     },
     {
-      "id": "resp-108-1782209845364",
+      "id": "resp-108-1782371217611",
       "submittedAt": "2026-06-22T10:20:41.000Z",
       "geo": {
         "cityId": "india",
@@ -4040,7 +4040,7 @@
       "commentsText": "Nothing much"
     },
     {
-      "id": "resp-109-1782209845364",
+      "id": "resp-109-1782371217611",
       "submittedAt": "2026-06-22T23:14:37.000Z",
       "geo": {
         "cityId": "india",
@@ -4075,7 +4075,7 @@
       "commentsText": "Fucking Uncles and Aunties man 🥀 , they are the only plague in chandigarh"
     },
     {
-      "id": "resp-110-1782209845364",
+      "id": "resp-110-1782371217611",
       "submittedAt": "2026-06-23T07:50:58.000Z",
       "geo": {
         "cityId": "india",
@@ -4115,6 +4115,86 @@
       ],
       "loveText": "It's safe and very green, close to office and well connected",
       "commentsText": "Water can be better(sometimes not clean)"
+    },
+    {
+      "id": "resp-111-1782371217611",
+      "submittedAt": "2026-06-24T07:22:46.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 18.4339303,
+          "lng": 73.1158346
+        },
+        "coordinatesValid": true,
+        "cityName": "Roha Ashtami"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "Right now I am in my native place which happens to be in Konkan. The electricity supply is kinda average. Whenever it rains, even if light showers they for off the power and it takes a few hours for the power to restore. Power cuts also happens atleast once or twice a week.",
+      "roadRating": "bad",
+      "roadComment": "Quality of the roads is below average. There are a lot of open sewers and gutters on both sides of the roads with no footpath. There are many manholes right in the middle of the roads which are not properly levelled on the roads and it feels like I am driving through a big pothole. Also, the roads are not clean enough, there is always some kind of garbage or animal shittings, especially in the monsoon.",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "safetyComment": "The street lights happen to work inconsistently. Some little well but some doesn't. There are a few dark stretches in the neighborhood and a lot of stray dogs. There is also an area where people dump their garbage in the open space.",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "There is nothing much to love about my neighborhood, but the least I can say is that it is a better area than other parts of the city."
+    },
+    {
+      "id": "resp-112-1782371217611",
+      "submittedAt": "2026-06-24T07:37:55.000Z",
+      "geo": {
+        "cityId": "india",
+        "coordinates": {
+          "lat": 18.7204448,
+          "lng": 73.6774408
+        },
+        "coordinatesValid": true,
+        "cityName": "Talegaon Dabhade R"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "Bill amounts are very high. The power cuts are very frequent.",
+      "roadRating": "average",
+      "roadComment": "Too many speed bumps. A lot of manholes which are left unlevelled right in the middle of the road.",
+      "civicHazards": [
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks"
+      ],
+      "safetyRating": "sometimes_safe",
+      "safetyComment": "There must be more well lit street lights.",
+      "businessChallenges": [
+        "garbage",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "My neighborhood is very calm and quiet. It is also very airy and feels fresh most of the time. There are a few problems here and there but the neighborhood is peaceful. It is also mostly clean but there is a big dump a few hundred meters away from my apartment.",
+      "commentsText": "The open gutters/sewers must be covered. There should be more greenery around the area. There is a need of more trees around the neighborhood."
     }
   ]
 }

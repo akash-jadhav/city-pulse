@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "roha-ashtami",
+    "importedAt": "2026-06-25T07:07:13.151Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "ee0b42b8d822eda8"
+  },
+  "responses": [
+    {
+      "id": "resp-111-1782371217611",
+      "submittedAt": "2026-06-24T07:22:46.000Z",
+      "geo": {
+        "cityId": "roha-ashtami",
+        "coordinates": {
+          "lat": 18.4339303,
+          "lng": 73.1158346
+        },
+        "coordinatesValid": true,
+        "cityName": "Roha Ashtami"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "Right now I am in my native place which happens to be in Konkan. The electricity supply is kinda average. Whenever it rains, even if light showers they for off the power and it takes a few hours for the power to restore. Power cuts also happens atleast once or twice a week.",
+      "roadRating": "bad",
+      "roadComment": "Quality of the roads is below average. There are a lot of open sewers and gutters on both sides of the roads with no footpath. There are many manholes right in the middle of the roads which are not properly levelled on the roads and it feels like I am driving through a big pothole. Also, the roads are not clean enough, there is always some kind of garbage or animal shittings, especially in the monsoon.",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "safetyComment": "The street lights happen to work inconsistently. Some little well but some doesn't. There are a few dark stretches in the neighborhood and a lot of stray dogs. There is also an area where people dump their garbage in the open space.",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "There is nothing much to love about my neighborhood, but the least I can say is that it is a better area than other parts of the city."
+    }
+  ]
+}

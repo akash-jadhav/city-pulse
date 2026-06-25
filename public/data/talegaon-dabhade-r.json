@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "talegaon-dabhade-r",
+    "importedAt": "2026-06-25T07:07:13.152Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "0c92b5186f96507f"
+  },
+  "responses": [
+    {
+      "id": "resp-112-1782371217611",
+      "submittedAt": "2026-06-24T07:37:55.000Z",
+      "geo": {
+        "cityId": "talegaon-dabhade-r",
+        "coordinates": {
+          "lat": 18.7204448,
+          "lng": 73.6774408
+        },
+        "coordinatesValid": true,
+        "cityName": "Talegaon Dabhade R"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "Bill amounts are very high. The power cuts are very frequent.",
+      "roadRating": "average",
+      "roadComment": "Too many speed bumps. A lot of manholes which are left unlevelled right in the middle of the road.",
+      "civicHazards": [
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks"
+      ],
+      "safetyRating": "sometimes_safe",
+      "safetyComment": "There must be more well lit street lights.",
+      "businessChallenges": [
+        "garbage",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "My neighborhood is very calm and quiet. It is also very airy and feels fresh most of the time. There are a few problems here and there but the neighborhood is peaceful. It is also mostly clean but there is a big dump a few hundred meters away from my apartment.",
+      "commentsText": "The open gutters/sewers must be covered. There should be more greenery around the area. There is a need of more trees around the neighborhood."
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T10:17:36.882Z",
+  "generatedAt": "2026-06-25T07:07:13.153Z",
   "cities": [
     {
       "slug": "india",
@@ -14,7 +14,7 @@
         "east": 97.4,
         "west": 68.1
       },
-      "responseCount": 111
+      "responseCount": 113
     },
     {
       "slug": "new-delhi",
@@ -793,6 +793,36 @@
         "south": 30.696359,
         "east": 76.77591799999999,
         "west": 76.735918
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "roha-ashtami",
+      "name": "Roha Ashtami",
+      "defaultCenter": [
+        18.4339303,
+        73.1158346
+      ],
+      "bounds": {
+        "north": 18.4539303,
+        "south": 18.4139303,
+        "east": 73.1358346,
+        "west": 73.0958346
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "talegaon-dabhade-r",
+      "name": "Talegaon Dabhade R",
+      "defaultCenter": [
+        18.7204448,
+        73.6774408
+      ],
+      "bounds": {
+        "north": 18.7404448,
+        "south": 18.7004448,
+        "east": 73.6974408,
+        "west": 73.6574408
       },
       "responseCount": 1
     }
