@@ -173,7 +173,7 @@ export function ResponseMap({
   if (valid.length === 0 && !clusters?.length) {
     return (
       <div
-        className="flex items-center justify-center rounded-2xl border border-border/50 bg-white text-sm text-muted-foreground shadow-sm"
+        className="flex items-center justify-center rounded-2xl border border-border/50 bg-card text-sm text-muted-foreground shadow-sm"
         style={{ height }}
       >
         No valid coordinates to display on map

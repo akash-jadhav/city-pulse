@@ -173,7 +173,7 @@ function DistributionTooltip({
   if (!active || !payload?.[0]) return null;
   const segment = payload[0].payload;
   return (
-    <div className="rounded-md border border-border/60 bg-white px-3 py-2 text-xs shadow-md">
+    <div className="rounded-md border border-border/60 bg-popover text-popover-foreground px-3 py-2 text-xs shadow-md">
       <DistributionTooltipContent segment={segment} />
     </div>
   );

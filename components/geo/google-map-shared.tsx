@@ -159,7 +159,7 @@ export function GoogleMapMissingKey({
   return (
     <div
       className={cn(
-        "flex items-center justify-center rounded-2xl border border-border/50 bg-white p-4 text-center text-sm text-muted-foreground shadow-sm",
+        "flex items-center justify-center rounded-2xl border border-border/50 bg-card p-4 text-center text-sm text-muted-foreground shadow-sm",
         className
       )}
       style={height ? { height } : undefined}

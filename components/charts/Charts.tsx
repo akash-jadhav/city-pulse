@@ -20,13 +20,22 @@ import {
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const COLORS = [
-  "hsl(var(--chart-1))",
-  "#2563eb",
+  "var(--chart-1)",
+  "#0891b2",
   "#16a34a",
   "#d97706",
   "#dc2626",
   "#8b5cf6",
 ];
+
+// Theme-aware styling for Recharts tooltips (the default is a hardcoded white box).
+const TOOLTIP_STYLE = {
+  backgroundColor: "var(--popover)",
+  border: "1px solid var(--border)",
+  borderRadius: 8,
+  fontSize: 12,
+} as const;
+const TOOLTIP_LABEL_STYLE = { color: "var(--popover-foreground)" } as const;
 
 export function ChartContainer({
   title,
@@ -63,7 +72,7 @@ export function DistributionBarChart({
           <CartesianGrid strokeDasharray="3 3" horizontal={false} />
           <XAxis type="number" />
           <YAxis dataKey="label" type="category" width={100} tick={{ fontSize: 11 }} />
-          <Tooltip />
+          <Tooltip contentStyle={TOOLTIP_STYLE} labelStyle={TOOLTIP_LABEL_STYLE} />
           <Bar dataKey="count" fill="#2563eb" radius={[0, 4, 4, 0]} />
         </BarChart>
       </ResponsiveContainer>
@@ -96,7 +105,7 @@ export function DonutChart({
               <Cell key={i} fill={COLORS[i % COLORS.length]} />
             ))}
           </Pie>
-          <Tooltip />
+          <Tooltip contentStyle={TOOLTIP_STYLE} labelStyle={TOOLTIP_LABEL_STYLE} />
           <Legend />
         </PieChart>
       </ResponsiveContainer>
@@ -123,7 +132,11 @@ export function RankedHorizontalBar({
             width={140}
             tick={{ fontSize: 11 }}
           />
-          <Tooltip formatter={(v) => [`${v} reports`, "Count"]} />
+          <Tooltip
+            contentStyle={TOOLTIP_STYLE}
+            labelStyle={TOOLTIP_LABEL_STYLE}
+            formatter={(v) => [`${v} reports`, "Count"]}
+          />
           <Bar dataKey="count" fill="#dc2626" radius={[0, 4, 4, 0]} />
         </BarChart>
       </ResponsiveContainer>
@@ -159,7 +172,7 @@ export function RadarCompareChart({
             fillOpacity={0.3}
           />
           <Legend />
-          <Tooltip />
+          <Tooltip contentStyle={TOOLTIP_STYLE} labelStyle={TOOLTIP_LABEL_STYLE} />
         </RadarChart>
       </ResponsiveContainer>
     </ChartContainer>
@@ -187,7 +200,7 @@ export function CityHealthGauge({ score }: { score: number }) {
               outerRadius={100}
             >
               <Cell fill="#2563eb" />
-              <Cell fill="#e5e5e5" />
+              <Cell fill="var(--muted)" />
             </Pie>
           </PieChart>
         </ResponsiveContainer>
@@ -214,7 +227,7 @@ export function GroupedCompareBar({
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="dimension" tick={{ fontSize: 10 }} />
           <YAxis domain={[0, 100]} />
-          <Tooltip />
+          <Tooltip contentStyle={TOOLTIP_STYLE} labelStyle={TOOLTIP_LABEL_STYLE} />
           <Legend />
           <Bar dataKey="baseline" name="City avg" fill="#737373" radius={4} />
           <Bar dataKey="target" name="Selected area" fill="#2563eb" radius={4} />

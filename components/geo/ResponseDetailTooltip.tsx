@@ -40,7 +40,7 @@ export function ResponseDetailTooltip({
   const hasAverage = averageScoreFive !== undefined;
 
   return (
-    <div className="max-w-sm rounded-lg border border-border/60 bg-white p-3 text-sm shadow-lg">
+    <div className="max-w-sm rounded-lg border border-border/60 bg-popover text-popover-foreground p-3 text-sm shadow-lg">
       <div className="border-b border-border/60 pb-2">
         <p className="text-base font-semibold text-foreground">{label}</p>
         {subtitle && (

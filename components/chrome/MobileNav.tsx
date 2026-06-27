@@ -33,7 +33,7 @@ export function MobileNav() {
   const base = `/${city.slug}`;
 
   return (
-    <div className="fixed inset-x-0 bottom-0 z-50 border-t border-border/60 bg-white/95 backdrop-blur-md md:hidden">
+    <div className="fixed inset-x-0 bottom-0 z-50 border-t border-border/60 bg-background/95 backdrop-blur-md md:hidden">
       <div className="mx-auto flex max-w-lg items-center justify-around px-2 py-2">
         {TABS.map((tab) => {
           const href = `${base}${tab.href}`;

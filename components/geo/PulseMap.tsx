@@ -141,7 +141,7 @@ export function PulseMap({
   if (valid.length === 0) {
     return (
       <div
-        className={`flex items-center justify-center rounded-2xl border border-border/50 bg-white text-sm text-muted-foreground shadow-sm ${className ?? ""}`}
+        className={`flex items-center justify-center rounded-2xl border border-border/50 bg-card text-sm text-muted-foreground shadow-sm ${className ?? ""}`}
       >
         No valid coordinates to display
       </div>
@@ -155,7 +155,7 @@ export function PulseMap({
           value={selectedParameter}
           onValueChange={(v) => v && onParameterChange(v as ParameterId)}
         >
-          <SelectTrigger className="border-0 bg-white/95 shadow-md backdrop-blur-sm">
+          <SelectTrigger className="border-0 bg-background/95 shadow-md backdrop-blur-sm">
             <SelectValue />
           </SelectTrigger>
           <SelectContent>
@@ -168,7 +168,7 @@ export function PulseMap({
         </Select>
       </div>
 
-      <div className="absolute right-3 top-3 z-10 rounded-lg bg-white/95 px-3 py-1.5 text-xs font-medium shadow-md backdrop-blur-sm">
+      <div className="absolute right-3 top-3 z-10 rounded-lg bg-background/95 px-3 py-1.5 text-xs font-medium shadow-md backdrop-blur-sm">
         {city.name}
       </div>
 
