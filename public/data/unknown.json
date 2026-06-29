@@ -2,14 +2,14 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "unknown",
-    "importedAt": "2026-06-25T07:07:13.133Z",
+    "importedAt": "2026-06-29T05:29:24.559Z",
     "source": "csv",
-    "totalResponses": 4,
-    "checksum": "b5e274df6cbaa4b8"
+    "totalResponses": 8,
+    "checksum": "84d05d2fb39a5b03"
   },
   "responses": [
     {
-      "id": "resp-4-1782371217604",
+      "id": "resp-4-1782710950367",
       "submittedAt": "2026-06-13T16:44:00.000Z",
       "geo": {
         "cityId": "unknown",
@@ -46,7 +46,7 @@
       "commentsText": "Thanks for doing this, adding my own answer as the first survey I conduct for this exercise soo let's do this !"
     },
     {
-      "id": "resp-12-1782371217605",
+      "id": "resp-12-1782710950367",
       "submittedAt": "2026-06-14T01:25:57.000Z",
       "geo": {
         "cityId": "unknown",
@@ -83,7 +83,7 @@
       "commentsText": "Even though it was known as a chor gully earlier, in the 1980 and before, today it's pretty safe !"
     },
     {
-      "id": "resp-46-1782371217607",
+      "id": "resp-46-1782710950368",
       "submittedAt": "2026-06-19T18:03:27.000Z",
       "geo": {
         "cityId": "unknown",
@@ -114,7 +114,7 @@
       "commentsText": "There is no drainage system in my neighbourhood yet. All my lifetime, we still have open gutters. However recently they installed drainage system pipes inside the roads, but the pipes they installed are so low quality, and the size of the pipe is just 6 inches. I wonder, how is that gonna hold up."
     },
     {
-      "id": "resp-73-1782371217609",
+      "id": "resp-73-1782710950369",
       "submittedAt": "2026-06-20T04:14:28.000Z",
       "geo": {
         "cityId": "unknown",
@@ -149,6 +149,130 @@
       ],
       "loveText": "The People and sometimes good air",
       "commentsText": "It is a good neighbourhood to movie into."
+    },
+    {
+      "id": "resp-113-1782710950370",
+      "submittedAt": "2026-06-25T21:22:17.000Z",
+      "geo": {
+        "cityId": "unknown",
+        "coordinates": {
+          "lat": 18.601398,
+          "lng": 73.905616
+        },
+        "coordinatesValid": true,
+        "cityName": "पुणे"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "electricityComment": "The power grid is old and goes down frequently during scorching summers or during heavy rains/winds.",
+      "roadRating": "horrible",
+      "roadComment": "Potholes, speed breakers every 200m, badly done patchwork, people over speeding on those broken roads and cutting signals and driving on wrong side causing traffic jams everyday during peak office hour timings.",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "safetyComment": "Local bhau smoke weed, drink, and literally create chaos almost every weekend. Very difficult to take my kid out on a walk or just a cycle stroll.",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "Good people, a slight bit more greenery than other nearby areas."
+    },
+    {
+      "id": "resp-119-1782710950370",
+      "submittedAt": "2026-06-27T23:20:31.000Z",
+      "geo": {
+        "cityId": "unknown",
+        "coordinatesValid": false
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "Electricity is available 70% of the time",
+      "roadRating": "average",
+      "roadComment": "concrete roads on main roads (no footpaths), and easily tarnished tar roads in less visible areas",
+      "civicHazards": [
+        "stray_animals",
+        "lack_of_parks",
+        "petty_crime_unsafe",
+        "other"
+      ],
+      "safetyRating": "not_safe",
+      "safetyComment": "Personally, i think police focuses more attention on issues like illegal shops/construction and noisy collage kids, rather than investigating violent crimes, former is an inconvenience and unlawful sure, but the other actually is a threat to human life. Also i personally feel very unsafe as a woman even tho i live in one of the better neighborhoods, but that might just be a men issue that exists everywhere.",
+      "businessChallenges": [],
+      "businessComment": ".",
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "There's absolutely nothing to do here, so everyone ambitious eventually leaves, which makes the city very quiet (yes it's passive aggressive but There's literally nothing else)",
+      "commentsText": "."
+    },
+    {
+      "id": "resp-127-1782710950370",
+      "submittedAt": "2026-06-28T01:22:50.000Z",
+      "geo": {
+        "cityId": "unknown",
+        "coordinatesValid": false
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "roadRating": "great",
+      "civicHazards": [],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Peaceful and quiet, green space near your house"
+    },
+    {
+      "id": "resp-128-1782710950370",
+      "submittedAt": "2026-06-28T01:40:28.000Z",
+      "geo": {
+        "cityId": "unknown",
+        "coordinatesValid": false
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "average",
+      "roadRating": "bad",
+      "roadComment": "Potholes, garbage problem",
+      "civicHazards": [
+        "poor_garbage_collection",
+        "potholes_broken_roads"
+      ],
+      "safetyRating": "sometimes_safe",
+      "safetyComment": "Not safe in the night",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Nothing too much. Not staying there by choice",
+      "commentsText": "Traffic management needs to be improved Should give people living in informal settlements an actual flat"
     }
   ]
 }

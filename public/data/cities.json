@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T07:07:13.153Z",
+  "generatedAt": "2026-06-29T05:29:24.571Z",
   "cities": [
     {
       "slug": "india",
@@ -14,7 +14,7 @@
         "east": 97.4,
         "west": 68.1
       },
-      "responseCount": 113
+      "responseCount": 144
     },
     {
       "slug": "new-delhi",
@@ -32,6 +32,36 @@
       "responseCount": 23
     },
     {
+      "slug": "mumbai",
+      "name": "Mumbai",
+      "defaultCenter": [
+        19.054063399999997,
+        72.85072349999999
+      ],
+      "bounds": {
+        "north": 19.187003999999998,
+        "south": 18.9211228,
+        "east": 72.91393269999999,
+        "west": 72.7875143
+      },
+      "responseCount": 12
+    },
+    {
+      "slug": "bengaluru",
+      "name": "Bengaluru",
+      "defaultCenter": [
+        12.95381785,
+        77.65033505
+      ],
+      "bounds": {
+        "north": 13.0528509,
+        "south": 12.854784800000001,
+        "east": 77.78281899999999,
+        "west": 77.5178511
+      },
+      "responseCount": 9
+    },
+    {
       "slug": "pune",
       "name": "Pune",
       "defaultCenter": [
@@ -47,19 +77,19 @@
       "responseCount": 8
     },
     {
-      "slug": "bengaluru",
-      "name": "Bengaluru",
+      "slug": "unknown",
+      "name": "मुंबई",
       "defaultCenter": [
-        12.96604445,
-        77.66157565
+        18.880449,
+        73.420858
       ],
       "bounds": {
-        "north": 13.0528509,
-        "south": 12.879238,
-        "east": 77.78281899999999,
-        "west": 77.5403323
+        "north": 19.1795,
+        "south": 18.581398,
+        "east": 73.92561599999999,
+        "west": 72.9161
       },
-      "responseCount": 7
+      "responseCount": 8
     },
     {
       "slug": "vadodara",
@@ -92,34 +122,19 @@
       "responseCount": 5
     },
     {
-      "slug": "unknown",
-      "name": "मुंबई",
+      "slug": "dehradun",
+      "name": "Dehradun",
       "defaultCenter": [
-        19.15945,
-        72.93615495
+        30.291029299999998,
+        78.05268735
       ],
       "bounds": {
-        "north": 19.1795,
-        "south": 19.139400000000002,
-        "east": 72.95620989999999,
-        "west": 72.9161
+        "north": 30.3240533,
+        "south": 30.2580053,
+        "east": 78.084707,
+        "west": 78.0206677
       },
-      "responseCount": 4
-    },
-    {
-      "slug": "mumbai",
-      "name": "Mumbai",
-      "defaultCenter": [
-        19.104532149999997,
-        72.85072349999999
-      ],
-      "bounds": {
-        "north": 19.187003999999998,
-        "south": 19.0220603,
-        "east": 72.91393269999999,
-        "west": 72.7875143
-      },
-      "responseCount": 4
+      "responseCount": 5
     },
     {
       "slug": "kalyan",
@@ -133,6 +148,21 @@
         "south": 19.1889,
         "east": 73.12386769999999,
         "west": 73.07117840000001
+      },
+      "responseCount": 3
+    },
+    {
+      "slug": "nagpur",
+      "name": "Nagpur",
+      "defaultCenter": [
+        21.1856495,
+        79.10229000000001
+      ],
+      "bounds": {
+        "north": 21.208006,
+        "south": 21.163293,
+        "east": 79.145375,
+        "west": 79.059205
       },
       "responseCount": 3
     },
@@ -178,6 +208,21 @@
         "south": 27.190313,
         "east": 78.021063,
         "west": 77.92031300000001
+      },
+      "responseCount": 2
+    },
+    {
+      "slug": "hyderabad",
+      "name": "Hyderabad",
+      "defaultCenter": [
+        17.343311,
+        78.512282
+      ],
+      "bounds": {
+        "north": 17.379497999999998,
+        "south": 17.307124,
+        "east": 78.614457,
+        "west": 78.41010700000001
       },
       "responseCount": 2
     },
@@ -392,21 +437,6 @@
       "responseCount": 1
     },
     {
-      "slug": "hyderabad",
-      "name": "Hyderabad",
-      "defaultCenter": [
-        17.327124,
-        78.594457
-      ],
-      "bounds": {
-        "north": 17.347124,
-        "south": 17.307124,
-        "east": 78.614457,
-        "west": 78.57445700000001
-      },
-      "responseCount": 1
-    },
-    {
       "slug": "tikli",
       "name": "Tikli",
       "defaultCenter": [
@@ -527,8 +557,8 @@
       "responseCount": 1
     },
     {
-      "slug": "navalur",
-      "name": "Navalur",
+      "slug": "navallur",
+      "name": "Navallur",
       "defaultCenter": [
         12.849057,
         80.230241
@@ -752,8 +782,8 @@
       "responseCount": 1
     },
     {
-      "slug": "kanathur-reddykuppam",
-      "name": "Kanathur Reddykuppam",
+      "slug": "kannathur-reddy-kuppam",
+      "name": "Kannathur Reddy Kuppam",
       "defaultCenter": [
         12.85023,
         80.24385
@@ -823,6 +853,126 @@
         "south": 18.7004448,
         "east": 73.6974408,
         "west": 73.6574408
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "nellore",
+      "name": "Nellore",
+      "defaultCenter": [
+        14.4343383,
+        79.991442
+      ],
+      "bounds": {
+        "north": 14.4543383,
+        "south": 14.4143383,
+        "east": 80.011442,
+        "west": 79.97144200000001
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "saharanpur",
+      "name": "Saharanpur",
+      "defaultCenter": [
+        29.9584758,
+        77.5570141
+      ],
+      "bounds": {
+        "north": 29.9784758,
+        "south": 29.9384758,
+        "east": 77.5770141,
+        "west": 77.53701410000001
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "bhagalpur",
+      "name": "Bhagalpur",
+      "defaultCenter": [
+        25.2494339,
+        86.9498858
+      ],
+      "bounds": {
+        "north": 25.2694339,
+        "south": 25.2294339,
+        "east": 86.9698858,
+        "west": 86.92988580000001
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "bighar",
+      "name": "Bighar",
+      "defaultCenter": [
+        29.432213,
+        75.466543
+      ],
+      "bounds": {
+        "north": 29.452213,
+        "south": 29.412213,
+        "east": 75.486543,
+        "west": 75.446543
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "chennai",
+      "name": "Chennai",
+      "defaultCenter": [
+        13.061459,
+        80.148986
+      ],
+      "bounds": {
+        "north": 13.081458999999999,
+        "south": 13.041459,
+        "east": 80.16898599999999,
+        "west": 80.128986
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "balangir",
+      "name": "Balangir",
+      "defaultCenter": [
+        20.6903061,
+        83.4827521
+      ],
+      "bounds": {
+        "north": 20.7103061,
+        "south": 20.6703061,
+        "east": 83.5027521,
+        "west": 83.4627521
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "kedarpur",
+      "name": "Kedarpur",
+      "defaultCenter": [
+        30.276964,
+        78.043625
+      ],
+      "bounds": {
+        "north": 30.296964,
+        "south": 30.256964,
+        "east": 78.063625,
+        "west": 78.02362500000001
+      },
+      "responseCount": 1
+    },
+    {
+      "slug": "waranga",
+      "name": "Waranga",
+      "defaultCenter": [
+        20.945137,
+        79.044851
+      ],
+      "bounds": {
+        "north": 20.965137,
+        "south": 20.925137,
+        "east": 79.06485099999999,
+        "west": 79.024851
       },
       "responseCount": 1
     }

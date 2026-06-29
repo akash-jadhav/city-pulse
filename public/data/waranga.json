@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "waranga",
+    "importedAt": "2026-06-29T05:29:24.569Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "b5d0710af63002da"
+  },
+  "responses": [
+    {
+      "id": "resp-140-1782710950371",
+      "submittedAt": "2026-06-29T02:29:23.000Z",
+      "geo": {
+        "cityId": "waranga",
+        "coordinates": {
+          "lat": 20.945137,
+          "lng": 79.044851
+        },
+        "coordinatesValid": true,
+        "cityName": "Waranga"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "bad",
+      "roadRating": "horrible",
+      "roadComment": "During the rainy season it floods badly. The water enters the house.",
+      "civicHazards": [
+        "water_logging",
+        "broken_streetlights",
+        "other"
+      ],
+      "safetyRating": "not_safe",
+      "safetyComment": "It's not at all safe. Snakes and animals entering the place is common",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "People are good and cooperative",
+      "commentsText": "No hospital, police station, school nearby"
+    }
+  ]
+}

@@ -2,14 +2,14 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "tikli",
-    "importedAt": "2026-06-25T07:07:13.144Z",
+    "importedAt": "2026-06-29T05:29:24.562Z",
     "source": "csv",
     "totalResponses": 1,
-    "checksum": "7ae44c7b09280bc2"
+    "checksum": "7eeee01673cbbc6f"
   },
   "responses": [
     {
-      "id": "resp-54-1782371217607",
+      "id": "resp-54-1782710950368",
       "submittedAt": "2026-06-19T19:43:24.000Z",
       "geo": {
         "cityId": "tikli",

@@ -1,35 +1,37 @@
 {
   "meta": {
     "version": "1.0.0",
-    "cityId": "seattle",
-    "importedAt": "2026-06-29T05:29:24.565Z",
+    "cityId": "bighar",
+    "importedAt": "2026-06-29T05:29:24.568Z",
     "source": "csv",
     "totalResponses": 1,
-    "checksum": "874822738a8e2605"
+    "checksum": "f573d9b3be277863"
   },
   "responses": [
     {
-      "id": "resp-78-1782710950369",
-      "submittedAt": "2026-06-20T06:10:25.000Z",
+      "id": "resp-118-1782710950370",
+      "submittedAt": "2026-06-27T21:07:50.000Z",
       "geo": {
-        "cityId": "seattle",
+        "cityId": "bighar",
         "coordinates": {
-          "lat": 47.605007,
-          "lng": -122.317371
+          "lat": 29.432213,
+          "lng": 75.466543
         },
         "coordinatesValid": true,
-        "cityName": "Seattle"
+        "cityName": "Bighar"
       },
       "demographics": {
         "age": "18 - 29",
         "gender": "Male"
       },
       "housingStatus": "homeowner",
-      "electricityRating": "great",
-      "roadRating": "horrible",
+      "electricityRating": "average",
+      "roadRating": "good",
       "civicHazards": [
+        "water_logging",
         "poor_garbage_collection",
         "potholes_broken_roads",
+        "lack_of_parks",
         "other"
       ],
       "safetyRating": "completely_safe",
@@ -37,7 +39,8 @@
       "emergencyResponse": "no_idea",
       "newsSources": [
         "other"
-      ]
+      ],
+      "commentsText": "Nuh uh"
     }
   ]
 }

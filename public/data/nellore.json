@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "nellore",
+    "importedAt": "2026-06-29T05:29:24.568Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "dbff0ebef210441d"
+  },
+  "responses": [
+    {
+      "id": "resp-114-1782710950370",
+      "submittedAt": "2026-06-26T18:34:53.000Z",
+      "geo": {
+        "cityId": "nellore",
+        "coordinates": {
+          "lat": 14.4343383,
+          "lng": 79.991442
+        },
+        "coordinatesValid": true,
+        "cityName": "Nellore"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "electricityComment": "It's regular through out the year but past a month it gets cuts for like 10 mins regular 2-3 times a day.",
+      "roadRating": "good",
+      "civicHazards": [
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "social_media"
+      ]
+    }
+  ]
+}

@@ -2,14 +2,14 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "mumbai",
-    "importedAt": "2026-06-25T07:07:13.139Z",
+    "importedAt": "2026-06-29T05:29:24.561Z",
     "source": "csv",
-    "totalResponses": 4,
-    "checksum": "cf02f61bc3204011"
+    "totalResponses": 12,
+    "checksum": "fda3105637034c8c"
   },
   "responses": [
     {
-      "id": "resp-43-1782371217607",
+      "id": "resp-43-1782710950368",
       "submittedAt": "2026-06-19T17:40:16.000Z",
       "geo": {
         "cityId": "mumbai",
@@ -50,7 +50,7 @@
       "commentsText": "The water quality we get is quite poor, for eg my Buidlung has BMC supply, and a Borewell supply which we have created. For the past 6 months we are getting water (BMC) that is smelly, and seems like sewage water, on days where we do get it, it is very minimal. If we rely on borewell we have been getting less and less because someone in the area has started a water tanmer business and is oulling from the groundwater supply which is lowering the water level for everyone."
     },
     {
-      "id": "resp-48-1782371217607",
+      "id": "resp-48-1782710950368",
       "submittedAt": "2026-06-19T18:24:17.000Z",
       "geo": {
         "cityId": "mumbai",
@@ -85,7 +85,7 @@
       ]
     },
     {
-      "id": "resp-53-1782371217607",
+      "id": "resp-53-1782710950368",
       "submittedAt": "2026-06-19T19:25:44.000Z",
       "geo": {
         "cityId": "mumbai",
@@ -129,7 +129,7 @@
       "commentsText": "Too costly for the services being offered and congestion in market is a problem. And its extremely unsafe and hazardous for pedestrians"
     },
     {
-      "id": "resp-94-1782371217611",
+      "id": "resp-94-1782710950369",
       "submittedAt": "2026-06-21T20:53:03.000Z",
       "geo": {
         "cityId": "mumbai",
@@ -159,6 +159,272 @@
       "newsSources": [
         "neighbours"
       ]
+    },
+    {
+      "id": "resp-123-1782710950370",
+      "submittedAt": "2026-06-28T01:06:41.000Z",
+      "geo": {
+        "cityId": "mumbai",
+        "coordinates": {
+          "lat": 19.0256955,
+          "lng": 72.8388559
+        },
+        "coordinatesValid": true,
+        "cityName": "Mumbai"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "roadRating": "great",
+      "civicHazards": [],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "shivaji park, open space",
+      "commentsText": "no complaints. don't ruin what's already nice"
+    },
+    {
+      "id": "resp-124-1782710950370",
+      "submittedAt": "2026-06-28T01:16:22.000Z",
+      "geo": {
+        "cityId": "mumbai",
+        "coordinates": {
+          "lat": 19.0256955,
+          "lng": 72.8388559
+        },
+        "coordinatesValid": true,
+        "cityName": "Mumbai"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "roadRating": "good",
+      "roadComment": "Used to be potholes but now it’s better",
+      "civicHazards": [
+        "water_logging",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Convenient near the railway and a fire brigade nearby",
+      "commentsText": "Traffic management could be better a lot of congestion"
+    },
+    {
+      "id": "resp-125-1782710950370",
+      "submittedAt": "2026-06-28T01:17:44.000Z",
+      "geo": {
+        "cityId": "mumbai",
+        "coordinates": {
+          "lat": 19.025504,
+          "lng": 72.8381347
+        },
+        "coordinatesValid": true,
+        "cityName": "Mumbai"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "electricityComment": "Some powercuts in 2026",
+      "roadRating": "good",
+      "civicHazards": [
+        "water_logging",
+        "lack_of_parks"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Shivaji Park",
+      "commentsText": "Not enough trees/green cover near Worli Sea Link. Bikk gayi hai gormint."
+    },
+    {
+      "id": "resp-126-1782710950370",
+      "submittedAt": "2026-06-28T01:17:45.000Z",
+      "geo": {
+        "cityId": "mumbai",
+        "coordinates": {
+          "lat": 19.0255018,
+          "lng": 72.8377237
+        },
+        "coordinatesValid": true,
+        "cityName": "Mumbai"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Female"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "electricityComment": "some power cuts in 2026",
+      "roadRating": "good",
+      "roadComment": "mainly complaints about water logging",
+      "civicHazards": [
+        "water_logging",
+        "lack_of_parks"
+      ],
+      "safetyRating": "completely_safe",
+      "safetyComment": "nope",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "shivaji park and the community of Marathi people around it - the trees help a lot too",
+      "commentsText": "Mumbai is building infra but lacks accessibility especially trees during the heat"
+    },
+    {
+      "id": "resp-129-1782710950370",
+      "submittedAt": "2026-06-28T01:40:33.000Z",
+      "geo": {
+        "cityId": "mumbai",
+        "coordinates": {
+          "lat": 19.0256955,
+          "lng": 72.8388559
+        },
+        "coordinatesValid": true,
+        "cityName": "Mumbai"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Female"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "electricityComment": "high bill and power cuts on fridays",
+      "roadRating": "horrible",
+      "civicHazards": [
+        "water_logging",
+        "potholes_broken_roads",
+        "petty_crime_unsafe",
+        "other"
+      ],
+      "safetyRating": "terrified",
+      "safetyComment": "lack of safety for women. people doing drugs and intoxicants",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "no idea"
+    },
+    {
+      "id": "resp-130-1782710950370",
+      "submittedAt": "2026-06-28T01:40:40.000Z",
+      "geo": {
+        "cityId": "mumbai",
+        "coordinates": {
+          "lat": 18.9412867,
+          "lng": 72.8275655
+        },
+        "coordinatesValid": true,
+        "cityName": "Mumbai"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Female"
+      },
+      "housingStatus": "other",
+      "electricityRating": "great",
+      "roadRating": "great",
+      "civicHazards": [
+        "lack_of_parks"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "they have a curfew which doesn't allow them to be outside after 10",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "food options and accessibility to different markets, public transport",
+      "commentsText": "they felt Mumbai is a great place to live in"
+    },
+    {
+      "id": "resp-131-1782710950370",
+      "submittedAt": "2026-06-28T01:42:07.000Z",
+      "geo": {
+        "cityId": "mumbai",
+        "coordinates": {
+          "lat": 18.9411228,
+          "lng": 72.8276181
+        },
+        "coordinatesValid": true,
+        "cityName": "Mumbai"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Female"
+      },
+      "housingStatus": "other",
+      "electricityRating": "great",
+      "roadRating": "great",
+      "civicHazards": [
+        "lack_of_parks"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "Hospital curfew for nurses ( at least female)",
+      "businessChallenges": [],
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "Accessibitly to markets and public transport",
+      "commentsText": "Clean up the beaches because they are full of garbage."
+    },
+    {
+      "id": "resp-132-1782710950370",
+      "submittedAt": "2026-06-28T06:04:58.000Z",
+      "geo": {
+        "cityId": "mumbai",
+        "coordinates": {
+          "lat": 19.0258489,
+          "lng": 72.8369391
+        },
+        "coordinatesValid": true,
+        "cityName": "Mumbai"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "a group of senior citizens"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "electricityComment": "experienced 1-2 power cuts in 2026 - but great reception otherwise",
+      "roadRating": "good",
+      "roadComment": "potholes were their only complaints and they had lost hope on that being ever fixed",
+      "civicHazards": [
+        "water_logging",
+        "potholes_broken_roads",
+        "petty_crime_unsafe"
+      ],
+      "safetyRating": "completely_safe",
+      "safetyComment": "many elderly experienced cyber crime against them and feel helpless with the less available info to avoid it",
+      "businessChallenges": [],
+      "businessComment": "had lost hope for administration - prefered staying away from administrative changes",
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "newspapers"
+      ],
+      "loveText": "access to shivaji park and the greenery it provides - it has also helped cultivate a community among the elderly",
+      "commentsText": "general despair towards change in governance and policies - actively losing trust in media due to godi influences - they want to enjoy their last few years of lives and would love to start drinking beer publically if possible"
     }
   ]
 }

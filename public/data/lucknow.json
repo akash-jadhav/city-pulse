@@ -2,14 +2,14 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "lucknow",
-    "importedAt": "2026-06-25T07:07:13.149Z",
+    "importedAt": "2026-06-29T05:29:24.566Z",
     "source": "csv",
     "totalResponses": 2,
-    "checksum": "8987a5a8fe2661a7"
+    "checksum": "a405100d3c227ccf"
   },
   "responses": [
     {
-      "id": "resp-81-1782371217610",
+      "id": "resp-81-1782710950369",
       "submittedAt": "2026-06-20T16:33:30.000Z",
       "geo": {
         "cityId": "lucknow",
@@ -44,7 +44,7 @@
       "loveText": "safety"
     },
     {
-      "id": "resp-85-1782371217610",
+      "id": "resp-85-1782710950369",
       "submittedAt": "2026-06-20T19:48:59.000Z",
       "geo": {
         "cityId": "lucknow",

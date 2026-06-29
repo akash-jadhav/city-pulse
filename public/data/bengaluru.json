@@ -2,14 +2,14 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "bengaluru",
-    "importedAt": "2026-06-25T07:07:13.138Z",
+    "importedAt": "2026-06-29T05:29:24.561Z",
     "source": "csv",
-    "totalResponses": 7,
-    "checksum": "f0fffd4b8f243d70"
+    "totalResponses": 9,
+    "checksum": "712b443fdac098d2"
   },
   "responses": [
     {
-      "id": "resp-42-1782371217606",
+      "id": "resp-42-1782710950368",
       "submittedAt": "2026-06-19T17:29:09.000Z",
       "geo": {
         "cityId": "bengaluru",
@@ -45,7 +45,7 @@
       "commentsText": "Political hoardings everywhere, even the bus stops have politician face on it and on parks every bench is carved with politician name who is a local mla, I have raised rti but no response"
     },
     {
-      "id": "resp-45-1782371217607",
+      "id": "resp-45-1782710950368",
       "submittedAt": "2026-06-19T17:44:27.000Z",
       "geo": {
         "cityId": "bengaluru",
@@ -81,7 +81,7 @@
       "loveText": "It's very central location to Bangalore but still not at all crowded it's like peace but as central you can get before evening gets crowded"
     },
     {
-      "id": "resp-57-1782371217607",
+      "id": "resp-57-1782710950368",
       "submittedAt": "2026-06-19T20:41:23.000Z",
       "geo": {
         "cityId": "bengaluru",
@@ -119,7 +119,7 @@
       "commentsText": "A strong community that can have deep roots in local governing body is missing since the last 20 years in 560075"
     },
     {
-      "id": "resp-58-1782371217607",
+      "id": "resp-58-1782710950368",
       "submittedAt": "2026-06-19T20:47:44.000Z",
       "geo": {
         "cityId": "bengaluru",
@@ -156,7 +156,7 @@
       ]
     },
     {
-      "id": "resp-59-1782371217607",
+      "id": "resp-59-1782710950368",
       "submittedAt": "2026-06-19T21:00:50.000Z",
       "geo": {
         "cityId": "bengaluru",
@@ -194,7 +194,7 @@
       "commentsText": "Please help in building proper roads"
     },
     {
-      "id": "resp-75-1782371217609",
+      "id": "resp-75-1782710950369",
       "submittedAt": "2026-06-20T04:24:49.000Z",
       "geo": {
         "cityId": "bengaluru",
@@ -231,7 +231,7 @@
       "commentsText": "Water logging even if it rains 5 mins"
     },
     {
-      "id": "resp-82-1782371217610",
+      "id": "resp-82-1782710950369",
       "submittedAt": "2026-06-20T18:42:04.000Z",
       "geo": {
         "cityId": "bengaluru",
@@ -262,6 +262,91 @@
         "other"
       ],
       "loveText": "Peaceful, less noisy"
+    },
+    {
+      "id": "resp-115-1782710950370",
+      "submittedAt": "2026-06-27T03:49:19.000Z",
+      "geo": {
+        "cityId": "bengaluru",
+        "coordinates": {
+          "lat": 12.8747848,
+          "lng": 77.5378511
+        },
+        "coordinatesValid": true,
+        "cityName": "Bengaluru"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Female"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "roadRating": "horrible",
+      "roadComment": "Government dig the road to lay drainage pipes. They failed to do proper taring after piping work is completed.",
+      "civicHazards": [
+        "broken_streetlights",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "businessChallenges": [
+        "garbage",
+        "harassment_by_administration",
+        "lack_public_toilets"
+      ],
+      "businessComment": "Fixing the road should help us",
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "social_media"
+      ],
+      "loveText": "Absolutely nothing",
+      "commentsText": "Civic sense should be a subject in our school curriculum"
+    },
+    {
+      "id": "resp-120-1782710950370",
+      "submittedAt": "2026-06-27T23:27:10.000Z",
+      "geo": {
+        "cityId": "bengaluru",
+        "coordinates": {
+          "lat": 12.9049954,
+          "lng": 77.5605281
+        },
+        "coordinatesValid": true,
+        "cityName": "Bengaluru"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "electricityComment": "Timely information is provided during any downtime. That's a good practice.",
+      "roadRating": "average",
+      "roadComment": "Quality of roads are very poor. Majority money flows into bribes etc",
+      "civicHazards": [
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [
+        "parking_congestion",
+        "garbage",
+        "harassment_by_administration",
+        "lack_public_toilets",
+        "other"
+      ],
+      "businessComment": "Dedicated parking space should be available for commercial buildings or a commercial building permit shouldnt be sanctioned",
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "Parks and people",
+      "commentsText": "GBA elections need to happen asap. Local representative is important to solve local problems"
     }
   ]
 }

@@ -2,14 +2,14 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "hyderabad",
-    "importedAt": "2026-06-25T07:07:13.143Z",
+    "importedAt": "2026-06-29T05:29:24.562Z",
     "source": "csv",
-    "totalResponses": 1,
-    "checksum": "4d41af263802b92d"
+    "totalResponses": 2,
+    "checksum": "4f740d9c8000a8a5"
   },
   "responses": [
     {
-      "id": "resp-52-1782371217607",
+      "id": "resp-52-1782710950368",
       "submittedAt": "2026-06-19T19:21:38.000Z",
       "geo": {
         "cityId": "hyderabad",
@@ -48,6 +48,45 @@
       ],
       "loveText": "Less congestion and large open places ( private and public offices ) keep the area relatively cool due to trees and air flow and ventilation is not a problem but things are beginning to change.",
       "commentsText": "Overall there are systems that are in place but they donot work everytime and often donot coearly address the problem ."
+    },
+    {
+      "id": "resp-122-1782710950370",
+      "submittedAt": "2026-06-28T00:09:26.000Z",
+      "geo": {
+        "cityId": "hyderabad",
+        "coordinates": {
+          "lat": 17.359498,
+          "lng": 78.430107
+        },
+        "coordinatesValid": true,
+        "cityName": "Hyderabad"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "roadRating": "average",
+      "civicHazards": [
+        "water_logging",
+        "poor_garbage_collection",
+        "potholes_broken_roads",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "businessChallenges": [
+        "other",
+        "parking_congestion",
+        "garbage",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "Still trying to figure out"
     }
   ]
 }

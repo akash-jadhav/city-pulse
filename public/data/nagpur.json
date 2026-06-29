@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "nagpur",
+    "importedAt": "2026-06-29T05:29:24.569Z",
+    "source": "csv",
+    "totalResponses": 3,
+    "checksum": "4a2e7b6c83427088"
+  },
+  "responses": [
+    {
+      "id": "resp-141-1782710950371",
+      "submittedAt": "2026-06-29T02:41:15.000Z",
+      "geo": {
+        "cityId": "nagpur",
+        "coordinates": {
+          "lat": 21.184283,
+          "lng": 79.082746
+        },
+        "coordinatesValid": true,
+        "cityName": "Nagpur"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "roadRating": "good",
+      "civicHazards": [
+        "poor_garbage_collection"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "The Area is quite good stadium, parks, grocery shops, hospitals, schools"
+    },
+    {
+      "id": "resp-142-1782710950371",
+      "submittedAt": "2026-06-29T02:47:02.000Z",
+      "geo": {
+        "cityId": "nagpur",
+        "coordinates": {
+          "lat": 21.183293,
+          "lng": 79.079205
+        },
+        "coordinatesValid": true,
+        "cityName": "Nagpur"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "roadRating": "good",
+      "civicHazards": [
+        "stray_animals",
+        "petty_crime_unsafe"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "newspapers"
+      ],
+      "loveText": "Safe and Secure",
+      "commentsText": "Despite multiple complaints the authorities do not respond to the issue of stray dogs mismanagement"
+    },
+    {
+      "id": "resp-143-1782710950371",
+      "submittedAt": "2026-06-29T02:53:55.000Z",
+      "geo": {
+        "cityId": "nagpur",
+        "coordinates": {
+          "lat": 21.188006,
+          "lng": 79.125375
+        },
+        "coordinatesValid": true,
+        "cityName": "Nagpur"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "roadRating": "bad",
+      "roadComment": "The Authorities for their own convenience digged the entire road for putting a pipeline which they never repaired causing the rainwater to enter the houses",
+      "civicHazards": [
+        "water_logging",
+        "potholes_broken_roads",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "People coming together in case of emergency, celebrate festivals, initiated mini Library",
+      "commentsText": "The water that comes to house is extremely poor because of the pipeline replaced by the authorities. Many people hh ad to be admitted in hospitals, many of them could not even afforded the medicines. Despite local peoples resistance the authority replaced Good original pipeline"
+    }
+  ]
+}

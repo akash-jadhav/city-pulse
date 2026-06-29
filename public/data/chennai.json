@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "chennai",
+    "importedAt": "2026-06-29T05:29:24.568Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "d08caf04249ed424"
+  },
+  "responses": [
+    {
+      "id": "resp-121-1782710950370",
+      "submittedAt": "2026-06-27T23:27:53.000Z",
+      "geo": {
+        "cityId": "chennai",
+        "coordinates": {
+          "lat": 13.061459,
+          "lng": 80.148986
+        },
+        "coordinatesValid": true,
+        "cityName": "Chennai"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "good",
+      "electricityComment": "It's okay, we generally don't have to suffer due to backup in our apartment.",
+      "roadRating": "good",
+      "roadComment": "In Chennai most of the roads good. But still there are scope to improve during rainy season.",
+      "civicHazards": [
+        "water_logging",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [
+        "parking_congestion",
+        "electricity_tariffs",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "newspapers"
+      ],
+      "commentsText": "City can clean the 2 major river and bring it back to life."
+    }
+  ]
+}

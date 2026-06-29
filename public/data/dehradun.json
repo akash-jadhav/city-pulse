@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "dehradun",
+    "importedAt": "2026-06-29T05:29:24.568Z",
+    "source": "csv",
+    "totalResponses": 5,
+    "checksum": "fc61bd91fe36a765"
+  },
+  "responses": [
+    {
+      "id": "resp-133-1782710950370",
+      "submittedAt": "2026-06-28T21:28:33.000Z",
+      "geo": {
+        "cityId": "dehradun",
+        "coordinates": {
+          "lat": 30.3040533,
+          "lng": 78.064707
+        },
+        "coordinatesValid": true,
+        "cityName": "Dehradun"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "great",
+      "roadRating": "bad",
+      "roadComment": "Roads get ruined in 2 months",
+      "civicHazards": [
+        "water_logging",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "petty_crime_unsafe",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "Drugs is a big problem. Dengue due to stagnant water.",
+      "businessChallenges": [
+        "electricity_tariffs",
+        "lack_public_toilets"
+      ],
+      "businessComment": "Electricity cost is high. Adani special.",
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Community feeling is very strong. People solve problems together.",
+      "commentsText": "Needs more regional political representation for Dehradun and its people. Wants the current political system to give priority to locals first."
+    },
+    {
+      "id": "resp-135-1782710950370",
+      "submittedAt": "2026-06-29T00:17:14.000Z",
+      "geo": {
+        "cityId": "dehradun",
+        "coordinates": {
+          "lat": 30.2784254,
+          "lng": 78.0406677
+        },
+        "coordinatesValid": true,
+        "cityName": "Dehradun"
+      },
+      "demographics": {
+        "age": "Over 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "electricityComment": "goes when wether is bad",
+      "roadRating": "good",
+      "roadComment": "good for now",
+      "civicHazards": [
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "safetyComment": "nothing",
+      "businessChallenges": [
+        "other",
+        "lack_public_toilets"
+      ],
+      "businessComment": "if no issues from government i will be happy",
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "everything is fine weather is fine",
+      "commentsText": "nothing"
+    },
+    {
+      "id": "resp-137-1782710950370",
+      "submittedAt": "2026-06-29T00:43:48.000Z",
+      "geo": {
+        "cityId": "dehradun",
+        "coordinates": {
+          "lat": 30.2781654,
+          "lng": 78.0449995
+        },
+        "coordinatesValid": true,
+        "cityName": "Dehradun"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Male"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "good",
+      "roadRating": "bad",
+      "roadComment": "No new roads, potholes, something or other is dug up always",
+      "civicHazards": [
+        "water_logging",
+        "potholes_broken_roads",
+        "lack_of_parks",
+        "petty_crime_unsafe",
+        "other"
+      ],
+      "safetyRating": "sometimes_safe",
+      "safetyComment": "Drugs issue",
+      "businessChallenges": [],
+      "emergencyResponse": "unknown",
+      "newsSources": [
+        "other"
+      ],
+      "loveText": "Basic amenities",
+      "commentsText": "Drugs issue"
+    },
+    {
+      "id": "resp-138-1782710950371",
+      "submittedAt": "2026-06-29T00:56:21.000Z",
+      "geo": {
+        "cityId": "dehradun",
+        "coordinates": {
+          "lat": 30.278103,
+          "lng": 78.045486
+        },
+        "coordinatesValid": true,
+        "cityName": "Dehradun"
+      },
+      "demographics": {
+        "age": "30 - 50",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "roadRating": "good",
+      "civicHazards": [
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [
+        "parking_congestion",
+        "lack_public_toilets"
+      ],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "People are nice",
+      "commentsText": "Park could use more plsy swings"
+    },
+    {
+      "id": "resp-139-1782710950371",
+      "submittedAt": "2026-06-29T01:04:48.000Z",
+      "geo": {
+        "cityId": "dehradun",
+        "coordinates": {
+          "lat": 30.2780053,
+          "lng": 78.0454125
+        },
+        "coordinatesValid": true,
+        "cityName": "Dehradun"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Female"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "great",
+      "roadRating": "good",
+      "roadComment": "Water logging on main roads not locality roads",
+      "civicHazards": [
+        "poor_garbage_collection",
+        "petty_crime_unsafe",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "safetyComment": "Drugs and gambling and violence associated to that",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "Basic amenities",
+      "commentsText": "Locality is infamous hence no official responses"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "kannathur-reddy-kuppam",
+    "importedAt": "2026-06-29T05:29:24.567Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "cc77164270c803c0"
+  },
+  "responses": [
+    {
+      "id": "resp-96-1782710950369",
+      "submittedAt": "2026-06-21T22:27:59.000Z",
+      "geo": {
+        "cityId": "kannathur-reddy-kuppam",
+        "coordinates": {
+          "lat": 12.85023,
+          "lng": 80.24385
+        },
+        "coordinatesValid": true,
+        "cityName": "Kannathur Reddy Kuppam"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "horrible",
+      "electricityComment": "After the Current transition to TVK government extended periods of power cuts max upto 15-17 hrs continuous",
+      "roadRating": "good",
+      "roadComment": "I live next to the ECR road. Therefore the main road is a highway. Smaller roads are decent until cor po oration decides to dig it up",
+      "civicHazards": [
+        "poor_garbage_collection",
+        "lack_of_parks",
+        "petty_crime_unsafe"
+      ],
+      "safetyRating": "sometimes_safe",
+      "safetyComment": "After a major incident govt installed security cameras to our road. Previously it was present in highways alone.",
+      "businessChallenges": [
+        "garbage"
+      ],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "Right next to the beach. So cheaper fish."
+    }
+  ]
+}

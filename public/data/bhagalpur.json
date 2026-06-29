@@ -1,44 +1,44 @@
 {
   "meta": {
     "version": "1.0.0",
-    "cityId": "rajakhedi",
-    "importedAt": "2026-06-29T05:29:24.558Z",
+    "cityId": "bhagalpur",
+    "importedAt": "2026-06-29T05:29:24.568Z",
     "source": "csv",
     "totalResponses": 1,
-    "checksum": "dd1a9bddd1d86f6d"
+    "checksum": "cf00d5d7d13aee76"
   },
   "responses": [
     {
-      "id": "resp-2-1782710950366",
-      "submittedAt": "2026-06-13T05:29:08.000Z",
+      "id": "resp-117-1782710950370",
+      "submittedAt": "2026-06-27T20:45:07.000Z",
       "geo": {
-        "cityId": "rajakhedi",
+        "cityId": "bhagalpur",
         "coordinates": {
-          "lat": 23.8631851,
-          "lng": 78.8116378
+          "lat": 25.2494339,
+          "lng": 86.9498858
         },
         "coordinatesValid": true,
-        "cityName": "Rajakhedi"
+        "cityName": "Bhagalpur"
       },
       "demographics": {
-        "age": "30 - 50",
-        "gender": "Male"
+        "age": "18 - 29",
+        "gender": "Female"
       },
       "housingStatus": "homeowner",
-      "electricityRating": "good",
-      "electricityComment": "Small 10 to 15 min cuts",
-      "roadRating": "average",
+      "electricityRating": "average",
+      "roadRating": "horrible",
       "civicHazards": [
+        "water_logging",
         "broken_streetlights",
         "poor_garbage_collection",
+        "potholes_broken_roads",
+        "stray_animals",
         "lack_of_parks",
         "petty_crime_unsafe",
         "other"
       ],
       "safetyRating": "sometimes_safe",
-      "businessChallenges": [
-        "other"
-      ],
+      "businessChallenges": [],
       "emergencyResponse": "unknown",
       "newsSources": [
         "neighbours"

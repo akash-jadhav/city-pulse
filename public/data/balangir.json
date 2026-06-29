@@ -1,43 +1,45 @@
 {
   "meta": {
     "version": "1.0.0",
-    "cityId": "bhiwadi",
-    "importedAt": "2026-06-29T05:29:24.563Z",
+    "cityId": "balangir",
+    "importedAt": "2026-06-29T05:29:24.569Z",
     "source": "csv",
     "totalResponses": 1,
-    "checksum": "57f14f4316281052"
+    "checksum": "683ac4de6105d5cc"
   },
   "responses": [
     {
-      "id": "resp-63-1782710950368",
-      "submittedAt": "2026-06-19T23:35:55.000Z",
+      "id": "resp-134-1782710950370",
+      "submittedAt": "2026-06-28T23:29:54.000Z",
       "geo": {
-        "cityId": "bhiwadi",
+        "cityId": "balangir",
         "coordinates": {
-          "lat": 28.1967677,
-          "lng": 76.8086751
+          "lat": 20.6903061,
+          "lng": 83.4827521
         },
         "coordinatesValid": true,
-        "cityName": "Bhiwadi"
+        "cityName": "Balangir"
       },
       "demographics": {
         "age": "18 - 29",
-        "gender": "Male"
+        "gender": "Female"
       },
       "housingStatus": "homeowner",
       "electricityRating": "good",
-      "roadRating": "average",
+      "electricityComment": "Frequent power cuts during peak summer season.",
+      "roadRating": "good",
       "civicHazards": [
         "water_logging",
+        "broken_streetlights",
         "poor_garbage_collection",
         "stray_animals",
         "lack_of_parks"
       ],
-      "safetyRating": "quite_safe",
+      "safetyRating": "sometimes_safe",
       "businessChallenges": [],
       "emergencyResponse": "unknown",
       "newsSources": [
-        "other"
+        "neighbours"
       ]
     }
   ]

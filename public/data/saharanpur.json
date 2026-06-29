@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "saharanpur",
+    "importedAt": "2026-06-29T05:29:24.568Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "63b837116bfc334f"
+  },
+  "responses": [
+    {
+      "id": "resp-116-1782710950370",
+      "submittedAt": "2026-06-27T17:57:37.000Z",
+      "geo": {
+        "cityId": "saharanpur",
+        "coordinates": {
+          "lat": 29.9584758,
+          "lng": 77.5570141
+        },
+        "coordinatesValid": true,
+        "cityName": "Saharanpur"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Male"
+      },
+      "housingStatus": "tenant",
+      "electricityRating": "bad",
+      "roadRating": "average",
+      "civicHazards": [
+        "broken_streetlights",
+        "potholes_broken_roads",
+        "stray_animals",
+        "lack_of_parks",
+        "other"
+      ],
+      "safetyRating": "quite_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "system_works",
+      "newsSources": [
+        "other"
+      ]
+    }
+  ]
+}

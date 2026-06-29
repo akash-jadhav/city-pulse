@@ -2,14 +2,14 @@
   "meta": {
     "version": "1.0.0",
     "cityId": "kolkata",
-    "importedAt": "2026-06-25T07:07:13.149Z",
+    "importedAt": "2026-06-29T05:29:24.566Z",
     "source": "csv",
     "totalResponses": 2,
-    "checksum": "150321bdbadafdfc"
+    "checksum": "d8288e7b5d4b70a9"
   },
   "responses": [
     {
-      "id": "resp-86-1782371217610",
+      "id": "resp-86-1782710950369",
       "submittedAt": "2026-06-20T21:35:50.000Z",
       "geo": {
         "cityId": "kolkata",
@@ -58,7 +58,7 @@
       "commentsText": "Bengal needs entrepreneurship and huge Infrastructure investments and Jobs and also we need to fix our schools we have an absolutely ruined education sector and job sector. People have been fleeing from the state. Don't want cultural clashes just development. Also we want the state to take step back and not interfere and have meritocratic appointments and not politically motivated. We need free and fair and transparent execution in government schemes and law and order."
     },
     {
-      "id": "resp-110-1782371217611",
+      "id": "resp-110-1782710950370",
       "submittedAt": "2026-06-23T07:50:58.000Z",
       "geo": {
         "cityId": "kolkata",

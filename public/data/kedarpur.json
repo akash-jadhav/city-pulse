@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "cityId": "kedarpur",
+    "importedAt": "2026-06-29T05:29:24.569Z",
+    "source": "csv",
+    "totalResponses": 1,
+    "checksum": "424b52dab26f1784"
+  },
+  "responses": [
+    {
+      "id": "resp-136-1782710950370",
+      "submittedAt": "2026-06-29T00:32:43.000Z",
+      "geo": {
+        "cityId": "kedarpur",
+        "coordinates": {
+          "lat": 30.276964,
+          "lng": 78.043625
+        },
+        "coordinatesValid": true,
+        "cityName": "Kedarpur"
+      },
+      "demographics": {
+        "age": "18 - 29",
+        "gender": "Female"
+      },
+      "housingStatus": "homeowner",
+      "electricityRating": "average",
+      "electricityComment": "Electricuty if costly",
+      "roadRating": "great",
+      "roadComment": "May have problems during rains",
+      "civicHazards": [
+        "water_logging",
+        "potholes_broken_roads",
+        "petty_crime_unsafe",
+        "other"
+      ],
+      "safetyRating": "completely_safe",
+      "businessChallenges": [],
+      "emergencyResponse": "no_idea",
+      "newsSources": [
+        "neighbours"
+      ],
+      "loveText": "Peopel are nice"
+    }
+  ]
+}
