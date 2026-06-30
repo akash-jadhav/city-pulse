@@ -68,6 +68,80 @@ export const POSITRON_MAP_STYLES: google.maps.MapTypeStyle[] = [
   },
 ];
 
+/**
+ * Carto Dark Matter–inspired style: dark canvas, muted water, subdued roads.
+ * Mirrors POSITRON_MAP_STYLES structure for consistent feature coverage.
+ */
+export const DARK_POSITRON_MAP_STYLES: google.maps.MapTypeStyle[] = [
+  { elementType: "geometry", stylers: [{ color: "#1a1a1a" }] },
+  { elementType: "labels.text.stroke", stylers: [{ color: "#1a1a1a" }] },
+  { elementType: "labels.text.fill", stylers: [{ color: "#9ca3af" }] },
+  { elementType: "labels.icon", stylers: [{ visibility: "off" }] },
+  { featureType: "water", elementType: "geometry", stylers: [{ color: "#0e1626" }] },
+  {
+    featureType: "water",
+    elementType: "labels.text.fill",
+    stylers: [{ color: "#515c6d" }],
+  },
+  {
+    featureType: "water",
+    elementType: "labels.text.stroke",
+    stylers: [{ color: "#0e1626" }],
+  },
+  { featureType: "landscape", elementType: "geometry", stylers: [{ color: "#1c1c1c" }] },
+  { featureType: "road", elementType: "geometry", stylers: [{ color: "#2a2a2a" }] },
+  { featureType: "road", elementType: "geometry.stroke", stylers: [{ color: "#333333" }] },
+  {
+    featureType: "road.highway",
+    elementType: "geometry",
+    stylers: [{ color: "#303030" }],
+  },
+  {
+    featureType: "road.highway",
+    elementType: "geometry.stroke",
+    stylers: [{ color: "#3a3a3a" }],
+  },
+  {
+    featureType: "road.local",
+    elementType: "labels",
+    stylers: [{ visibility: "simplified" }],
+  },
+  { featureType: "poi.park", elementType: "geometry", stylers: [{ color: "#1e2a1e" }] },
+  { featureType: "poi", stylers: [{ visibility: "off" }] },
+  { featureType: "transit", stylers: [{ visibility: "off" }] },
+  {
+    featureType: "administrative.province",
+    elementType: "labels.text.fill",
+    stylers: [{ color: "#8b919a" }],
+  },
+  {
+    featureType: "administrative.country",
+    elementType: "labels.text.fill",
+    stylers: [{ color: "#6b7280" }],
+  },
+  {
+    featureType: "administrative.locality",
+    elementType: "labels.text.fill",
+    stylers: [{ color: "#b0b8c4" }],
+  },
+  {
+    featureType: "road",
+    elementType: "labels.text.fill",
+    stylers: [{ color: "#6b7280" }],
+  },
+];
+
+export type MapTheme = "light" | "dark";
+
+export function getMapStylesForTheme(theme: MapTheme): google.maps.MapTypeStyle[] {
+  return theme === "dark" ? DARK_POSITRON_MAP_STYLES : POSITRON_MAP_STYLES;
+}
+
+export const MAP_CIRCLE_STROKE: Record<MapTheme, string> = {
+  light: "#ffffff",
+  dark: "#404040",
+};
+
 export const DEFAULT_MAP_OPTIONS: Pick<
   google.maps.MapOptions,
   | "gestureHandling"

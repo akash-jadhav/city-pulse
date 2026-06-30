@@ -1,16 +1,6 @@
 import type { ResponseDetailSection } from "@/lib/analytics/response-detail";
+import { tierBadgeClassFromLabel } from "@/lib/ui/tier-badge";
 import { cn } from "@/lib/utils";
-
-function tierBadgeClass(tier: string): string {
-  const lower = tier.toLowerCase();
-  if (lower.includes("good")) {
-    return "bg-green-50 text-green-700";
-  }
-  if (lower === "average") {
-    return "bg-yellow-50 text-yellow-800";
-  }
-  return "bg-orange-50 text-orange-700";
-}
 
 function handleSectionsWheel(e: React.WheelEvent<HTMLDivElement>) {
   e.stopPropagation();
@@ -63,7 +53,7 @@ export function ResponseDetailTooltip({
               <span
                 className={cn(
                   "inline-flex rounded-full px-2 py-0.5 text-xs font-medium",
-                  tierBadgeClass(averageTier)
+                  tierBadgeClassFromLabel(averageTier)
                 )}
               >
                 {averageTier}

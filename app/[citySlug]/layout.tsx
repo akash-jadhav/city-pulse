@@ -26,7 +26,7 @@ export default async function CityLayout({
     <GoogleMapsProvider>
       <CityProvider city={city} dataset={dataset} availableCities={availableCities}>
         <AppHeader />
-        <main className="flex-1 pb-16 md:pb-0">{children}</main>
+        <main className="flex-1 bg-surface pb-16 md:pb-0">{children}</main>
         <MobileNav />
       </CityProvider>
     </GoogleMapsProvider>

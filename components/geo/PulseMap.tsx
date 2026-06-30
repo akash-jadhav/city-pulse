@@ -33,6 +33,7 @@ import {
   MapHoverDismissProvider,
   MapInfoWindow,
   MapShell,
+  MapThemeSync,
   MapTouchDismiss,
   type MapPoint,
   type MapPopupState,
@@ -178,6 +179,7 @@ export function PulseMap({
         {...DEFAULT_MAP_OPTIONS}
         style={{ width: "100%", height: "100%" }}
       >
+        <MapThemeSync />
         <MapHoverDismissProvider onDismiss={clearPopup}>
           <TierCircles
             points={points}

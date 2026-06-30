@@ -45,7 +45,7 @@ export function MapDashboardPage() {
   return (
     <div
       data-dashboard
-      className="flex min-h-[calc(100dvh-3.5rem)] flex-col gap-4 bg-[var(--surface)] p-3 md:p-4 lg:p-5"
+      className="flex min-h-[calc(100dvh-3.5rem)] flex-col gap-4 bg-surface p-3 md:p-4 lg:p-5"
     >
       <div className="grid min-h-0 flex-1 grid-cols-1 gap-4 lg:grid-cols-[320px_1fr]">
         <aside className="flex flex-col gap-4 lg:self-start">
