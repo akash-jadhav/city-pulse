@@ -16,8 +16,12 @@ import { cn } from "@/lib/utils";
 import { hasGoogleMapsApiKey } from "@/providers/GoogleMapsProvider";
 import {
   DEFAULT_ZOOM,
+  DOT_PIXEL_RADIUS,
+  getMapStylesForTheme,
+  MAP_CIRCLE_STROKE,
   metersForPixelRadius,
 } from "@/components/geo/map-config";
+import { useTheme } from "@/providers/ThemeProvider";
 import { ResponseDetailTooltip } from "@/components/geo/ResponseDetailTooltip";
 import type { ResponseDetailSection } from "@/lib/analytics/response-detail";
 
@@ -159,7 +163,7 @@ export function GoogleMapMissingKey({
   return (
     <div
       className={cn(
-        "flex items-center justify-center rounded-2xl border border-border/50 bg-white p-4 text-center text-sm text-muted-foreground shadow-sm",
+        "flex items-center justify-center rounded-2xl border border-border/50 bg-card p-4 text-center text-sm text-muted-foreground shadow-sm",
         className
       )}
       style={height ? { height } : undefined}
@@ -195,6 +199,18 @@ export function MapShell({
   );
 }
 
+export function MapThemeSync() {
+  const map = useMap();
+  const { theme } = useTheme();
+
+  useEffect(() => {
+    if (!map) return;
+    map.setOptions({ styles: getMapStylesForTheme(theme) });
+  }, [map, theme]);
+
+  return null;
+}
+
 export function TierCircles({
   points,
   onPointHover,
@@ -205,7 +221,9 @@ export function TierCircles({
   onPointClick?: (point: MapPoint) => void;
 }) {
   const zoom = useMapZoom();
+  const { theme } = useTheme();
   const { scheduleDismiss, cancelDismiss } = useMapHoverDismiss();
+  const circleStroke = MAP_CIRCLE_STROKE[theme];
 
   const handleMouseOver = (point: MapPoint) => {
     cancelDismiss();
@@ -225,7 +243,7 @@ export function TierCircles({
           radius={metersForPixelRadius(point.lat, zoom, point.radiusPixels)}
           fillColor={point.color}
           fillOpacity={0.88}
-          strokeColor="#ffffff"
+          strokeColor={circleStroke}
           strokeWeight={point.strokeWeight}
           clickable
           onMouseOver={() => handleMouseOver(point)}

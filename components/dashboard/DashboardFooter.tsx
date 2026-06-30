@@ -15,7 +15,7 @@ export function DashboardFooter() {
   });
 
   return (
-    <footer className="flex flex-col items-center justify-between gap-2 rounded-xl bg-white/80 px-4 py-2 text-xs text-muted-foreground shadow-sm md:flex-row">
+    <footer className="flex flex-col items-center justify-between gap-2 rounded-xl bg-card/80 px-4 py-2 text-xs text-muted-foreground shadow-sm md:flex-row">
       <span className="font-medium text-foreground/70">{BRAND.name}</span>
       <span>Last updated: {date}</span>
       <span className="flex items-center gap-2">

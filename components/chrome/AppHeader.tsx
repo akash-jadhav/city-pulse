@@ -21,6 +21,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
+import { ThemeToggle } from "@/components/chrome/ThemeToggle";
 
 const REPORT_LINKS = [
   { href: "/infrastructure", label: "Infrastructure" },
@@ -55,7 +56,7 @@ export function AppHeader() {
         className={cn(
           "relative px-3 py-2 text-sm font-medium transition-colors",
           active
-            ? "text-indigo-600 after:absolute after:bottom-0 after:left-3 after:right-3 after:h-0.5 after:rounded-full after:bg-indigo-600"
+            ? "text-indigo-600 after:absolute after:bottom-0 after:left-3 after:right-3 after:h-0.5 after:rounded-full after:bg-indigo-600 dark:text-indigo-400 dark:after:bg-indigo-400"
             : "text-muted-foreground hover:text-foreground"
         )}
       >
@@ -65,7 +66,7 @@ export function AppHeader() {
   };
 
   return (
-    <header className="sticky top-0 z-40 border-b border-border/60 bg-white/95 shadow-sm backdrop-blur-md">
+    <header className="sticky top-0 z-40 border-b border-border/60 bg-background/95 shadow-sm backdrop-blur-md">
       <div className="mx-auto flex max-w-[1600px] items-center justify-between gap-4 px-4 py-2.5 md:px-6">
         <Link href={base} className="flex min-w-0 items-center gap-2.5">
           <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-500 to-violet-600 text-white shadow-sm">
@@ -130,6 +131,7 @@ export function AppHeader() {
             <Filter className="h-3.5 w-3.5" />
             Filters
           </Button>
+          <ThemeToggle />
         </div>
       </div>
     </header>

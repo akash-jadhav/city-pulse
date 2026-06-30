@@ -16,6 +16,12 @@ import {
 } from "recharts";
 import type { ParameterAverage, DistributionSegment } from "@/lib/analytics/parameters";
 import { scoreToTier, BADGE_LABELS, LEGEND_TIERS } from "@/lib/analytics/parameters";
+import { tierBadgeClassForTier } from "@/lib/ui/tier-badge";
+import {
+  RECHARTS_GRID_PROPS,
+  RECHARTS_TOOLTIP_LABEL_STYLE,
+  RECHARTS_TOOLTIP_STYLE,
+} from "@/lib/charts/recharts-theme";
 import { DashboardCard } from "@/components/dashboard/DashboardCard";
 import {
   Tooltip as UiTooltip,
@@ -59,12 +65,7 @@ export function OverallScoreCard({
 }) {
   const tier = scoreToTier(score100);
   const badge = BADGE_LABELS[tier];
-  const badgeClass =
-    tier === "good" || tier === "very_good"
-      ? "bg-green-50 text-green-700"
-      : tier === "average"
-        ? "bg-yellow-50 text-yellow-800"
-        : "bg-orange-50 text-orange-700";
+  const badgeClass = tierBadgeClassForTier(tier);
 
   return (
     <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }}>
@@ -118,6 +119,8 @@ export function ParameterBarChart({ parameters }: { parameters: ParameterAverage
                 tickLine={false}
               />
               <Tooltip
+                contentStyle={RECHARTS_TOOLTIP_STYLE}
+                labelStyle={RECHARTS_TOOLTIP_LABEL_STYLE}
                 formatter={(v) => [`${v} / 5`, "Score"]}
                 labelFormatter={(_, payload) =>
                   payload?.[0]?.payload?.fullName ?? ""
@@ -173,7 +176,7 @@ function DistributionTooltip({
   if (!active || !payload?.[0]) return null;
   const segment = payload[0].payload;
   return (
-    <div className="rounded-md border border-border/60 bg-white px-3 py-2 text-xs shadow-md">
+    <div className="rounded-md border border-border/60 bg-popover text-popover-foreground px-3 py-2 text-xs shadow-md">
       <DistributionTooltipContent segment={segment} />
     </div>
   );

@@ -29,6 +29,7 @@ import {
   MapHoverDismissProvider,
   MapInfoWindow,
   MapShell,
+  MapThemeSync,
   MapTouchDismiss,
   type MapPoint,
   type MapPopupState,
@@ -173,7 +174,7 @@ export function ResponseMap({
   if (valid.length === 0 && !clusters?.length) {
     return (
       <div
-        className="flex items-center justify-center rounded-2xl border border-border/50 bg-white text-sm text-muted-foreground shadow-sm"
+        className="flex items-center justify-center rounded-2xl border border-border/50 bg-card text-sm text-muted-foreground shadow-sm"
         style={{ height }}
       >
         No valid coordinates to display on map
@@ -189,6 +190,7 @@ export function ResponseMap({
         {...DEFAULT_MAP_OPTIONS}
         style={{ width: "100%", height: "100%" }}
       >
+        <MapThemeSync />
         <MapHoverDismissProvider onDismiss={clearPopup}>
           <TierCircles
             points={points}
